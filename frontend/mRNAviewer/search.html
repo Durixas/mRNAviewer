@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="pragma" content="no-cache" />
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.14.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/buttons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.14.2.min.css?v=theme2">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Server | mRNAviewer</title>
+    <link rel="icon" href="images/uthealth-tapestry.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/search.css?v=bindingmap1">
+    <link rel="stylesheet" type="text/css" href="css/brand.css?v=mobile2">
+    <script type="text/javascript" src="js/search.js?v=bindingmap1"></script>
+
+    <script type="text/javascript">
+        var sample_1 = "MFHLVDFQVTIAEILLIIMRTFKVSIWNLDYIINLIIKNLSKSLTENKYSQLDEEQPMEID";
+        var sample_2 = "MLTEVMEVWHGLVIAVVSLFLQACFLTAINYLLSRHMAHKSEQILKAASLQVPRPSPGHHHPPAVKEMKETQTERDIPMSDSLYRHDSDTPSDSLDSSCSSPPACQATEDVDYTQVVFSDPGELKNDSPLDYENIKEITDYVNVNPERHKPSFWYFVNPALSEPAEYDQVAM";
+        var sample_3 = "MGNTSSERAALERHGGHKTPRRDSSGGTKDGDRPKILMDSPEDADLFHSEEIKAPEKEEFLAWQHDLEVNDKAPAQARPTVFRWTGGGKEVYLSGSFNNWSKLPLTRSHNNFVAILDLPEGEHQYKFFVDGQWTHDPSEPIVTSQLGTVNNIIQVKKTDFEVFDALMVDSQKCSDVSELSSSPPGPYHQEPYVCKPEERFRAPPILPPHLLQVILNKDTGISCDPALLPEPNHVMLNHLYALSIKDGVMVLSATHRYKKKYVTTLLYKPI";
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-body">Skip to main content</a>
+    <noscript>
+        "<strong>We're sorry but this website doesn't work properly without JavaScript enabled.
+            Please enable it to continue. </strong>"
+    </noscript>
+    <div id="page">
+        <div id="head_placeholder"></div>
+        <div id="context">
+            <div id="header" role="banner">
+                <div id="layer_1">
+                    <span id="web_name"><a href="/mRNAviewer/">mRNAviewer</a></span>
+                    <a id="institution-logo" href="https://www.uth.edu/" aria-label="UTHealth Houston">
+                        <img src="images/UTHH-Stacked-Orange+Gray-RGB.png" alt="UTHealth Houston logo" width="200" height="89">
+                    </a>
+                </div>
+                <div id="layer_2">
+                    <span id="aa">A tool for optimization and visualization of mRNA sequences</span>
+                    <nav id="navigation" aria-label="Main navigation">
+                        <a href="./index.html">Home</a>
+                        <a href="./search.html" aria-current="page">Server</a>
+                        <a href="./tutorial.html">Tutorial</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+            <div id="main-body" role="main" tabindex="-1">
+                <div id="main-content">
+                    <h1 class="visually-hidden">mRNAviewer Server</h1>
+                    <p id="announcements" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
+                    <p id="input-instructions">Simply paste your sequence below and click <i>Submit</i>.</p>
+                    <p>You can test the server using the following examples:
+                        <button class="sample-sequence" type="button" onclick="paste('Input', sample_1)">P0DTC6·NS6_SARS2</button>
+                        <span>|</span>
+                        <button class="sample-sequence" type="button" onclick="paste('Input', sample_2)">Q6ZWK4·RHEX</button>
+                        <span>|</span>
+                        <button class="sample-sequence" type="button" onclick="paste('Input', sample_3)">PRKAB1 (AMPK)</button>
+                    </p>
+
+                    <!-- show input area -->
+                    <div id="form">
+                        <p id="form_error" role="alert" hidden></p>
+                        <table id="paste_and_clear" cellpadding="0" cellspacing="2">
+                            <tr style="height: 2em">
+                                <td>
+                                    <label for="Input"><strong>step 1:</strong> Paste or type your <b>amino acid sequence</b>
+                                        here:</label>
+                                </td>
+                                <td style="width:30%;text-align:right;">
+                                    <button class="clear-sequence" type="button" onclick="window.clear('Input')">[clear]</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <div>
+                            <textarea id="Input" rows="12" aria-describedby="input-instructions"></textarea>
+                        </div>
+                        <div id="seq_source">
+                            <label id="step2" for="source"><strong>step 2:</strong> Please choose the location where the mRNA is expected
+                                to be translated:</label>
+                            <select id="source">
+                                <!-- 若要修改下边的值或者顺序，请在对应的 search.js 文件中的 tissues 数组做同样的修改，并保持相对顺序不变 -->
+                                <option value="general">General (default)</option>
+                                <option disabled>──────────────</option>
+                                <option value="Adrenal_gland">Adrenal gland</option>
+                                <option value="Appendix">Appendix</option>
+                                <option value="Brain">Brain</option>
+                                <option value="Colon">Colon</option>
+                                <option value="Duodenum">Duodenum</option>
+                                <option value="Endometrium">Endometrium</option>
+                                <option value="Esophagus">Esophagus</option>
+                                <option value="Fallopian_tube">Fallopian tube</option>
+                                <option value="Fat">Fat</option>
+                                <option value="Gallbladder">Gallbladder</option>
+                                <option value="Heart">Heart</option>
+                                <option value="Kidney">Kidney</option>
+                                <option value="Liver">Liver</option>
+                                <option value="Lung">Lung</option>
+                                <option value="Lymph_node">Lymph node</option>
+                                <option value="Ovary">Ovary</option>
+                                <option value="Pancreas">Pancreas</option>
+                                <option value="Placenta">Placenta</option>
+                                <option value="Prostate">Prostate</option>
+                                <option value="Rectum">Rectum</option>
+                                <option value="Salivary_gland">Salivary gland</option>
+                                <option value="Small_intestine">Small intestine</option>
+                                <option value="Smooth_muscle">Smooth muscle</option>
+                                <option value="Spleen">Spleen</option>
+                                <option value="Stomach">Stomach</option>
+                                <option value="Testis">Testis</option>
+                                <option value="Thyroid">Thyroid</option>
+                                <option value="Tonsil">Tonsil</option>
+                                <option value="Urinary_bladder">Urinary bladder</option>
+                            </select>
+                            <div id="query_button">
+                                <input type="button" value="Submit" style="background-color: yellow; cursor: pointer;" onclick="onRun()">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <!-- show current wortks -->
+                    <div id="show_works" style="margin-top: 40px;">
+                        <p id="analysis_tips">The analyzing process will take a little time, please wait for about 30
+                            seconds. (Note: the longer the length of the input sequence, the longer the analysis will
+                            take.)</p>
+                        <table id="works" cellspacing="0" style="border: 0; padding: 0 0 20px 0;">
+                            <caption class="visually-hidden">Analysis tasks</caption>
+                            <thead style="background-color:#4e738a; color:#fff;">
+                                <tr style="height: 60px; text-align: center;">
+                                    <th id="works-id" scope="col" style="width: 20%; ">ID</th>
+                                    <th id="works-sequence" scope="col" style="width: 20%; ">Sequence</th>
+                                    <th id="works-type" scope="col" style="width: 20%; ">Type</th>
+                                    <th id="works-state" scope="col" style="width: 20%; ">State</th>
+                                    <th id="works-operate" scope="col" style="width: 20%; ">Operate</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbMain">
+                                <tr id="empty_works_row">
+                                    <td colspan="5" headers="works-id works-sequence works-type works-state works-operate"><span class="visually-hidden">No analysis tasks yet.</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- 展示输出序列 -->
+                    <div id="output_rna_seq" role="region" aria-labelledby="output-sequence-heading" tabindex="-1" style="display: none;">
+                        <h2 id="output-sequence-heading" class="visually-hidden">Output Sequence</h2>
+                        <div id="show_all">
+                            <div id="full_info"></div>
+                            <div id="mytxt"></div>
+                        </div>
+                        <div id="slider-range" style="width: 1100px; height: 6px; margin: auto;">
+                            <a class="ui-slider-handle" role="slider" tabindex="0" aria-label="Start position"></a>
+                            <a class="ui-slider-handle" role="slider" tabindex="0" aria-label="End position"></a>
+                        </div>
+                        <div id="output_seq">
+                            <div id="subseq_utr5">5′ UTR</div>
+                            <div id="subseq_orf">ORF</div>
+                            <div id="subseq_utr3">3′ UTR</div>
+                        </div>
+                    </div>
+
+                    <!-- 选择感兴趣区域 -->
+                    <div id="interest_region" role="region" aria-label="Select sequence region" style="display: none; text-align: center;">
+                        <table id="select_region" style="margin: 0 auto; display: inline-table;">
+                            <tr style="text-align: left; height: 40px;">
+                                <td>
+                                    <input id="full_btn" type="button" value="FULL" onclick="set_full_region()">
+                                </td>
+                                <td>
+                                    <input id="utr5_btn" type="button" value="5′ UTR" onclick="set_utr5_region()">
+                                </td>
+                                <td>
+                                    <input id="orf_btn" type="button" value="ORF" onclick="set_orf_region()">
+                                </td>
+                                <td>
+                                    <input id="utr3_btn" type="button" value="3′ UTR" onclick="set_utr3_region()">
+                                </td>
+                                <td>
+                                    <label for="start_index">Start:</label>
+                                    <input id="start_index" type="text" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <label for="end_index">End:</label>
+                                    <input id="end_index" type="text" style="width: 50px;">
+                                </td>
+                                <td>
+                                    <input id="nucl_cnt" type="text" aria-label="Nucleotides in selected range" style="width: 50px;" readonly
+                                        onchange="get_stats_picture_and_table_data()">
+                                    <label for="nucl_cnt">nucleotides</label>
+                                </td>
+                                <td>
+                                    <input id="confirm_range_btn" type="button" value="Apply" onclick="applyCustomRange()" style="width: 90px; height: 32px; font-size: 14px;">
+                                </td>
+                            </tr>
+                        </table>
+                        <p id="range_error" role="alert" hidden></p>
+                    </div>
+
+                    <!-- Tips -->
+                    <div id="tips" style="display: none;">
+                        <span>Tips: To view a segment in the output sequence, you can: (1) click the region buttons (FULL, 5′ UTR, ORF, 3′ UTR), (2) drag the slider, or (3) enter Start/End positions and click <i>Apply</i>.</span>
+                    </div>
+
+                    <!-- 统计结果 -->
+                    <div id="stats_res" style="display: none;">
+                        <h2 style="margin-top: 30px;">A/T/C/G Count & Percentage:</h2>
+                        <div id="stats">
+                            <div id="A">
+                                <span id="a_head"><strong>A:</strong></span>
+                                <label class="visually-hidden" for="a_cnt">A count</label>
+                                <input id="a_cnt" type="text" readonly>
+                                <label class="visually-hidden" for="a_perc">A percentage</label>
+                                <input id="a_perc" type="text" readonly>
+                            </div>
+                            <div id="T">
+                                <span id="t_head"><strong>T:</strong></span>
+                                <label class="visually-hidden" for="t_cnt">T count</label>
+                                <input id="t_cnt" type="text" readonly>
+                                <label class="visually-hidden" for="t_perc">T percentage</label>
+                                <input id="t_perc" type="text" readonly>
+                            </div>
+                            <div id="C">
+                                <span id="c_head"><strong>C:</strong></span>
+                                <label class="visually-hidden" for="c_cnt">C count</label>
+                                <input id="c_cnt" type="text" readonly>
+                                <label class="visually-hidden" for="c_perc">C percentage</label>
+                                <input id="c_perc" type="text" readonly>
+                            </div>
+                            <div id="G">
+                                <span id="g_head"><strong>G:</strong></span>
+                                <label class="visually-hidden" for="g_cnt">G count</label>
+                                <input id="g_cnt" type="text" readonly>
+                                <label class="visually-hidden" for="g_perc">G percentage</label>
+                                <input id="g_perc" type="text" readonly>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="alter" style="display: none;">
+                        <h2>please wait about 10 seconds</h2>
+                    </div>
+
+                    <!-- 图片信息 -->
+                    <div id="pic_section" style="display: none;">
+                        <h2 style="margin-top: 30px;">Secondary Structure:</h2>
+                        <div id="pic">
+                            <img id="second_structure" src="" alt="Predicted RNA secondary structure diagram for the selected sequence" style="width: 600px;">
+                        </div>
+                        <div id="mfe_info">
+                            <label for="mfe"><strong>MFE:</strong></label>
+                            <input id="mfe" type="text" readonly>
+                        </div>
+                    </div>
+
+                    <!-- 表格信息 -->
+                    <div id="table_info" style="display: none; width:100%; margin: 20px auto;">
+                        <h2 style="margin-bottom: 30px;">Details of Predicted miRNA and RBP Binding Sites:</h2>
+                        <p id="binding_error" role="alert" style="color: #b00020;"></p>
+                        <section id="binding_site_map" class="binding-map" aria-labelledby="binding-map-heading" hidden>
+                            <h3 id="binding-map-heading">Binding Site Map</h3>
+                            <div class="binding-map-axis">
+                                <span class="binding-map-label">Position</span>
+                                <div id="binding_map_ticks" class="binding-map-ticks"></div>
+                            </div>
+                            <div id="binding_map_lanes"></div>
+                        </section>
+                        <h3 class="binding-heading">Stem-loop (a short motif in a miRNA or precursor stem-loop)</h3>
+                        <div id="harpin_in_mibase" style="margin-bottom: 60px;">
+                            <table id="harpin" aria-label="Stem-loop miRNA binding sites" cellspaing="0"
+                                style="border-collapse: collapse; background-color: #e9f0f4; width:100%">
+                                <thead style="background-color: #4e738a; color: #fff;">
+                                    <tr style="height: 60px; text-align: center;">
+                                        <th style="width: 12%; ">accession</th>
+                                        <th style="width: 12%; ">subject_id</th>
+                                        <th style="width: 8%; ">identity</th>
+                                        <th style="width: 8%; ">alignment length</th>
+                                        <th style="width: 7%; ">mismatch</th>
+                                        <th style="width: 7%; ">gap opening</th>
+                                        <th style="width: 8%; ">q.start</th>
+                                        <th style="width: 8%; ">q.end</th>
+                                        <th style="width: 7%; ">s.start</th>
+                                        <th style="width: 7%; ">s.end</th>
+                                        <th style="width: 8%; ">expection</th>
+                                        <th style="width: 8%; ">compare score</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="harpin_main">
+                                </tbody>
+                            </table>
+                            <div id="harpin_pagination" class="binding-pagination" hidden>
+                                <button type="button" aria-label="Previous stem-loop page">Previous</button>
+                                <select aria-label="Stem-loop page"></select>
+                                <span class="page-total"></span>
+                                <button type="button" aria-label="Next stem-loop page">Next</button>
+                            </div>
+                        </div>
+
+                        <h3 class="binding-heading">Mature (mature miRNA sequences)</h3>
+                        <div id="mature_in_mibase" style="margin-bottom: 60px;">
+                            <table id="mature" aria-label="Mature miRNA binding sites" cellspaing="0"
+                                style="border-collapse: collapse; background-color: #e9f0f4; width:100%">
+                                <thead style="background-color: #4e738a; color: #fff;">
+                                    <tr style="height: 60px; text-align: center;">
+                                        <th style="width: 12%; ">accession</th>
+                                        <th style="width: 12%; ">subject_id</th>
+                                        <th style="width: 8%; ">identity</th>
+                                        <th style="width: 8%; ">alignment length</th>
+                                        <th style="width: 7%; ">mismatch</th>
+                                        <th style="width: 7%; ">gap opening</th>
+                                        <th style="width: 8%; ">q.start</th>
+                                        <th style="width: 8%; ">q.end</th>
+                                        <th style="width: 7%; ">s.start</th>
+                                        <th style="width: 7%; ">s.end</th>
+                                        <th style="width: 8%; ">expection</th>
+                                        <th style="width: 8%; ">compare score</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="mature_main">
+                                </tbody>
+                            </table>
+                            <div id="mature_pagination" class="binding-pagination" hidden>
+                                <button type="button" aria-label="Previous mature miRNA page">Previous</button>
+                                <select aria-label="Mature miRNA page"></select>
+                                <span class="page-total"></span>
+                                <button type="button" aria-label="Next mature miRNA page">Next</button>
+                            </div>
+                        </div>
+
+                        <h3 class="binding-heading">RNA binding protein</h3>
+                        <div id="rbpdb_table" style="margin-bottom: 60px;">
+                            <table id="rbpdb" aria-label="RNA binding protein sites" cellspaing="0"
+                                style="border-collapse: collapse; background-color: #e9f0f4; width:100%">
+                                <thead style="background-color: #4e738a; color: #fff;">
+                                    <tr style="height: 60px; text-align: center;">
+                                        <th style="width: 30%; ">RBP name</th>
+                                        <th style="width: 20%; ">start</th>
+                                        <th style="width: 20%; ">end</th>
+                                        <th style="width: 30%; ">matching sequence</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="rbpdb_main">
+                                </tbody>
+                            </table>
+                            <div id="rbpdb_pagination" class="binding-pagination" hidden>
+                                <button type="button" aria-label="Previous RBP page">Previous</button>
+                                <select aria-label="RBP page"></select>
+                                <span class="page-total"></span>
+                                <button type="button" aria-label="Next RBP page">Next</button>
+                            </div>
+                        </div>
+
+                        <h3>Download Files:</h3>
+                        <!-- height: 20px; margin: 0 auto; -->
+                        <div id="download" style="display: flex; flex-direction: row; text-align: center;">
+                            <div id="seq_file" style="width: 350px;">
+                                <a id="full_seq_file">Output Sequence(.txt)</a>
+                            </div>
+                            <div id="Hairpin" style="width: 220px;">
+                                <a id="blast_hairpin_file">Stem-loop(.txt)</a>
+                            </div>
+                            <div id="Mature" style="width: 240px;">
+                                <a id="blast_mature_file">Mature(.txt)</a>
+                            </div>
+                            <div id="blast_result" style="width: 325px;">
+                                <a id="blast_table_file">RBP(.txt)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- reset button -->
+                    <div id="reset_button" style="display: none;">
+                        <input type="button" value="close" style="background-color: yellow; width: 54px;"
+                            onclick="hide_output_interest_stats_picture_table_reset_info()">
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="footer" role="contentinfo">
+            <p id="declare">Copyright © 2026 <a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston (UTHealth Houston)</a></p>
+            <p>Contact: Hao Zhou, MS, <a href="mailto:Hao.Zhou@uth.tmc.edu">Hao.Zhou@uth.tmc.edu</a></p>
+            <p class="footer-links"><a href="https://www.uth.edu/index/file-viewing-information.htm">Web File Viewing</a> | <a href="https://www.uth.edu/campus-carry/">Campus Carry</a> | <a href="https://www.uthealthemergency.org/">Emergency Information</a> | <a href="https://www.uth.edu/index/policies.htm">Site Policies</a></p>
+            <p>Licensed under <a href="LICENSE">Apache License 2.0</a> | Free for academic and commercial use</p>
+        </div>
+        <div id="foot_placeholder"></div>
+    </div>
+
+    <script type="text/javascript">
+        clear_table_info()
+        load_storage()
+
+        window.onload = function () {
+            let start_input = document.getElementById("start_index")
+            let end_input = document.getElementById("end_index")
+
+            document.getElementById("Input").addEventListener("input", clear_form_error)
+            document.getElementById("source").addEventListener("change", clear_form_error)
+            start_input.addEventListener("input", clear_range_error)
+            end_input.addEventListener("input", clear_range_error)
+
+            Object.defineProperty(start_input, 'start_value', {
+                configurable: true,
+                set: function (start_value) {
+                    this.value = start_value
+                    set_nucl_cnt()
+                },
+                get: function () {
+                    return this.value
+                }
+            })
+
+            Object.defineProperty(end_input, 'end_value', {
+                configurable: true,
+                set: function (end_value) {
+                    this.value = end_value
+                    set_nucl_cnt()
+                },
+                get: function () {
+                    return this.value
+                }
+            })
+
+            // Add Enter key listeners to apply custom range
+            // 将函数暴露为全局，供按钮和回车调用
+            window.applyCustomRange = function() {
+                var start_index = Number(start_input.value)
+                var end_index = Number(end_input.value)
+                
+                if (!query_data || !query_data['full']) {
+                    show_range_error("Please select a task first.")
+                    return
+                }
+                
+                var len_of_full = query_data['full'].length
+                
+                if (start_index <= 0 || start_index >= end_index || end_index > len_of_full) {
+                    show_range_error("Invalid range. Start must be greater than 0, End must be greater than Start, and End cannot exceed " + len_of_full + ".")
+                    return
+                }
+
+                clear_range_error()
+                
+                // Clear all region button highlights
+                highlight_active_region_button(null)
+                
+                // Clear existing table info
+                clear_table_info()
+                
+                // Update the nucleotide count
+                document.getElementById("nucl_cnt").value = end_index - start_index + 1
+                
+                // Update slider position to match the custom range
+                update_slider_position()
+                
+                // Show the selected subsequence with highlighting
+                show_current_subseq_with_red()
+                
+                // Refresh the results with the custom range
+                get_stats_picture_and_table_data()
+            }
+            
+            start_input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    applyCustomRange()
+                }
+            })
+            
+            end_input.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    applyCustomRange()
+                }
+            })
+        }
+    </script>
+
+    <!-- Cookie Notice Banner -->
+    <div id="cookieNotice" class="cookie-notice" role="region" aria-label="Privacy notice">
+        <div class="cookie-notice-content">
+            <p id="privacy-notice-text">
+                <strong>Privacy Notice:</strong> This website uses browser session storage to save your analysis tasks and results during your visit. 
+                This data is stored locally in your browser and is automatically deleted when you close the browser. 
+                No personal information is collected or transmitted to external servers.
+            </p>
+            <button id="acceptCookie" class="cookie-accept-btn" type="button" aria-describedby="privacy-notice-text">I Understand</button>
+        </div>
+    </div>
+
+    <style>
+        .cookie-notice {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            padding: 20px;
+            z-index: 10000;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+            display: none;
+        }
+
+        .cookie-notice.show {
+            display: block;
+        }
+
+        .cookie-notice-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .cookie-notice p {
+            margin: 0;
+            flex: 1;
+            min-width: 300px;
+            line-height: 1.6;
+        }
+
+        .cookie-accept-btn {
+            background-color: #002856;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            white-space: nowrap;
+            transition: background-color 0.3s;
+        }
+
+        .cookie-accept-btn:hover {
+            background-color: #4e738a;
+        }
+
+        @media (max-width: 600px) {
+            .cookie-notice {
+                box-sizing: border-box;
+                padding: 12px;
+            }
+
+            .cookie-notice-content {
+                gap: 12px;
+            }
+
+            .cookie-notice p {
+                min-width: 0;
+                flex-basis: 100%;
+            }
+
+            .cookie-accept-btn {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <script>
+        // Cookie Notice Logic
+        (function() {
+            const notice = document.getElementById('cookieNotice');
+            const acceptButton = document.getElementById('acceptCookie');
+            document.body.insertBefore(notice, document.getElementById('page'));
+            const cookieAccepted = localStorage.getItem('cookieNoticeAccepted');
+            
+            if (!cookieAccepted) {
+                notice.classList.add('show');
+            }
+
+            function dismissNotice() {
+                localStorage.setItem('cookieNoticeAccepted', 'true');
+                notice.classList.remove('show');
+                if (document.activeElement === acceptButton) {
+                    document.querySelector('.skip-link').focus();
+                }
+            }
+
+            acceptButton.addEventListener('click', dismissNotice);
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape' && notice.classList.contains('show')) {
+                    event.preventDefault();
+                    dismissNotice();
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>

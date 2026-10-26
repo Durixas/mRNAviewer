@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <title>Home | mRNAviewer</title>
+    <link rel="icon" href="images/uthealth-tapestry.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/index.css?v=mobile1">
+    <link rel="stylesheet" type="text/css" href="css/brand.css?v=mobile2">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-body">Skip to main content</a>
+    <noscript>
+        "<strong>We're sorry but this website doesn't work properly without JavaScript enabled.
+            Please enable it to continue. </strong>"
+    </noscript>
+    <div id="page">
+        <div id="head_placeholder"></div>
+        <div id="context">
+            <div id="header" role="banner">
+                <div id="layer_1">
+                    <span id="web_name"><a href="/mRNAviewer/">mRNAviewer</a></span>
+                    <a id="institution-logo" href="https://www.uth.edu/" aria-label="UTHealth Houston">
+                        <img src="images/UTHH-Stacked-Orange+Gray-RGB.png" alt="UTHealth Houston logo" width="200" height="89">
+                    </a>
+                </div>
+                <div id="layer_2">
+                    <span id="aa">A tool for optimization and visualization of mRNA sequences</span>
+                    <nav id="navigation" aria-label="Main navigation">
+                        <a href="./index.html" aria-current="page">Home</a>
+                        <a href="./search.html">Server</a>
+                        <a href="./tutorial.html">Tutorial</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="main-body" role="main" tabindex="-1">
+                <div id="content">
+                    <div id="introduction">
+                        <h1 style="margin: 0; padding-top: 60px">Overview Of Webserver</h1>
+                        <p id="overview">
+                            <strong>mRNAviewer</strong> aims for integrated optimization of mRNA sequence (including
+                            5′ 
+                            untranslated region (UTR), open reading frame (ORF) codon, and 3′ UTR) to improve gene
+                            translation in
+                            various biomedical applications. Users input the amino acid sequence of target protein and
+                            then
+                            choose the location where the mRNA is expected to be translated (human
+                            tissue type). mRNAviewer also provides several important features (e.g. secondary
+                            structure, miRNA binding sites, and RNA binding protein binding sites) of optimized
+                            sequence.
+                        </p>
+                        <h2 style="margin-top: 60px">Web Interface And Analysis Results</h2>
+                        <h3>mRNAviewer input</h3>
+                        <p id="help_1">
+                            Users input the amino acid sequence of target protein. Next, users can choose tissue type (e.g. lymph node, spleen, and lung) depending on their applications. If
+                            users
+                            don't specify tissue type, the optimization will be run as general
+                            model.
+                        </p>
+                        <h3>mRNAviewer analysis result</h3>
+                        <p id="help_2">
+                            mRNAviewer generates optimized sequence including 5′ UTR, ORF codon, and 3′ UTR. The start
+                            and end
+                            nucleotide position of each region are noted, and each region is marked with a different
+                            color.
+                            Notably, the Kozak sequence "GCCACC" is added before start codon "ATG" to facilitate
+                            translation
+                            initiation. Meanwhile, two tandem stop codons are added at the end of ORF to avoid the
+                            rea-through of translation. Along with the optimized sequence, mRNAviewer also provides
+                            several
+                            important features of mRNA. With a user-friendly interface, users can drag the lines or
+                            specify
+                            start/end positions to view these features in the region of interest. First, mRNAviewer
+                            provides
+                            the absolute count and percentage of each nucleotide. Next, mRNAviewer provides the
+                            secondary
+                            structure and minimum free energy (MFE) by integrating <a
+                                href="http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi" target="_blank"
+                                class="content-link">RNAfold
+                                webserver</a>. Third,
+                            mRNAviewer provides miRNA
+                            binding sites by integrating <a href="https://www.mirbase.org/" target="_blank"
+                                class="content-link">miRBase</a>.
+                            miRNA function
+                            posttranscriptionally by base-pairing to the mRNA 5′ UTR and 3′ UTR to regulate protein
+                            synthesis.
+                            The links in results can link users to the detailed miRNA information. Fourth, mRNAviewer
+                            provides the RNA binding protein (RBP) binding sites in by integrating <a
+                                href="http://rbpdb.ccbr.utoronto.ca/" target="_blank" class="content-link">RBPDB
+                                database</a>. RBP have
+                            well-established roles in
+                            regulating mRNA translation
+                            efficiency and stability. By clicking the links in results, users can access to details of
+                            RBP.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" role="contentinfo">
+            <p id="declare">Copyright © 2026 <a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston (UTHealth Houston)</a></p>
+            <p>Contact: Hao Zhou, MS, <a href="mailto:Hao.Zhou@uth.tmc.edu">Hao.Zhou@uth.tmc.edu</a></p>
+            <p class="footer-links"><a href="https://www.uth.edu/index/file-viewing-information.htm">Web File Viewing</a> | <a href="https://www.uth.edu/campus-carry/">Campus Carry</a> | <a href="https://www.uthealthemergency.org/">Emergency Information</a> | <a href="https://www.uth.edu/index/policies.htm">Site Policies</a></p>
+            <p>Licensed under <a href="LICENSE">Apache License 2.0</a> | Free for academic and commercial use</p>
+        </div>
+        <div id="foot_placeholder"></div>
+    </div>
+</body>
+
+</html>

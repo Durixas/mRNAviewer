@@ -1,0 +1,2 @@
+# Same separate DNA inference environment as 5-prime UTR.
+-r requirements-utr5.txt

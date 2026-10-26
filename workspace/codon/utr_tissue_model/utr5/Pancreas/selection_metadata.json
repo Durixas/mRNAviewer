@@ -1,0 +1,18 @@
+{
+  "tissue": "Pancreas",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Pancreas/lr1e-06/model.safetensors",
+  "selected_epoch": 1,
+  "strategy": "b4_nt50_150",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "09094493122cec3d5a0573798874ccacc47818959c24513700025bd55a988fc1",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 50,
+    "max_nt": 150
+  }
+}

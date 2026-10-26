@@ -1,0 +1,4 @@
+# Generated model assets are retained but collapsed in GitHub reviews.
+workspace/codon/utr_tissue_model/**/*.json linguist-generated=true
+frontend/mRNAviewer/js/*.min.js linguist-vendored=true
+frontend/mRNAviewer/css/*.min.css linguist-vendored=true

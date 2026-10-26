@@ -1,0 +1,18 @@
+{
+  "tissue": "Adrenal_gland",
+  "source_weights": "xspec_utr/bert2bert_codon_to_5utr/output/dnabert2-c5-to-5u/model.safetensors",
+  "selected_epoch": 0,
+  "strategy": "b8_nt120_210",
+  "used_finetuned_model": false,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "999f89a8f1078654ee14d577fd26dba8e669b04548149f0b0522c89e3ecde71d",
+  "weights_bytes": 949948768,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 120,
+    "max_nt": 210
+  }
+}

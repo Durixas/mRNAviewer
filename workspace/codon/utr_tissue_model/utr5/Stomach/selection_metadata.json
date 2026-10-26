@@ -1,0 +1,18 @@
+{
+  "tissue": "Stomach",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Stomach/lr1e-06/model.safetensors",
+  "selected_epoch": 2,
+  "strategy": "b4_nt50_150",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "b24ed7ccf0735e4b5c0436a8f746ce6dd860fc307057120eb660a6b417d092c8",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 50,
+    "max_nt": 150
+  }
+}

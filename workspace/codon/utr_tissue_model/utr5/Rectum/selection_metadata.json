@@ -1,0 +1,18 @@
+{
+  "tissue": "Rectum",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Rectum/lr1e-06/model.safetensors",
+  "selected_epoch": 1,
+  "strategy": "b8_nt120_210",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "1e17e5690acd8924132992d8ca9d78346942ae5cbdd66468cb75e356022a3123",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 120,
+    "max_nt": 210
+  }
+}

@@ -1,0 +1,7 @@
+# Separate DNABERT2 inference environment (existing conda environment: dna).
+# Keep the legacy backend's transformers 4.18 environment separate.
+torch==2.4.1
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors==0.5.3
+einops==0.8.1

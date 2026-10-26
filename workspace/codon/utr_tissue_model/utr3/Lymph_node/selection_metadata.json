@@ -1,0 +1,16 @@
+{
+  "tissue": "Lymph_node",
+  "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+  "selected_epoch": 0,
+  "strategy": "beam8_lp2",
+  "used_finetuned_model": false,
+  "source_run": "3utr_tissue_fullft_small_20261026",
+  "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+  "weights_bytes": 949948768,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128
+  }
+}

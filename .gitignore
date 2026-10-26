@@ -1,0 +1,50 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.idea/
+.vscode/
+.DS_Store
+
+# External model weights and serialized CDS alphabets
+*.safetensors
+*.model
+*.dset
+*.pt
+*.pth
+*.bin
+
+# External database indexes and website paper assets
+workspace/blast/mibase/releases/23.1/*
+!workspace/blast/mibase/releases/23.1/.gitkeep
+frontend/mRNAviewer/docs/*.pdf
+
+# Per-request data and temporary tool outputs
+workspace/codon/tasks/*
+!workspace/codon/tasks/.gitkeep
+workspace/codon/output/
+workspace/blast/query*.fa
+workspace/blast/output/
+workspace/rnafold/input.txt
+workspace/rnafold/output/
+workspace/gen_image/input.txt
+workspace/gen_image/output/
+*.out
+*.log
+*.tmp
+*.ps
+*.copying
+
+# Old versions, experiments and packaging archives
+*.pre-*
+*.bak
+frontend-backup*/
+outdated_frontend/
+deployment_packages/
+*.tar.gz
+*.zip

@@ -1,0 +1,16 @@
+{
+  "tissue": "Liver",
+  "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Liver/lr1e-06/model.safetensors",
+  "selected_epoch": 2,
+  "strategy": "beam8_lp2",
+  "used_finetuned_model": true,
+  "source_run": "3utr_tissue_fullft_small_20261026",
+  "weights_sha256": "886bc5a191c10dd4afcaae87bc69a21b9a2fb1fe02ce48fe7db9186417913822",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tissue": "Small_intestine",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Small_intestine/lr1e-06/model.safetensors",
+  "selected_epoch": 2,
+  "strategy": "b4_nt50_150",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "8b6bd5fb7554054ec53340baffca50388d7baa59f3f5bf6ba1e5140ec01b6046",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 50,
+    "max_nt": 150
+  }
+}

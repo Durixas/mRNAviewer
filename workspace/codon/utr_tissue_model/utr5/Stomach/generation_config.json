@@ -1,0 +1,8 @@
+{
+  "num_beams": 4,
+  "length_penalty": 2.0,
+  "min_length": 0,
+  "max_length": 128,
+  "min_nt": 50,
+  "max_nt": 150
+}

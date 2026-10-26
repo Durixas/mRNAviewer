@@ -1,0 +1,18 @@
+{
+  "tissue": "Spleen",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Spleen/lr1e-06/model.safetensors",
+  "selected_epoch": 3,
+  "strategy": "b4_nt150_186",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "7e93a9c20fae9c9f967f47f8bc9ca7219c29cd3f0bb720fa92d114e6b5d18f17",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 150,
+    "max_nt": 186
+  }
+}

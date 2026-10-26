@@ -1,0 +1,777 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "frontend/mRNAviewer/docs/bbad001.pdf",
+      "group": "paper",
+      "optional": true,
+      "bytes": 1788232,
+      "sha256": "36b02443bb06fe91911b75f0d61b9f944ed7c13526156740e60e674dd2e2346d"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.fa",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 260245,
+      "sha256": "37877edaf2b0375bdecf6ce56563c65a97a52be32386d540998feaf1dd42cb02"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.ndb",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 20480,
+      "sha256": "7d9905ee708d075c488142c3ce301897400ebcd0e0bca9ad79deb7436d81d46b"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nhr",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 220025,
+      "sha256": "4eeca184b3374212ed7c83916b59c7a1d737ffce62b4ac242cd9741600649761"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nin",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 22448,
+      "sha256": "0bd521aaa2f7c6a91c04d756e452edc10be5a651c6f152ec59644c23bd4a355e"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.njs",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 496,
+      "sha256": "97d8f9202620c92e8018e9e9ab19c8cc25907242d422f58323d3711eb19f6214"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.not",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 22340,
+      "sha256": "69471b4b2f02541ab318ebaa7b92e7987588e086228b05fe0b016faabce7acc7"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nsq",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 39236,
+      "sha256": "e092fc1eedc8aae01cf3913e3ce97e7364d09bdd9a297fcaf9dd51a353189871"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.ntf",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 16384,
+      "sha256": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nto",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 7448,
+      "sha256": "49bab82dc41e64b4394928f7409dda5bc4385178b2dc88c3f84010523ecdfbee"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.fa",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 215743,
+      "sha256": "b0071936233dc315ac47d06cf01ece04b78e79a3db8626504dd31fcb87ce71f5"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.ndb",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 20480,
+      "sha256": "3aaa15dadd400adfd2a17b7758a9eb5379bd608529566a70e1668e713cb40612"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nhr",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 325483,
+      "sha256": "42978fe178e027174e895853ae1c8c6aafde2f623d16272556d407fdf4098723"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nin",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 33576,
+      "sha256": "3c7e321751f1982fe7d5765fe7c83e959992914aaefc8879a5a1f1ea313d2324"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.njs",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 486,
+      "sha256": "e72c11237cb1693c298b473d0c0a488fafaf04a08eb596b52a0949c485e08f21"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.not",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 33476,
+      "sha256": "4f9de5b7fec43013e5f58cea157766a54141dda7baed84583e48b141d81241c8"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nsq",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 16620,
+      "sha256": "7c233c1d07b4d89816d5f5123e236f8cfd7d690b5346109c4864148a6fc3c921"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.ntf",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 16384,
+      "sha256": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a"
+    },
+    {
+      "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nto",
+      "group": "mirbase",
+      "optional": false,
+      "bytes": 11160,
+      "sha256": "299c9707788c4a47afb2c27fde08eab8fe32e897fa1ae9586a6405fd1ec353c1"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Adrenal_gland/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "652f6f55dc1251c2ac9552961cee68eb877eed57ba6a174ea594492066627e7a"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Appendix/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "0b8804f31ebd2dceb8289ccd23d338f84a0e43c2c991f5a16ba7f43775cb9996"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Brain/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "3c82f75fc51b593f5ea24f6f9116f5da18c8d57786767958f12899a1af0d4489"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Colon/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "bbf670fdf77a42c1b682bb56ded5b0c28fa894950c5d78c586355b5b7a74f998"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Duodenum/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "ecdcd44eff8d47f73bd472b404a243cab74b12e9f2fcfc026006a471b4e3054f"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Endometrium/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "d02427287a25c54fcd0ec298888e216c7b0c2e157135c2272d0af94bbc3658d0"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Esophagus/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "82f68420b7272b17f07ad2c8d2da0d9aa99c6511edefb07900dba76352b3b88c"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Fallopian_tube/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "8d1cd33d15c7f3ff0ecddf81e792a8b714cb3ea490a6cdcfe874c2de3b73fc25"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Fat/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "e1b56f5f3ac3107561de037088961a8908480b765e4ca4c9625c1efd82216597"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Gallbladder/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "11dafa39e76473d066d998753c74ff676e691ae1f4863210306dfc59819e0c3c"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Heart/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "7ae9adac017dd7015dd54f9a12d3b5ee86bc19fc3737e5fa72ba8cc949b79b6b"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Kidney/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "468b9cd1d34a00d6502417f99d24a970f48012c110428fca916db14e68a1f702"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Liver/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "4237cdb88b17cd6036caf1bd682a8316df70bfc2fbc3c6d25203028ce17c11b6"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Lung/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "977776548d358c0e4f43a90f399d6e1316496391c78f936689222944e07bf3c8"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Lymph_node/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "613be67096a73644359ab60a82c92630da6cee9a3c3af66d3977eed85584afc5"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Ovary/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "5d88d5272f848de03ea62e03ea2e5aa576ce970418494a5909d10c9c7259db22"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Pancreas/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "a0595a3b6b5f20bd5b73e26b40e0fe878d5af8e2c32350c417de4cf93e32d71d"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Placenta/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "eb32c7142755bad94463052ade8b423ae5646e818ed5078e426457d777c37b5f"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Prostate/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "8ba6c0106c072ad3d1f7cc5d636341abcaabcddcecd4e3d205b1ed7e7d8d0da8"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Rectum/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "60e8054932396d57b8d16a5a8194eadd78cc2a47db0f282256f555c23d4d946e"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Salivary_gland/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "b3a69862505b5ec176e3c175110b8e5667d04773ba049540cede19ae401f6029"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Small_intestine/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "ed5ea43a13a6dc7c1cdc7851dc16e1a42862026bd50b966c42c9960ea1a90b54"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Smooth_muscle/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "64e5c61a8a8829bd979bfd00440c2d4d4376b854294f3a999ecc06c8addb8bda"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Spleen/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "97bb7316171fa73fe9557323e507aee7b847ef054e89c35213dbb76e775f4103"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Stomach/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "5cd0f97cdf1c8833a1f878d56f5c750caca9e737c1e1640a15d77362bcae67dd"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Testis/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "040c2ff4921a0dea16321a3be7e2c4a87d2ed04ae8d68da0071d87049a41cbe3"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Thyroid/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "7bca139b74487dd8316a27a928bb863a669c612a14335771b222c2595290e1df"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Tonsil/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "c4bf72dd33d298805817e42d233d8a1034494e9bcfd7649df0424ad5de25b87c"
+    },
+    {
+      "path": "workspace/codon/cds_tissue_model/Urinary_bladder/lstmcrf.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328506,
+      "sha256": "c3e2fc182795115e7a64303496bced6a2e763c03b07a652106ccd700307845fc"
+    },
+    {
+      "path": "workspace/codon/lstmcrf.113.model",
+      "group": "cds",
+      "optional": false,
+      "bytes": 3328847,
+      "sha256": "1524064ace98f72ab2d5443c6085e09dd764a954845d05bc81f2e851d35ff1f6"
+    },
+    {
+      "path": "workspace/codon/lstmcrf_1500.dset",
+      "group": "cds",
+      "optional": false,
+      "bytes": 187208160,
+      "sha256": "05f43af2245f24394eb59ce6617249b6eda9a1ca8b56e0d993c0ec6a6b4e83f8"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Adrenal_gland/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "e222d063afe6cb616dbeb395e728e1c02a339b78ebf38f74b924b5a824583f68"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Appendix/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "60ce56a93c16787c40ac27172cfa198a2cd0fd4489eeb9446f6433e092522f5f"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Brain/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "9b548389ab8aceb8f2e09cd636b6e19f9956d111814bfe0af10f692d6ec4ae43"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Colon/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Duodenum/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "318384ea22ca000072cbb5754e5c5ca1034dc8ca74e1c0917308940116694cd2"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Endometrium/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "b6316b2e453117f99c4257e42875faf0390b6c23e78894cda632e85569e1e1e7"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Esophagus/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "7db0d6d19b6b3630edd44fc67f7058ebf2d365acaa08d6f464353393dfef0a50"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Fallopian_tube/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "401257d9893828b464faedd4945cb4b4d8c886b8b0ff31d7415760a92a072ab0"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Fat/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "b6d4657abcbfb6b3203a3ba92aa1f5a48becf5ae37888863fb4bb98f5379858a"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Gallbladder/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "69175811f79e7e634088bc7ca1a8ddac7b30d6c24dbe0fa5521384562a605074"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Heart/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "3d39cfd371151c9256a6c3759dcd2edb112cfc94cb5cf99900af186b12a2b18a"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Kidney/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "9e57fa9b6078e9b475417132417ef61493eafcc83094ec773688da4da8f2b1ca"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Liver/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "886bc5a191c10dd4afcaae87bc69a21b9a2fb1fe02ce48fe7db9186417913822"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Lung/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "d42c49f00b34c3a5c824f2d86ed8d65b975ca78127d7038cc6a55d2ef69358c3"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Lymph_node/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Ovary/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "5635294f33723d111604ac541bca1b29a44f06aa95cdbaf892bde4ab06c4b136"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Pancreas/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "dbb5bbae796c33624a9b6536a3bc960473fe2cb884246b1591fca7e12c55ed27"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Placenta/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "21b9b3ea7da066be3b8807ac202a41e56426b20d2f458d459553f994ba568fbc"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Prostate/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "0efcabe6d6f90172df3f237434176db7af8413a2a6da751896829cca58d822f8"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Rectum/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Salivary_gland/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Small_intestine/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Smooth_muscle/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Spleen/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "e7e54a89bd524c790e0a3c94e6c7b777db1fa33b4a9b3b21a556fea9dc120263"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Stomach/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Testis/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "916e153cfbc833e188e3058c4a2219f065bafc339197b5a3aee9126c633e3470"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Thyroid/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "a1c3d0ebd525972908d7e92571cb9bfd9e13e86cb9848ac3dff1c9bd217933f7"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Tonsil/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/Urinary_bladder/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "1365d4e487536f7021482db3f56974a5afc1256ac1602f8289e37fb7ed20adf0"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr3/general/model.safetensors",
+      "group": "utr3",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Adrenal_gland/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "999f89a8f1078654ee14d577fd26dba8e669b04548149f0b0522c89e3ecde71d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Appendix/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "423cf42f14de9c3ddb2ce6a9a7d3d2004e454b22c687e66e58bea1313da336ad"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Brain/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "950ad1e4c2f7fb7273e6be88c004952b88b7ba32bae3cd16ae87c8a7ea6d3b73"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Colon/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "2003b7eaa3e271b186416cae2b2112969361201bac0615deeb7cb61174a46e0a"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Duodenum/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "831fd9e914518815c9e64b5b817949218416d0001fb1c6a64b82498d908085c3"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Endometrium/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "999f89a8f1078654ee14d577fd26dba8e669b04548149f0b0522c89e3ecde71d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Esophagus/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "dfcbfc14a2881ad1ee3ab23e09c51bda8214c754993944418a387e5b9704bc63"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Fallopian_tube/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "f0430fee7182614c420f544177319849d05997f2c340ac98adfe6a777775c03d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Fat/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "fa2a8f57249e1c00cdeb165b70cf37716668de136740d92dbe50afb0721acf2f"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Gallbladder/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "1a5097dec1ca154ecf757d7a7dc8d9cf98c3de5829c422ca45af5db16bec2202"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Heart/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "999f89a8f1078654ee14d577fd26dba8e669b04548149f0b0522c89e3ecde71d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Kidney/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "d5f60729987ef7b9035fc13a8b358706c9fcff576e038c43dea319fb208ae243"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Liver/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "2b9d925b79c6b3745b6b57b77792333ffba37998c50ada473c009ea99c008ecd"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Lung/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "1bb8cdf5d36c920da7f4946ede51938bf124c86d57d99c15db726e453e9c1fe3"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Lymph_node/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "bd566ed19304e4c5f4e7e621a3548afc2d7d6c8d41059331cc2346d39119f734"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Ovary/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "024c73e2e02a3d477492443ce72371c6306144f5a298673ba3847294ccbb6ad7"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Pancreas/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "09094493122cec3d5a0573798874ccacc47818959c24513700025bd55a988fc1"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Placenta/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "68f909bc5efbfe13376745ed5035254420c420e7baa9f2708dfb544a5b2dab9d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Prostate/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "7be87cf12bc9643ff1f2a3013acef95b245b31e6577d4351ef1ffde51daff25d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Rectum/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "1e17e5690acd8924132992d8ca9d78346942ae5cbdd66468cb75e356022a3123"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Salivary_gland/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "0b694f8ca323971a86ec99f9b1dbbbac9f830752f6af477162aa082c91dc6c79"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Small_intestine/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "8b6bd5fb7554054ec53340baffca50388d7baa59f3f5bf6ba1e5140ec01b6046"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Smooth_muscle/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "21543b7fb36a8a42e46ad1bf00df2cbfcce37691a4ff6a71f75857a430292e6b"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Spleen/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "7e93a9c20fae9c9f967f47f8bc9ca7219c29cd3f0bb720fa92d114e6b5d18f17"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Stomach/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "b24ed7ccf0735e4b5c0436a8f746ce6dd860fc307057120eb660a6b417d092c8"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Testis/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "20d1e3e2e2c216ee766dfa0e4b3a36b279f869c84e201c90a3039ebf4f394951"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Thyroid/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "6d64567be23edbb45cac10048e1e79d0437e10c93e28ff668ae29fe1f30d2417"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Tonsil/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "999f89a8f1078654ee14d577fd26dba8e669b04548149f0b0522c89e3ecde71d"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/Urinary_bladder/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948736,
+      "sha256": "92e1d6e3d980a930b62a82cfe3ce1ca51e273500ddc433fa22c87e71694d5e6b"
+    },
+    {
+      "path": "workspace/codon/utr_tissue_model/utr5/general/model.safetensors",
+      "group": "utr5",
+      "optional": false,
+      "bytes": 949948768,
+      "sha256": "999f89a8f1078654ee14d577fd26dba8e669b04548149f0b0522c89e3ecde71d"
+    }
+  ],
+  "total_bytes": 57287059031,
+  "notes": "Paths relative to repository root. UTR digests reuse previously verified deployment manifests. No model/data binaries are included in Git."
+}
