@@ -1,0 +1,493 @@
+{
+  "region": "3utr",
+  "source_selection": "mRNAviewer_compare/evaluation_results/UTR/3utr_tissue_fullft_small_20261026/frozen_tissue_selection.json",
+  "source_selection_sha256": "b7894134ca6618d2df0e9030b8bf34729b9048cc6f8ae47394e94a1fbe7f37a6",
+  "general_source_selection": "mRNAviewer_compare/evaluation_results/UTR/v2/3utr_frozen_selection.json",
+  "general_source_selection_sha256": "58510c05e9b9ceb71ee1ca42e5bf578e6dcd0babc43f2debc9e9a3be6d30a57c",
+  "selection_basis": "frozen held-out validation choices; no test reselection",
+  "exported_at_utc": "2026-10-26T18:17:33.197733+00:00",
+  "tissues": {
+    "Adrenal_gland": {
+      "tissue": "Adrenal_gland",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Adrenal_gland/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "e222d063afe6cb616dbeb395e728e1c02a339b78ebf38f74b924b5a824583f68",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Appendix": {
+      "tissue": "Appendix",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Appendix/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "60ce56a93c16787c40ac27172cfa198a2cd0fd4489eeb9446f6433e092522f5f",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Brain": {
+      "tissue": "Brain",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Brain/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "9b548389ab8aceb8f2e09cd636b6e19f9956d111814bfe0af10f692d6ec4ae43",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Colon": {
+      "tissue": "Colon",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Duodenum": {
+      "tissue": "Duodenum",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Duodenum/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "318384ea22ca000072cbb5754e5c5ca1034dc8ca74e1c0917308940116694cd2",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Endometrium": {
+      "tissue": "Endometrium",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Endometrium/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "b6316b2e453117f99c4257e42875faf0390b6c23e78894cda632e85569e1e1e7",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Esophagus": {
+      "tissue": "Esophagus",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Esophagus/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "7db0d6d19b6b3630edd44fc67f7058ebf2d365acaa08d6f464353393dfef0a50",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Fallopian_tube": {
+      "tissue": "Fallopian_tube",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Fallopian_tube/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "401257d9893828b464faedd4945cb4b4d8c886b8b0ff31d7415760a92a072ab0",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Fat": {
+      "tissue": "Fat",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Fat/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "b6d4657abcbfb6b3203a3ba92aa1f5a48becf5ae37888863fb4bb98f5379858a",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Gallbladder": {
+      "tissue": "Gallbladder",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Gallbladder/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "69175811f79e7e634088bc7ca1a8ddac7b30d6c24dbe0fa5521384562a605074",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Heart": {
+      "tissue": "Heart",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Heart/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "3d39cfd371151c9256a6c3759dcd2edb112cfc94cb5cf99900af186b12a2b18a",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Kidney": {
+      "tissue": "Kidney",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Kidney/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "9e57fa9b6078e9b475417132417ef61493eafcc83094ec773688da4da8f2b1ca",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Liver": {
+      "tissue": "Liver",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Liver/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "886bc5a191c10dd4afcaae87bc69a21b9a2fb1fe02ce48fe7db9186417913822",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Lung": {
+      "tissue": "Lung",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Lung/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "d42c49f00b34c3a5c824f2d86ed8d65b975ca78127d7038cc6a55d2ef69358c3",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Lymph_node": {
+      "tissue": "Lymph_node",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Ovary": {
+      "tissue": "Ovary",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Ovary/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "5635294f33723d111604ac541bca1b29a44f06aa95cdbaf892bde4ab06c4b136",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Pancreas": {
+      "tissue": "Pancreas",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Pancreas/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "dbb5bbae796c33624a9b6536a3bc960473fe2cb884246b1591fca7e12c55ed27",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Placenta": {
+      "tissue": "Placenta",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Placenta/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "21b9b3ea7da066be3b8807ac202a41e56426b20d2f458d459553f994ba568fbc",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Prostate": {
+      "tissue": "Prostate",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Prostate/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "0efcabe6d6f90172df3f237434176db7af8413a2a6da751896829cca58d822f8",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Rectum": {
+      "tissue": "Rectum",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Salivary_gland": {
+      "tissue": "Salivary_gland",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Small_intestine": {
+      "tissue": "Small_intestine",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Smooth_muscle": {
+      "tissue": "Smooth_muscle",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Spleen": {
+      "tissue": "Spleen",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Spleen/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "e7e54a89bd524c790e0a3c94e6c7b777db1fa33b4a9b3b21a556fea9dc120263",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Stomach": {
+      "tissue": "Stomach",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Testis": {
+      "tissue": "Testis",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Testis/lr1e-06/model.safetensors",
+      "selected_epoch": 1,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "916e153cfbc833e188e3058c4a2219f065bafc339197b5a3aee9126c633e3470",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Thyroid": {
+      "tissue": "Thyroid",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Thyroid/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a1c3d0ebd525972908d7e92571cb9bfd9e13e86cb9848ac3dff1c9bd217933f7",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Tonsil": {
+      "tissue": "Tonsil",
+      "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+      "selected_epoch": 0,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": false,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+      "weights_bytes": 949948768,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    },
+    "Urinary_bladder": {
+      "tissue": "Urinary_bladder",
+      "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Urinary_bladder/lr1e-06/model.safetensors",
+      "selected_epoch": 2,
+      "strategy": "beam8_lp2",
+      "used_finetuned_model": true,
+      "source_run": "3utr_tissue_fullft_small_20261026",
+      "weights_sha256": "1365d4e487536f7021482db3f56974a5afc1256ac1602f8289e37fb7ed20adf0",
+      "weights_bytes": 949948736,
+      "generation_config": {
+        "num_beams": 8,
+        "length_penalty": 2.0,
+        "min_length": 0,
+        "max_length": 128
+      }
+    }
+  },
+  "general": {
+    "tissue": "general",
+    "source_weights": "xspec_utr/bert2bert_codon_to_3utr/output/dnabert2-c3-to-3u/model.safetensors",
+    "selected_epoch": 0,
+    "strategy": "beam8_lp2",
+    "used_finetuned_model": false,
+    "source_run": "3utr_tissue_fullft_small_20261026",
+    "weights_sha256": "a05521e0a24ba664f60ad560d7ea204e55382fe230f3f916a613365dbf668db4",
+    "weights_bytes": 949948768,
+    "generation_config": {
+      "num_beams": 8,
+      "length_penalty": 2.0,
+      "min_length": 0,
+      "max_length": 128
+    }
+  },
+  "independent_regular_weight_files": true,
+  "total_weights_bytes": 28498462368
+}

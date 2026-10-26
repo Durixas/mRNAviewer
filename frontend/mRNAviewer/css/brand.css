@@ -1,0 +1,274 @@
+/* Shared UTHealth Houston identity for all mRNAviewer pages. */
+.skip-link {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 11000;
+    padding: 10px 14px;
+    background: #fff;
+    color: #002856;
+    transform: translateY(-150%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+:is(a, button, input, select, textarea, [tabindex="-1"]):focus-visible {
+    outline: 3px solid #002856 !important;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px #fff;
+}
+
+#page {
+    background-color: #f1f3f4;
+}
+
+#header {
+    height: auto;
+    background: #fff;
+    border-top: 4px solid #ae6042;
+}
+
+#layer_1 {
+    box-sizing: border-box;
+    min-height: 96px;
+    height: auto;
+    padding: 3px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#web_name {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 46px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+#web_name a,
+#web_name a:visited {
+    color: #002856;
+}
+
+#institution-logo {
+    display: block;
+    line-height: 0;
+}
+
+#institution-logo img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+#layer_2 {
+    box-sizing: border-box;
+    min-height: 46px;
+    height: auto;
+    margin: 0;
+    padding: 7px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: #4e738a;
+}
+
+#aa {
+    color: #fff;
+    font-size: 18px;
+}
+
+#navigation {
+    float: none;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    white-space: nowrap;
+}
+
+#navigation a,
+#navigation a:visited {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+}
+
+#navigation a:hover,
+#navigation a:focus-visible,
+#navigation a[aria-current="page"] {
+    color: #fff;
+    border-bottom-color: #f2b826;
+}
+
+#web_name a:focus-visible,
+#institution-logo:focus-visible,
+#navigation a:focus-visible,
+#footer a:focus-visible,
+.content-link:focus-visible {
+    outline: 3px solid #f2b826;
+    outline-offset: 3px;
+}
+
+#main-body .content-link,
+#main-body .content-link:visited {
+    color: #002856;
+    text-decoration: underline;
+    overflow-wrap: anywhere;
+}
+
+#source {
+    border-color: #4e738a;
+}
+
+#works {
+    background-color: #e9f0f4;
+}
+
+#footer {
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    padding: 19px 30px 22px;
+    background: #f5f5f5;
+    border-top: 4px solid #ae6042;
+    color: #535456;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#footer p,
+#footer #declare {
+    margin: 0 0 5px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#footer p:last-child {
+    margin-bottom: 0;
+}
+
+#footer a,
+#footer a:visited {
+    color: #002856;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #ae6042;
+}
+
+@media (max-width: 1200px) {
+    #context, #header, #main-body, #footer {
+        max-width: 100%;
+    }
+
+    #layer_2 {
+        flex-wrap: wrap;
+    }
+}
+
+#contact {
+    width: 1000px;
+    max-width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 55px 0 65px;
+    line-height: 1.6;
+}
+
+#contact h1 {
+    margin: 0 0 24px;
+}
+
+#contact h2 {
+    margin: 0 0 28px;
+    font-size: 20px;
+}
+
+#contact p {
+    margin: 0 0 25px;
+    font-size: 18px;
+}
+
+#contact a,
+#contact a:visited {
+    color: #002856;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    #context, #header, #main-body, #footer {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #head_placeholder {
+        min-height: 12px;
+    }
+
+    #main-body {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    #layer_1 {
+        min-height: 0;
+        padding: 14px 12px;
+        gap: 8px;
+    }
+
+    #web_name {
+        font-size: clamp(24px, 8vw, 36px);
+    }
+
+    #institution-logo img {
+        width: clamp(95px, 27vw, 150px);
+    }
+
+    #layer_2 {
+        display: block;
+        padding: 10px 16px;
+    }
+
+    #aa {
+        display: block;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    #navigation {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 18px;
+        margin-top: 8px;
+        white-space: normal;
+    }
+
+    #navigation a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        font-size: 16px;
+    }
+
+    #footer {
+        padding: 18px 16px;
+        overflow-wrap: anywhere;
+    }
+
+    #contact {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: none;
+        padding: 28px 16px 40px;
+        overflow-wrap: anywhere;
+    }
+}

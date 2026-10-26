@@ -1,0 +1,18 @@
+{
+  "tissue": "Duodenum",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Duodenum/lr1e-06/model.safetensors",
+  "selected_epoch": 2,
+  "strategy": "b4_nt80_186",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "831fd9e914518815c9e64b5b817949218416d0001fb1c6a64b82498d908085c3",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 80,
+    "max_nt": 186
+  }
+}

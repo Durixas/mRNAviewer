@@ -1,0 +1,18 @@
+{
+  "tissue": "Smooth_muscle",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Smooth_muscle/lr1e-06/model.safetensors",
+  "selected_epoch": 1,
+  "strategy": "b8_nt120_210",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "21543b7fb36a8a42e46ad1bf00df2cbfcce37691a4ff6a71f75857a430292e6b",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 120,
+    "max_nt": 210
+  }
+}

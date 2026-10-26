@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tutorial | mRNAviewer</title>
+    <link rel="icon" href="images/uthealth-tapestry.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/tutorial.css?v=mobile1">
+    <link rel="stylesheet" type="text/css" href="css/brand.css?v=mobile2">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-body">Skip to main content</a>
+    <noscript>
+        "<strong>We're sorry but this website doesn't work properly without JavaScript enabled.
+            Please enable it to continue. </strong>"
+    </noscript>
+    <div id="page">
+        <div id="head_placeholder"></div>
+        <div id="context">
+            <div id="header" role="banner">
+                <div id="layer_1">
+                    <span id="web_name"><a href="/mRNAviewer/">mRNAviewer</a></span>
+                    <a id="institution-logo" href="https://www.uth.edu/" aria-label="UTHealth Houston">
+                        <img src="images/UTHH-Stacked-Orange+Gray-RGB.png" alt="UTHealth Houston logo" width="200" height="89">
+                    </a>
+                </div>
+                <div id="layer_2">
+                    <span id="aa">A tool for optimization and visualization of mRNA sequences</span>
+                    <nav id="navigation" aria-label="Main navigation">
+                        <a href="./index.html">Home</a>
+                        <a href="./search.html">Server</a>
+                        <a href="./tutorial.html" aria-current="page">Tutorial</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="main-body" role="main" tabindex="-1">
+                <div id="tutorial">
+                    <h1 id="title">Tutorial of mRNAviewer webserver</h1>
+                    <p id="pg_0">To enhance the mRNA translation efficiency and support the potential of mRNA therapies,
+                        we have developed a deep learning model for mRNA sequence optimization. Different with other
+                        existing tools only optimizing codon of open reading frame (ORF), our model can further generate
+                        optimal 5′ untranslated region (UTR) and 3′ UTR, besides codon. User just need to input the amino
+                        acid sequence of the target protein and our model will output the complete optimized sequence
+                        including 5′ UTR, ORF, and 3′ UTR. What's more, our model has been validated with biological
+                        experiments that our model-optimized mRNA sequence has higher translation efficiency than that
+                        from conventional optimization approach. Consistently, with further analysis, our
+                        model-optimized mRNA sequence has more stable secondary structure and less miRNA binding sites.
+                        More details can be found in <a href="./docs/bbad001.pdf" class="content-link"
+                            target="_blank">our work</a> published in the "Briefings in Bioinformatics" journal.</p>
+                    <p id="pg_1">Visit the web server by clicking the link at <a
+                            href="https://ccsm.uth.edu/mRNAviewer/"
+                            class="content-link">https://ccsm.uth.edu/mRNAviewer/</a>
+                        and you will see the page as shown in Fig. 1. The Microsoft Edge and Google Chrome browsers are
+                        recommended.</p>
+                    <figure id="fig_1">
+                        <img src="./images/figure_1.png?v=uthealth2" width="80%" alt="Homepage with mRNAviewer navigation and an overview of the webserver.">
+                        <figcaption><strong>Figure 1.</strong> Homepage of the mRNAviewer webserver</figcaption>
+                    </figure>
+                    <p id="pg_2">Click the Server button, and you can enter the query interface, as shown in Fig. 2.</p>
+                    <figure id="fig_2">
+                        <img src="./images/figure_2.png?v=uthealth2" width="80%" alt="Server page with examples, sequence input, tissue selector, Submit button, and task table.">
+                        <figcaption><strong>Figure 2.</strong> Query interface for sequence optimization</figcaption>
+                    </figure>
+                    <h2>Step 1: Input and Submit the amino acid sequence</h2>
+                    <p id="pg_3">You can directly enter or paste the amino acid sequence into the input box. all
+                        sequences
+                        should be in English letters.
+                        You can also use the clear button on the upper right to clear existing amino acid sequences.
+                        Then, you need to choose the location where the mRNA is expected to be translated. Finally,
+                        click the Submit button
+                        to get the website working.
+                        You can also see the detailed in Fig. 3.
+                    </p>
+                    <figure id="fig_3">
+                        <img src="./images/figure_3.png?v=uthealth2" width="80%" alt="Example amino acid sequence entered with General tissue selected before submission.">
+                        <figcaption><strong>Figure 3.</strong> Input interface for amino acid sequence and tissue selection</figcaption>
+                    </figure>
+                    <h2>Step 2: View results</h2>
+                    <p id="pg_4">When the button is gray, the site is being analyzed. When the button turns yellow,
+                        it indicates that the website has been analyzed. You can click the button to query the analysis
+                        results.
+                        Fig. 4 shows the different analysis states.
+                    </p>
+                    <figure id="fig_4">
+                        <img src="./images/figure_4.png?v=uthealth2" width="80%" alt="A task changes from Analyzing with Select disabled to Done with Select enabled.">
+                        <figcaption><strong>Figure 4.</strong> Analysis status indicators during sequence optimization</figcaption>
+                    </figure>
+                    <p id="pg_5">Soon, the complete output sequence and its statistics are displayed, as shown in Fig.
+                        5.
+                        After a short wait, the secondary structure information of the sequence and the rest of the
+                        matching information are displayed, as shown in Fig. 6 and Fig. 7.
+                    </p>
+                    <figure id="fig_5">
+                        <img src="./images/figure_5.png?v=uthealth2" width="80%" alt="Output sequence divided into 5′ UTR, ORF, and 3′ UTR, with range controls and nucleotide statistics.">
+                        <figcaption><strong>Figure 5.</strong> Optimized mRNA sequence output and statistical summary</figcaption>
+                    </figure>
+                    <figure id="fig_6">
+                        <img src="./images/figure_6.png?v=uthealth2" width="80%" alt="Predicted RNA secondary structure with a long stem and several branching loops; MFE is minus 166.50 kilocalories per mole.">
+                        <figcaption><strong>Figure 6.</strong> Predicted RNA secondary structure and minimum free energy (MFE)</figcaption>
+                    </figure>
+                    <figure id="fig_7">
+                        <img src="./images/figure_7.png?v=uthealth2" width="80%" alt="Stem-loop miRNA, mature miRNA, and RBP tables with linked names and matching positions.">
+                        <figcaption><strong>Figure 7.</strong> miRNA binding site analysis and RBP interaction results</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="footer" role="contentinfo">
+            <p id="declare">Copyright © 2026 <a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston (UTHealth Houston)</a></p>
+            <p>Contact: Hao Zhou, MS, <a href="mailto:Hao.Zhou@uth.tmc.edu">Hao.Zhou@uth.tmc.edu</a></p>
+            <p class="footer-links"><a href="https://www.uth.edu/index/file-viewing-information.htm">Web File Viewing</a> | <a href="https://www.uth.edu/campus-carry/">Campus Carry</a> | <a href="https://www.uthealthemergency.org/">Emergency Information</a> | <a href="https://www.uth.edu/index/policies.htm">Site Policies</a></p>
+            <p>Licensed under <a href="LICENSE">Apache License 2.0</a> | Free for academic and commercial use</p>
+        </div>
+        <div id="foot_placeholder"></div>
+    </div>
+    </div>
+</body>
+
+</html>

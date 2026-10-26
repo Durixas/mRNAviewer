@@ -1,0 +1,16 @@
+{
+  "tissue": "Ovary",
+  "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Ovary/lr1e-06/model.safetensors",
+  "selected_epoch": 1,
+  "strategy": "beam8_lp2",
+  "used_finetuned_model": true,
+  "source_run": "3utr_tissue_fullft_small_20261026",
+  "weights_sha256": "5635294f33723d111604ac541bca1b29a44f06aa95cdbaf892bde4ab06c4b136",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128
+  }
+}

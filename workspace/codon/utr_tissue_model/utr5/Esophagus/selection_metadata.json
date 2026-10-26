@@ -1,0 +1,18 @@
+{
+  "tissue": "Esophagus",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Esophagus/lr1e-06/model.safetensors",
+  "selected_epoch": 3,
+  "strategy": "b8_nt120_210",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "dfcbfc14a2881ad1ee3ab23e09c51bda8214c754993944418a387e5b9704bc63",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 120,
+    "max_nt": 210
+  }
+}

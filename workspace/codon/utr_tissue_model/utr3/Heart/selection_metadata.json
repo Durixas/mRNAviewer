@@ -1,0 +1,16 @@
+{
+  "tissue": "Heart",
+  "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Heart/lr1e-06/model.safetensors",
+  "selected_epoch": 1,
+  "strategy": "beam8_lp2",
+  "used_finetuned_model": true,
+  "source_run": "3utr_tissue_fullft_small_20261026",
+  "weights_sha256": "3d39cfd371151c9256a6c3759dcd2edb112cfc94cb5cf99900af186b12a2b18a",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128
+  }
+}

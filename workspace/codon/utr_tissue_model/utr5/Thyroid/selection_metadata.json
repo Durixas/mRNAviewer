@@ -1,0 +1,18 @@
+{
+  "tissue": "Thyroid",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Thyroid/lr1e-06/model.safetensors",
+  "selected_epoch": 2,
+  "strategy": "b4_nt150_186",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "6d64567be23edbb45cac10048e1e79d0437e10c93e28ff668ae29fe1f30d2417",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 150,
+    "max_nt": 186
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tissue": "Kidney",
+  "source_weights": "mRNAviewer_compare/model_cache/5utr_tissue_fullft_paired_20261026/Kidney/lr1e-06/model.safetensors",
+  "selected_epoch": 1,
+  "strategy": "b4_nt150_186",
+  "used_finetuned_model": true,
+  "source_run": "5utr_tissue_fullft_paired_20261026",
+  "weights_sha256": "d5f60729987ef7b9035fc13a8b358706c9fcff576e038c43dea319fb208ae243",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 4,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128,
+    "min_nt": 150,
+    "max_nt": 186
+  }
+}

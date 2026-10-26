@@ -1,0 +1,928 @@
+body {
+	width: 100%;
+	padding: 0; 
+	margin: 0;
+	font-size: 16px;
+}
+
+#page {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	background-color: rgb(228, 219, 212);
+}
+
+#head_placeholder {
+	min-height: 60px;
+}
+
+#context {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#header {
+	margin: 0px;
+	padding: 0px;
+	width: 1200px;
+	height:140px;
+	vertical-align: middle;
+    /* background-color:rgb(138, 174, 241); */
+    background-color: #4e738a;
+}
+
+/* #web_name {
+	margin-left: 30px;
+	font-size: 48px;
+	line-height: 140px;  
+}
+
+#navigation {
+	float: right;
+	width: 270px;
+	margin-top: 65px;
+} */
+
+#layer_1 {
+    height: 90px;
+}
+
+#web_name {
+	margin-left: 30px;
+    font-size: 48px;
+    font-family: Arial Black;
+    line-height: 100px;
+}
+
+#layer_2 {
+    margin-left: 30px;
+    height: 40px;
+}
+
+#aa {
+    font-size: 22px;
+}
+
+#navigation {
+	float: right;
+	width: 265px;
+}
+
+/* 设置链接状态 */
+a:link {text-decoration:none;}    
+a:visited {text-decoration:none;} 
+a:hover {text-decoration:none;}   
+a:active {text-decoration:none;}
+
+#main-body {
+	margin: 0;
+	padding: 0;
+	width: 1195px;
+	border: 3px;
+	border-style: groove;
+	border-top: none;
+	border-bottom: none;
+}
+
+#main-content {
+	padding: 20px;
+	min-height:400px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#paste_and_clear {
+	width: 100%; 
+	text-align: left; 
+}
+
+#Input {
+	border-radius: 6px;
+	resize: none;
+	outline: none;
+	border: 2px solid black;
+	width: 99%;
+	font-family:'Times New Roman', Times, serif;
+}
+
+#seq_source {
+	height: 40px;
+	margin: 10px 0;
+}
+
+#step2 {
+	width: 590px;
+	float: left; 
+	margin: 0; 
+	height: 30px; 
+	line-height: 30px;
+}
+
+#source {
+	width: 182px;
+	height: 30px;
+	outline: 0;
+	border-radius: 6px;
+	border: 1px solid cornflowerblue;
+}
+
+#query_button {
+	float: right;
+	margin-top: 5px;
+	margin-right: 8px;
+}
+
+#query_block {
+	width: 99%;
+	text-align: left; 
+}
+
+
+
+
+/* 展示所有提交的查询 */
+#analysis_tips {
+	font-size: 15px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+#works {
+	width: 100%; 
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e9f0f4;
+	padding: 0 0 20px 0;
+}
+
+
+
+
+
+/* 展示输出序列 */
+#output_rna_seq {
+	width: 100%;
+	margin: 50px auto;
+}
+
+#show_all {
+	width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#full_info {
+	width: 100%;
+	outline: none;
+	padding-bottom: 8px;
+}
+
+#mytxt {
+	box-sizing: border-box;
+	width: 100%;
+	text-align: justify;
+	border: 2px solid #000;
+	white-space: normal;
+	overflow-wrap: anywhere;
+	word-break: break-all;
+}
+
+#mytxt font[color="orange"] {
+	color: #642e16;
+}
+
+#output_seq {
+	width: 1100px;
+	height: 20px;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	color: white;
+}
+
+#output_seq > div {
+	box-sizing: border-box;
+	flex: none;
+	min-width: 0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#subseq_utr5 {
+	width: 27.2727%;
+	height: 20px;
+	background-color: blue;
+}
+
+#subseq_orf {
+	width: 45.4546%;
+	height: 20px;
+	background-color: #642e16;
+}
+
+#subseq_utr3 {
+	width: 27.2727%;
+	height: 20px;
+	background-color: green;
+}
+
+#tips {
+	width: 1000px;
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
+
+
+/* 选择感兴趣区域 */
+
+#interest_region{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#select_region {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#start_index, #end_index, #nucl_cnt {
+	width: 70px; 
+	padding: 0;
+	height: 23px;
+	resize:none; 
+	outline: none;
+	border-radius: 4px;
+
+	display: table-cell;  
+	vertical-align: middle;
+
+	text-align: center;
+	/* font-size: large; */
+	line-height: 23px;  /* 设置文字的行高和textarea一致，使文字上下居中显示 */
+}
+
+#full_btn, #utr5_btn, #orf_btn, #utr3_btn {
+	background-color: #f0f0f0;
+	color: #666;
+	border: 1px solid #ccc;
+	width: 70px; 
+	height:28px; 
+	border-radius:4px;
+	cursor: pointer;
+}
+
+#full_btn:hover, #utr5_btn:hover, #orf_btn:hover, #utr3_btn:hover {
+	background-color: #e0e0e0;
+	border-color: #999;
+}
+
+/* Active state will be set dynamically by JavaScript */
+
+
+
+
+/* 显示统计结果 */
+
+#stats_res {
+	width: 100%;
+}
+
+#stats {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+}
+
+#A, #T, #C, #G {
+	width: 250px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+#a_cnt, #a_perc, #t_cnt, #t_perc, #c_cnt, #c_perc, #g_cnt, #g_perc, #mfe {
+	width: 80px;
+	height: 23px;
+	padding: 0;
+	resize: none;
+	outline: none;
+	border-radius: 4px;
+
+	/* 下面的两句会使 span 标签上下居中显示 ？？？ */
+	display: table-cell;  
+	vertical-align: middle;
+
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	line-height: 23px;  /* 设置文字的行高和textarea一致，使文字上下居中显示 */
+}
+
+
+
+#alter {
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+
+
+
+/* 展示图片 */
+#pic_section {
+	width: 100%;
+	min-height: 700px;
+}
+
+#pic {
+	width: 700px;
+	float: left;
+	margin-left: 60px;
+	text-align: center;
+}
+
+#second_structure {
+	border: dashed 3px black;
+}
+
+#mfe_info {
+	margin-top: 570px;
+	margin-right: 70px;
+	width: 300px;
+	float: right;
+	text-align: center;
+}
+
+#mfe {
+	width: 200px;
+	height: 23px;
+	padding: 0;
+	resize: none;
+	outline: none;
+	border-radius: 4px;
+
+	/* 下面的两句会使 span 标签上下居中显示 ？？？ */
+	display: table-cell;  
+	vertical-align: middle;
+
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	line-height: 23px;  /* 设置文字的行高和textarea一致，使文字上下居中显示 */
+}
+
+
+
+
+
+/* 表格信息 */
+#table_info {
+	width: 100%;
+	margin: 40px auto;
+}
+
+#harpin_in_mibase{
+	margin-bottom: 80px;
+}
+
+#harpin {
+	background-color: aquamarine;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#mature_in_mibase{
+	margin-bottom: 80px;
+}
+
+#mature {
+	background-color: aquamarine;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#rbpdb {
+	background-color: aquamarine;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.binding-pagination {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8px;
+	margin-top: 8px;
+}
+
+.binding-pagination[hidden] {
+	display: none;
+}
+
+.binding-pagination button,
+.binding-pagination select {
+	font-size: 14px;
+	padding: 4px 8px;
+}
+
+.binding-empty td {
+	padding: 12px;
+	text-align: center;
+}
+
+.binding-heading {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#form_error {
+	color: #b00020;
+	margin: 8px 0;
+}
+
+#form_error[hidden] {
+	display: none;
+}
+
+#range_error {
+	color: #b00020;
+	margin: 8px 0;
+	text-align: center;
+}
+
+#range_error[hidden] {
+	display: none;
+}
+
+.sequence-button {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	color: #002856;
+	font: inherit;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+/* 下载输出文件 */
+#download {
+	height: 20px;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+}
+
+#Hairpin, #Mature, #blast_result {
+	width: 300px;
+}
+
+
+
+
+
+
+/* 重置按钮 */
+#reset_button{
+	margin: 0 auto 0 1060px;
+}
+
+#left {
+    float: left;
+    border: 1px;
+    width: 46%;
+}
+
+#right {
+    float: right;
+    border: 1px;
+    width: 46%;
+}
+
+#footer {
+	margin: 0 auto;
+	padding: 0;
+	width: 1200px;
+	height: 35px;
+    /* background-color: rgb(138, 174, 241); */
+	background-color: #4e738a;
+	text-align: center;
+}
+
+#foot_placeholder {
+	min-height: 40px;
+}
+
+#declare {
+	margin-top: 0;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	margin-right: 0;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	text-align:center;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+#empty_works_row td {
+    height: 1px;
+    padding: 0;
+}
+
+.sample-sequence,
+.clear-sequence {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: #002856;
+    font: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sample-sequence:hover,
+.clear-sequence:hover {
+    color: #ae6042;
+}
+
+.sample-sequence:focus-visible,
+.clear-sequence:focus-visible {
+    outline: 3px solid #f2b826;
+    outline-offset: 3px;
+}
+
+@media (max-width: 1200px) {
+    #main-content {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 20px;
+    }
+
+    #show_all, #output_seq, #tips, #stats {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    #slider-range {
+        box-sizing: border-box;
+        width: 100% !important;
+    }
+
+    #select_region {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    #pic_section {
+        min-height: 0;
+    }
+
+    #pic {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    #second_structure {
+        box-sizing: border-box;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #mfe_info {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 16px 0;
+        float: none;
+    }
+
+    #download {
+        height: auto;
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    #download > div {
+        box-sizing: border-box;
+        width: 50% !important;
+    }
+
+    #reset_button {
+        margin: 20px 0;
+        text-align: right;
+    }
+
+    #harpin_in_mibase, #mature_in_mibase, #rbpdb_table {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    #harpin, #mature {
+        min-width: 880px;
+    }
+}
+
+@media (max-width: 767px) {
+    #main-content {
+        padding: 16px;
+    }
+
+    #Input {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    #seq_source {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
+        height: auto;
+    }
+
+    #step2 {
+        width: auto;
+        height: auto;
+        line-height: 1.5;
+        float: none;
+    }
+
+    #source {
+        box-sizing: border-box;
+        width: 100%;
+        height: 44px;
+    }
+
+    #query_button {
+        margin: 0;
+        float: none;
+    }
+
+    #query_button input {
+        min-width: 100px;
+        min-height: 44px;
+    }
+
+    #show_works {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    #works {
+        min-width: 620px;
+    }
+
+    #output_seq > div {
+        font-size: 12px;
+    }
+
+    #select_region {
+        display: block !important;
+        width: 100%;
+    }
+
+    #select_region tbody, #select_region tr {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    #select_region tr {
+        height: auto !important;
+    }
+
+    #select_region td {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 2px;
+    }
+
+    #stats {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    #A, #T, #C, #G {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        width: auto;
+        height: auto;
+    }
+
+    #stats input {
+        box-sizing: border-box;
+        min-width: 0;
+        width: 70px;
+    }
+
+    #rbpdb {
+        min-width: 480px;
+    }
+
+    .binding-pagination {
+        flex-wrap: wrap;
+    }
+
+    .binding-pagination button, .binding-pagination select {
+        min-height: 44px;
+    }
+
+    #download > div {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    #seq_source {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
+        height: auto;
+    }
+
+    #step2 {
+        width: auto;
+        height: auto;
+        line-height: 1.5;
+        float: none;
+    }
+
+    #source {
+        box-sizing: border-box;
+        width: 100%;
+        height: 44px;
+    }
+
+    #query_button {
+        margin: 0;
+        float: none;
+    }
+
+    #query_button input {
+        min-width: 100px;
+        min-height: 44px;
+    }
+}
+
+@media (pointer: coarse) {
+    #slider-range, #output_seq {
+        width: min(1100px, calc(100% - 12px)) !important;
+    }
+
+    #slider-range {
+        height: 20px !important;
+        margin-bottom: -20px !important;
+        border: 0;
+        background: transparent;
+        touch-action: none;
+        z-index: 2;
+    }
+
+    #slider-range::before {
+        content: none;
+    }
+
+    #slider-range .ui-slider-range {
+        display: none;
+    }
+
+    #slider-range .ui-slider-handle {
+        box-sizing: border-box;
+        top: -12px;
+        width: 44px;
+        height: 44px;
+        margin-left: -22px;
+        border: 0;
+        background: transparent;
+        touch-action: none;
+    }
+
+    #slider-range .ui-slider-handle::before {
+        content: "";
+        position: absolute;
+        top: 7px;
+        left: 15px;
+        width: 14px;
+        height: 30px;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        background: #002856;
+        box-shadow: 0 0 0 1px #002856;
+    }
+}
+
+.binding-map {
+    margin: 0 0 32px;
+    max-width: 100%;
+}
+
+.binding-map[hidden] {
+    display: none;
+}
+
+.binding-map h3 {
+    margin: 0 0 12px;
+    font-size: 1em;
+}
+
+.binding-map-axis,
+.binding-map-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 8px;
+}
+
+.binding-map-label {
+    box-sizing: border-box;
+    flex: 0 0 155px;
+    font-size: 14px;
+}
+
+.binding-map-ticks,
+.binding-map-track {
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.binding-map-ticks {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+}
+
+.binding-map-track {
+    position: relative;
+    height: 28px;
+    overflow: hidden;
+    border: 1px solid #aebbc2;
+    background: repeating-linear-gradient(to right, #fff 0, #fff calc(25% - 1px), #e5eaed calc(25% - 1px), #e5eaed 25%);
+}
+
+.binding-map-site,
+.binding-map-density {
+    position: absolute;
+    display: block;
+    background: var(--map-color);
+}
+
+.binding-map-site {
+    top: 5px;
+    height: 16px;
+    min-width: 2px;
+    opacity: .7;
+}
+
+.binding-map-density {
+    bottom: 0;
+    min-width: 1px;
+}
+
+@media (max-width: 600px) {
+    .binding-map-axis,
+    .binding-map-row {
+        gap: 6px;
+    }
+
+    .binding-map-label {
+        flex-basis: 104px;
+        font-size: 12px;
+    }
+}

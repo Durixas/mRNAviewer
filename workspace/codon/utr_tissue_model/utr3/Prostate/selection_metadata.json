@@ -1,0 +1,16 @@
+{
+  "tissue": "Prostate",
+  "source_weights": "mRNAviewer_compare/model_cache/3utr_tissue_fullft_small_20261026/Prostate/lr1e-06/model.safetensors",
+  "selected_epoch": 2,
+  "strategy": "beam8_lp2",
+  "used_finetuned_model": true,
+  "source_run": "3utr_tissue_fullft_small_20261026",
+  "weights_sha256": "0efcabe6d6f90172df3f237434176db7af8413a2a6da751896829cca58d822f8",
+  "weights_bytes": 949948736,
+  "generation_config": {
+    "num_beams": 8,
+    "length_penalty": 2.0,
+    "min_length": 0,
+    "max_length": 128
+  }
+}

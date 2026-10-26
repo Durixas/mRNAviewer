@@ -1,0 +1,193 @@
+body {
+	width: 100%;
+	padding: 0; 
+	margin: 0;
+	font-size: 16px;
+}
+
+#page {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+    background-color: rgb(228, 219, 212);
+}
+
+#head_placeholder {
+    min-height: 60px;
+}
+
+#context {
+	width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header {
+	margin: 0px;
+	padding: 0px;
+	width: 1200px;
+	height:140px;
+    background-color:#4e738a;
+}
+
+#layer_1 {
+    height: 90px;
+}
+
+#web_name {
+	margin-left: 30px;
+    font-size: 48px;
+    font-family: Arial Black;
+    line-height: 100px;
+}
+
+#layer_2 {
+    margin-left: 30px;
+    height: 40px;
+}
+
+#aa {
+    font-size: 22px;
+}
+
+#navigation {
+	float: right;
+	width: 265px;
+}
+
+#main-body {
+	margin: 0;
+	padding: 0;
+	width: 1195px;
+	border: 3px;
+	border-style: groove;
+	border-top: none;
+	border-bottom: none;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;  /* 上 - 右 - 下 - 左*/
+    border: 0;
+}
+
+/* #search {
+    width: 1000px;
+    padding-top: 80px;
+    display: inline-table;
+    line-height: normal;
+    border-collapse: separate;
+}
+#search_input{
+    border-width: 1px;  
+    border-right: 0;  
+    outline: none;  
+    height: 60px; 
+    width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#query_button {
+    border-width: 1px;
+    height: 62px; 
+    width:99px; 
+    padding: 0;
+    background-color:cornflowerblue;
+    font-size: 22px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+} */
+
+#introduction {
+    font-size: 20px;
+    clear: both;
+    text-align: justify;
+}
+
+#introduction h1,
+#introduction h2 {
+    font-size: 1.17em;
+}
+
+#introduction h3 {
+    font-size: 1em;
+}
+
+#overview {
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+#help_1 {
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+#help_2 {
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+#links {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#footer {
+	margin: 0 auto;
+	padding: 0;
+	width: 1200px;
+	height:35px;
+    /* background-color: rgb(138, 174, 241); */
+    background-color: #4e738a;
+    text-align: center;
+}
+
+#declare {
+	margin-top: 0;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	margin-right: 0;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+/* 设置链接状态 */
+a:link {text-decoration:none;}    
+a:visited {text-decoration:none;} 
+a:hover {text-decoration:none;}   
+a:active {text-decoration:none;}
+
+#foot_placeholder {
+    min-height: 40px;
+}
+
+@media (max-width: 1200px) {
+    #content {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    #content {
+        padding: 0 16px;
+    }
+
+    #introduction, #overview, #help_1, #help_2 {
+        text-align: left;
+        text-indent: 0;
+    }
+}

@@ -1,0 +1,11 @@
+# Backend/CDS environment: Python 3.8.20, versions from the working server.
+Flask==3.0.3
+Flask-Cors==5.0.0
+gunicorn==23.0.0
+torch==2.4.1
+transformers==4.18.0
+tokenizers==0.12.1
+numpy==1.24.4
+Pillow==10.4.0
+huggingface-hub==0.35.3
+requests==2.32.4
