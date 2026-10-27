@@ -19,10 +19,14 @@ conda run -n mrnaviewer-dna python -m pip install -r requirements-utr5.txt
 
 Install RNAfold 2.7.2, BLAST+ 2.17.0, Ghostscript and Perl. Both UTR regions
 use the DNA environment. Human miRBase sequences and BLAST indexes are included.
-Install model weights separately using the asset inventory:
+Download model weights from [Zenodo](https://doi.org/10.5281/zenodo.23681525)
+(public downloads become available when the record is published). Follow its
+`readme.txt` to join the UTR volumes and extract all three model archives into
+this repository. Extraction requires GNU tar and zstd. Then verify the models
+and configure the server:
 
 ```bash
-python scripts/restore_assets.py --source /path/to/mRNAoptimizer_1212
+python scripts/restore_assets.py --check --verify
 cp .env.example .env
 # Edit .env with your Python and external-tool executable paths.
 source .env
