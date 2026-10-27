@@ -1,0 +1,258 @@
+{
+  "AAA": {
+    "amino_acid": "K",
+    "codon_box_label": "t"
+  },
+  "AAC": {
+    "amino_acid": "N",
+    "codon_box_label": "o"
+  },
+  "AAG": {
+    "amino_acid": "K",
+    "codon_box_label": "u"
+  },
+  "AAT": {
+    "amino_acid": "N",
+    "codon_box_label": "i"
+  },
+  "ACA": {
+    "amino_acid": "T",
+    "codon_box_label": "o"
+  },
+  "ACC": {
+    "amino_acid": "T",
+    "codon_box_label": "m"
+  },
+  "ACG": {
+    "amino_acid": "T",
+    "codon_box_label": "r"
+  },
+  "ACT": {
+    "amino_acid": "T",
+    "codon_box_label": "h"
+  },
+  "AGA": {
+    "amino_acid": "R",
+    "codon_box_label": "u"
+  },
+  "AGC": {
+    "amino_acid": "S",
+    "codon_box_label": "r"
+  },
+  "AGG": {
+    "amino_acid": "R",
+    "codon_box_label": "q"
+  },
+  "AGT": {
+    "amino_acid": "S",
+    "codon_box_label": "j"
+  },
+  "ATA": {
+    "amino_acid": "I",
+    "codon_box_label": "i"
+  },
+  "ATC": {
+    "amino_acid": "I",
+    "codon_box_label": "h"
+  },
+  "ATG": {
+    "amino_acid": "M",
+    "codon_box_label": "j"
+  },
+  "ATT": {
+    "amino_acid": "I",
+    "codon_box_label": "c"
+  },
+  "CAA": {
+    "amino_acid": "Q",
+    "codon_box_label": "o"
+  },
+  "CAC": {
+    "amino_acid": "H",
+    "codon_box_label": "m"
+  },
+  "CAG": {
+    "amino_acid": "Q",
+    "codon_box_label": "r"
+  },
+  "CAT": {
+    "amino_acid": "H",
+    "codon_box_label": "h"
+  },
+  "CCA": {
+    "amino_acid": "P",
+    "codon_box_label": "m"
+  },
+  "CCC": {
+    "amino_acid": "P",
+    "codon_box_label": "l"
+  },
+  "CCG": {
+    "amino_acid": "P",
+    "codon_box_label": "n"
+  },
+  "CCT": {
+    "amino_acid": "P",
+    "codon_box_label": "f"
+  },
+  "CGA": {
+    "amino_acid": "R",
+    "codon_box_label": "r"
+  },
+  "CGC": {
+    "amino_acid": "R",
+    "codon_box_label": "n"
+  },
+  "CGG": {
+    "amino_acid": "R",
+    "codon_box_label": "s"
+  },
+  "CGT": {
+    "amino_acid": "R",
+    "codon_box_label": "g"
+  },
+  "CTA": {
+    "amino_acid": "L",
+    "codon_box_label": "h"
+  },
+  "CTC": {
+    "amino_acid": "L",
+    "codon_box_label": "f"
+  },
+  "CTG": {
+    "amino_acid": "L",
+    "codon_box_label": "g"
+  },
+  "CTT": {
+    "amino_acid": "L",
+    "codon_box_label": "b"
+  },
+  "GAA": {
+    "amino_acid": "E",
+    "codon_box_label": "u"
+  },
+  "GAC": {
+    "amino_acid": "D",
+    "codon_box_label": "r"
+  },
+  "GAG": {
+    "amino_acid": "E",
+    "codon_box_label": "q"
+  },
+  "GAT": {
+    "amino_acid": "D",
+    "codon_box_label": "j"
+  },
+  "GCA": {
+    "amino_acid": "A",
+    "codon_box_label": "r"
+  },
+  "GCC": {
+    "amino_acid": "A",
+    "codon_box_label": "n"
+  },
+  "GCG": {
+    "amino_acid": "A",
+    "codon_box_label": "s"
+  },
+  "GCT": {
+    "amino_acid": "A",
+    "codon_box_label": "g"
+  },
+  "GGA": {
+    "amino_acid": "G",
+    "codon_box_label": "q"
+  },
+  "GGC": {
+    "amino_acid": "G",
+    "codon_box_label": "s"
+  },
+  "GGG": {
+    "amino_acid": "G",
+    "codon_box_label": "p"
+  },
+  "GGT": {
+    "amino_acid": "G",
+    "codon_box_label": "k"
+  },
+  "GTA": {
+    "amino_acid": "V",
+    "codon_box_label": "j"
+  },
+  "GTC": {
+    "amino_acid": "V",
+    "codon_box_label": "g"
+  },
+  "GTG": {
+    "amino_acid": "V",
+    "codon_box_label": "k"
+  },
+  "GTT": {
+    "amino_acid": "V",
+    "codon_box_label": "d"
+  },
+  "TAA": {
+    "amino_acid": "X",
+    "codon_box_label": "w"
+  },
+  "TAC": {
+    "amino_acid": "Y",
+    "codon_box_label": "h"
+  },
+  "TAG": {
+    "amino_acid": "X",
+    "codon_box_label": "w"
+  },
+  "TAT": {
+    "amino_acid": "Y",
+    "codon_box_label": "c"
+  },
+  "TCA": {
+    "amino_acid": "S",
+    "codon_box_label": "h"
+  },
+  "TCC": {
+    "amino_acid": "S",
+    "codon_box_label": "f"
+  },
+  "TCG": {
+    "amino_acid": "S",
+    "codon_box_label": "g"
+  },
+  "TCT": {
+    "amino_acid": "S",
+    "codon_box_label": "b"
+  },
+  "TGA": {
+    "amino_acid": "X",
+    "codon_box_label": "w"
+  },
+  "TGC": {
+    "amino_acid": "C",
+    "codon_box_label": "g"
+  },
+  "TGG": {
+    "amino_acid": "W",
+    "codon_box_label": "k"
+  },
+  "TGT": {
+    "amino_acid": "C",
+    "codon_box_label": "d"
+  },
+  "TTA": {
+    "amino_acid": "L",
+    "codon_box_label": "c"
+  },
+  "TTC": {
+    "amino_acid": "F",
+    "codon_box_label": "b"
+  },
+  "TTG": {
+    "amino_acid": "L",
+    "codon_box_label": "d"
+  },
+  "TTT": {
+    "amino_acid": "F",
+    "codon_box_label": "a"
+  }
+}

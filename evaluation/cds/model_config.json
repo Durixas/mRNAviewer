@@ -1,0 +1,17 @@
+{
+  "description": "Inference-only settings and frozen vocabulary exported from the general CDS DSET; no training instances or pickle required.",
+  "word_instances": ["</unk>", "K", "Y", "X", "T", "S", "M", "A", "L", "N", "C", "R", "Q", "D", "F", "I", "V", "W", "G", "E", "P", "H"],
+  "label_instances": ["t", "c", "u", "w", "m", "j", "f", "r", "g", "i", "d", "n", "o", "q", "h", "a", "k", "b", "p", "s", "l"],
+  "word_emb_dim": 21,
+  "use_crf": true,
+  "use_char": false,
+  "word_feature_extractor": "LSTM",
+  "average_batch_loss": false,
+  "HP_hidden_dim": 200,
+  "HP_dropout": 0.5,
+  "HP_lstm_layer": 4,
+  "HP_bilstm": true,
+  "label_alphabet_size": 22,
+  "feature_num": 0,
+  "feature_emb_dims": []
+}

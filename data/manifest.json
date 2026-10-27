@@ -1,0 +1,4468 @@
+{
+  "schema_version": 1,
+  "tissue_count": 29,
+  "archives": [
+    {
+      "file": "bert2bert_frozen_splits.tar.gz",
+      "bytes": 11324026,
+      "sha256": "41abf73323d1c87da950044be6dfa341faa6c462ed12bc6b1ce2a3c2401916c1",
+      "uncompressed_bytes": 41241040,
+      "members": [
+        {
+          "path": "bert2bert/3utr/Adrenal_gland/test.csv",
+          "bytes": 73425,
+          "sha256": "c17f21d3db9fcd9f183fa3cb9c65d2205dc35aeee18fd621362e3a9707494208",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Adrenal_gland/train.csv",
+          "bytes": 92653,
+          "sha256": "0e27eb6a8b156b78b9c2812528b39a52d30941eaa7b766505c2f28fdb126238c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Adrenal_gland/validation.csv",
+          "bytes": 35142,
+          "sha256": "897a4821e73e68023ad5022b25148e95a7099c5b647e06708fc2653cd4915f92",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Appendix/test.csv",
+          "bytes": 62494,
+          "sha256": "d40c42b86c2f559198d8a14d4c0b2aeeb2826feeeb8b495218a978a456c87933",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Appendix/train.csv",
+          "bytes": 112589,
+          "sha256": "c5e564b0c348e8861b1d4c7ba6a2890d08eb6f3bd856bb312dffc28f9e9bc771",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Appendix/validation.csv",
+          "bytes": 38251,
+          "sha256": "7aa84dba43aa5957f5acd7c5fd580f22e6906c361b7ea88a0239b7548e14a744",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Brain/test.csv",
+          "bytes": 68607,
+          "sha256": "489fb2056e4bcce2f6a1a2bad06fc1802f171de2d920b0856431155574c7aab3",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Brain/train.csv",
+          "bytes": 107999,
+          "sha256": "6e03e3f7ad55af8aec7a8b1fdc61c73605fc121350d7858ee69120a6fcfa9f38",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Brain/validation.csv",
+          "bytes": 34498,
+          "sha256": "6fb75eea17520529f0db9a17fd564f0f9f0ff3c597061a49f77be71ee1379b12",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Colon/test.csv",
+          "bytes": 72728,
+          "sha256": "6525cc37e6517b4f217af337d9861e421f1cb8e8e5b06a27b537bfcf7a5a73ae",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Colon/train.csv",
+          "bytes": 101538,
+          "sha256": "110aea5a4e9bfad7fbabec976845a451963397131a34f7b581793fc9bcde0a18",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Colon/validation.csv",
+          "bytes": 40239,
+          "sha256": "788ee3a46ea723a48e2cdb83c81764c53036fb6687546a1b598b5948173f4647",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Duodenum/test.csv",
+          "bytes": 70782,
+          "sha256": "895f6dec219fa09d5118b98bc3d77c8c70ba421da5a89372c5b4f0a5d8a03f1f",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Duodenum/train.csv",
+          "bytes": 114026,
+          "sha256": "0244320b4f1bcdcd9a0fc86e99e543dbd27e54354c0297ade544e4eff2169eb9",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Duodenum/validation.csv",
+          "bytes": 32538,
+          "sha256": "1ecf37b90f018e26d01570048a410815d98e8610dad8a9ad53abdbfb635c792c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Endometrium/test.csv",
+          "bytes": 67027,
+          "sha256": "b83682f5a125e621d1ffd8d6686ff8e60ec7d5a8d4a2301bd1a347bd21edf198",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Endometrium/train.csv",
+          "bytes": 83706,
+          "sha256": "887af6f73bfbae1a06c2515a6ffaec29169ddae1b9b344c48eccedd88ad888eb",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Endometrium/validation.csv",
+          "bytes": 39649,
+          "sha256": "b74e22183e4110655e6a7d6e2f6ae8bae014eb0584b3006cced9e05c8b6551de",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Esophagus/test.csv",
+          "bytes": 64327,
+          "sha256": "31af057b64560cebe29c65ee5841ae48297a8c6f81530acbff61f8bf04d3eae5",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Esophagus/train.csv",
+          "bytes": 91301,
+          "sha256": "27142e3720729528d47623c7d8a56c899d30e5ddf3f7d814a9003bbcce168f23",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Esophagus/validation.csv",
+          "bytes": 33824,
+          "sha256": "cd60fda58eaf19c75ee1e8c5dad38259521cc147a694026c082e92abded2893c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Fallopian_tube/test.csv",
+          "bytes": 77668,
+          "sha256": "c19fbd3a9bc0d35eb73e7b680bbea7bcf775697bc6f795ca024e536a373a3d42",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Fallopian_tube/train.csv",
+          "bytes": 129848,
+          "sha256": "1cc77fdfb4b4b78570ecda22790cf9176800a26fd491a2185b1266eda062a3b8",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Fallopian_tube/validation.csv",
+          "bytes": 40891,
+          "sha256": "37935d11bbb7bb2cb3ed74c325219a53d9b82b8b991d11365158ea294c66d1b6",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Fat/test.csv",
+          "bytes": 61108,
+          "sha256": "920f141aca58f951488b270130a763df6d7cd61e708d5ae61cf993f9df6a0d5f",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Fat/train.csv",
+          "bytes": 98502,
+          "sha256": "678c43f1556b25a375e37786046e3c04925a1a88823842eff189e1bfebcccc27",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Fat/validation.csv",
+          "bytes": 32628,
+          "sha256": "6840669f4c7d6b843f0eb25ac61919106106f1c49585fb69d54fe1d8e638d0c1",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Gallbladder/test.csv",
+          "bytes": 70240,
+          "sha256": "a2798d98eae491c3e9678aa080d60df5b885d7c9b24faec8f980c8419a791bc9",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Gallbladder/train.csv",
+          "bytes": 109252,
+          "sha256": "c8783e5ec7284753a1d57c8c879929c2813bde8f4dfeb3f37c4ca4dc43157c68",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Gallbladder/validation.csv",
+          "bytes": 36681,
+          "sha256": "90723e33bd198f6224206e3077d7c514e30739e17fadff2de520a5e679beff38",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Heart/test.csv",
+          "bytes": 64965,
+          "sha256": "5e4f3ac05d09826df9a6fcc3de54786abbb514264aea9505fb8cfaaa056838bb",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Heart/train.csv",
+          "bytes": 87120,
+          "sha256": "8028da995d2d1d456cf90bd043313d4680143bf711a1dad970f13a65c3b22167",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Heart/validation.csv",
+          "bytes": 37206,
+          "sha256": "ecd62f621207ebd7c8b37e2ba52a103ba0f81035254e898e993582edb25106ff",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Kidney/test.csv",
+          "bytes": 57837,
+          "sha256": "57b4444d34f05d89efa4ea429b8e0003828a128d4beb90797d1afd908bfd6e94",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Kidney/train.csv",
+          "bytes": 112237,
+          "sha256": "b9d32b726bbcf99b2a63e1d16bbcfb899b583708db6cb07f9ac755199c8e1694",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Kidney/validation.csv",
+          "bytes": 39175,
+          "sha256": "21110fa4097179244c9c83e41210efeab40be7ccde556100b7dc4105dfe63b07",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Liver/test.csv",
+          "bytes": 67503,
+          "sha256": "c5688c10844f8f5ee2e2c6d99f1800cf1478a12adc607b2f70a49a242c474f67",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Liver/train.csv",
+          "bytes": 128934,
+          "sha256": "08067a6e4bc236fa686377deb9214c141e2d9df222da3389eff3d6c5c7452de3",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Liver/validation.csv",
+          "bytes": 36253,
+          "sha256": "2c8dafb301151bc89782f92404a3576a13c1c7ae84513be713e9354893223494",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Lung/test.csv",
+          "bytes": 81363,
+          "sha256": "5aa77e905cfa9b65c2651db25d3ba5846c656c65b4c8f767314f9e87c2fce5ed",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Lung/train.csv",
+          "bytes": 145272,
+          "sha256": "c14cc142cf96bb5fae8504ef3e1951535d85ed81e4b4189347de5587baf24135",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Lung/validation.csv",
+          "bytes": 39011,
+          "sha256": "f31caea56e51e529e5aa89ec4f724ade641d71d6933228cfcaaf4d7d00b17d82",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Lymph_node/test.csv",
+          "bytes": 71937,
+          "sha256": "c8fc81c3745a75315d699fc580c924b40a80c5ad6b4f91fe53d685d042624427",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Lymph_node/train.csv",
+          "bytes": 62509,
+          "sha256": "f316b19c7a004792e72188086aeef50f8d042a691d8d02bf61dfdbcc7928597f",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Lymph_node/validation.csv",
+          "bytes": 31535,
+          "sha256": "1f0f2bce0d34a0122907583df30bb54200217d913f903350ea933660babacb6e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Ovary/test.csv",
+          "bytes": 59570,
+          "sha256": "4ff02fc0449193769a1c763cef465314acba4736b5a59f20c9c655288a4b7e82",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Ovary/train.csv",
+          "bytes": 102102,
+          "sha256": "4bf3c3776cf52b091ef9802ea3d3a7507d8bb7d6d3091bb65dd2be111fa0e193",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Ovary/validation.csv",
+          "bytes": 35172,
+          "sha256": "ad83f816cde2753c92578a407a495491f467c395469eb2da617e0979e0357335",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Pancreas/test.csv",
+          "bytes": 60454,
+          "sha256": "8213122ef24b0ab9fda304aaa3b7d5a44a8f4e021a9a07a63083288b1f2cc1c3",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Pancreas/train.csv",
+          "bytes": 81516,
+          "sha256": "886cac0c97bd7f313fba89f254779365741e5d86b8d8f065306ddf6cc0764539",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Pancreas/validation.csv",
+          "bytes": 36012,
+          "sha256": "5bac52ebef6942d1735ad4b63dd03a0ffd37bcc5631fac4854239d5f55113aff",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Placenta/test.csv",
+          "bytes": 67080,
+          "sha256": "5409db99368f1af8fd925177ef8a9c81a03b5fd806a10b4623d631721a121c68",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Placenta/train.csv",
+          "bytes": 98848,
+          "sha256": "2c8eb44250e1d3c6708b3c787404079182a8c2d8830010db02e1d6e5780757ff",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Placenta/validation.csv",
+          "bytes": 39202,
+          "sha256": "60eaf8e83465aaf8eb55cce2d5765566bca1e7e3dbca8a0fde5db944268ecac6",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Prostate/test.csv",
+          "bytes": 65545,
+          "sha256": "6d2ab0eeb16d09ac72892566a695c9851f6b21dbdebcbd5575d3233937b2f6e8",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Prostate/train.csv",
+          "bytes": 92046,
+          "sha256": "c5db607e9e5e2c1607431e7201f3891693a950f7858f12603f297fe476ff60fb",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Prostate/validation.csv",
+          "bytes": 36625,
+          "sha256": "af3ab6eb5dc99f72a85d964411cc8bc597cb59027e1405863a608e5faf6cb888",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Rectum/test.csv",
+          "bytes": 65646,
+          "sha256": "5fa87ca6fd7980d9d06d3a5ed8ff13b9ab0917fde88e654a4f365f46dca2bb1c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Rectum/train.csv",
+          "bytes": 102625,
+          "sha256": "5ab87f9749a11c1720c7da0f93049319906453b893861905fed37c0195b0ce06",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Rectum/validation.csv",
+          "bytes": 33167,
+          "sha256": "34c4fc520bff1a4a8ab0cc04b3596752b991932f8360bd810ff9ef5a1b313959",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Salivary_gland/test.csv",
+          "bytes": 65643,
+          "sha256": "8944808d90e9cd092268645777d6b40fbc951432a3fdd8f5280debc1602fb901",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Salivary_gland/train.csv",
+          "bytes": 81661,
+          "sha256": "b1d23523bc4faf34bab3efb78ac01258667f7fe8365f96e04c4f2477a44e559e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Salivary_gland/validation.csv",
+          "bytes": 34991,
+          "sha256": "f637e2554c09bd50d7ef207c4ab9c940a1aa9990a789122e2ebdc87c514ab2fd",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Small_intestine/test.csv",
+          "bytes": 73669,
+          "sha256": "d46526850ab9bfca4954ff4687d82214640b2808ecc97e6e967053abbb1726c0",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Small_intestine/train.csv",
+          "bytes": 112071,
+          "sha256": "6924eed89ca719ecaf0e4d262af6b288bb785e2464ced4a15c4a0e3d001cd0e8",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Small_intestine/validation.csv",
+          "bytes": 37678,
+          "sha256": "72cfd4f11d9595615864eb37f5c895e701ab6a48bdfcb895b43816839aab7562",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Smooth_muscle/test.csv",
+          "bytes": 69506,
+          "sha256": "0d75ad3b9ca092843c3cd578626b9ec99882620ea29c1d0ef846369a8eca4997",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Smooth_muscle/train.csv",
+          "bytes": 81086,
+          "sha256": "0c61d578c9e0bae86427366c217196f9f0eede4a4cde0dc15a06a0bef79bdd70",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Smooth_muscle/validation.csv",
+          "bytes": 33764,
+          "sha256": "5a69419b20268818382dcc8cf3d3cbddf5bff620a6eacca86752faca7668ca5d",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Spleen/test.csv",
+          "bytes": 60599,
+          "sha256": "c06ac2650d94ce9c8312dc042ab923f8f71d2eb66ebc97463daabcce59320693",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Spleen/train.csv",
+          "bytes": 63322,
+          "sha256": "ba94540a0775ffc2f9c882c0d48c8cb4f88b00805521a9135bd06523cfbb5a7e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Spleen/validation.csv",
+          "bytes": 31712,
+          "sha256": "47251de98228b4277f60898782ae8950c16136736f5b53cffe546894820bef67",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Stomach/test.csv",
+          "bytes": 71314,
+          "sha256": "4c918c3a9855663d2cbe12b4fadebf6ad6373871aaf7e7e7346714a560894b89",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Stomach/train.csv",
+          "bytes": 102837,
+          "sha256": "05deb9731a621775260f4bfbb12af9a40e1a7b055edf1b7c9fa29124033287ec",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Stomach/validation.csv",
+          "bytes": 34588,
+          "sha256": "e7db2b504b594e29d4b6d5c8397ceb12c02324738fd7a06f1eb87e815c97c28e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Testis/test.csv",
+          "bytes": 72230,
+          "sha256": "47580512e5febc1e49825ca6391cad0122862360ffc4cae0e183cc7aaf77255a",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Testis/train.csv",
+          "bytes": 141786,
+          "sha256": "43a6ac4a7aa4e46cc182b61689ef7ed33d15b01d8665e9083a1999f2acddfcb4",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Testis/validation.csv",
+          "bytes": 37070,
+          "sha256": "af569f3bb438aef24ce6a97082daf404e73547c5f81e9d757e52e95cd0987d59",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Thyroid/test.csv",
+          "bytes": 61160,
+          "sha256": "ca5b538d755456c9bc7f02b0af21c7042f3285e93db2718c635821776d3a9ef9",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Thyroid/train.csv",
+          "bytes": 77068,
+          "sha256": "9a14c972c7fa4f47165ffe91142515dd607c90662d6d2c18ab8d2f32af6eab1c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Thyroid/validation.csv",
+          "bytes": 34886,
+          "sha256": "cbce0d75abf3c507c3dfa3595585c14ce7169874dbd5e9887da27846d685b2f0",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Tonsil/test.csv",
+          "bytes": 65509,
+          "sha256": "a62a6d503b0916d127b8deca8a07e0a15eb733f0ca178e135c5af16829f3b233",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Tonsil/train.csv",
+          "bytes": 104229,
+          "sha256": "0aa4d3c6962d46e23f4f8a5bee59140b05ccf2c5326e1bee9fed48e7ba4e14d6",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Tonsil/validation.csv",
+          "bytes": 37470,
+          "sha256": "5fa53d37d63270b0fa2ba65c8dca46513a910aec397ac4686d43460325a2c22d",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Urinary_bladder/test.csv",
+          "bytes": 68940,
+          "sha256": "09f3ee8c6ad1819ea5028adcfa61a6198caa4b16a5abf970e9c5e741bf3d4581",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Urinary_bladder/train.csv",
+          "bytes": 102476,
+          "sha256": "88d711424a6ea42adc89d4e0c30533ce671c19371f83a1ffae0dbbb57db21e93",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/Urinary_bladder/validation.csv",
+          "bytes": 33913,
+          "sha256": "4357427b3683d48fec0e4fd442079fc75880becb2daec1b2481c89edf6de75e8",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/3utr/data_provenance.json",
+          "bytes": 9444,
+          "sha256": "1f5d5682dbd71b58874712c59640119b5ed5e6ba1d53006fd1f0785cc40a36b8",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/3utr_tissue_fullft_small_20261026/data_provenance.json"
+        },
+        {
+          "path": "bert2bert/3utr/data_split_summary.csv",
+          "bytes": 1000,
+          "sha256": "33280dc1df08d634e367de7f5e12ee0f5f3059bde381c5d4734e8467f6e15fb6",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/3utr_tissue_fullft_small_20261026/data_split_summary.csv"
+        },
+        {
+          "path": "bert2bert/3utr/data_splits.json",
+          "bytes": 4287751,
+          "sha256": "302bc9e53fb3b305d42ddd7d2f27fd7a2307d6b8b1768620fffffe1f9273cf8c",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/3utr_tissue_fullft_small_20261026/data_splits.json"
+        },
+        {
+          "path": "bert2bert/3utr/original_validation_records.json",
+          "bytes": 190393,
+          "sha256": "28db3a30ab2b337e2d6a80f57e2e6c41e5d9d19136e043096a60fbcf7742d544",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/v2/3utr_validation_records.json"
+        },
+        {
+          "path": "bert2bert/5utr/Adrenal_gland/test.csv",
+          "bytes": 211875,
+          "sha256": "f476cb2976ad99bfd169a538d9137fe1e5bdbbfd9b8db3fab8cff3628f5dab63",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Adrenal_gland/train.csv",
+          "bytes": 354129,
+          "sha256": "ef7396e5f6c6509353cf4957dcdbd98a78f70e9fe628af32ee32af9b3561ebce",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Adrenal_gland/validation.csv",
+          "bytes": 59127,
+          "sha256": "0e605dc5fa75d03a4575fbaa7dbaa14a6f88bd124ca39f38fd1271f7eb832811",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Appendix/test.csv",
+          "bytes": 180655,
+          "sha256": "04896ca094bf43fb38df5d27f7a35fd116c926658d16ed6d733ff5c26af5a045",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Appendix/train.csv",
+          "bytes": 342742,
+          "sha256": "5756b43662d61a9f5eda48b3ce37b59e2c8f72a0f4b5a2ae9298526b4e3be523",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Appendix/validation.csv",
+          "bytes": 57624,
+          "sha256": "000007593a393a843971146643e979963054da789ac3eee01f636f27986f2da8",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Brain/test.csv",
+          "bytes": 214748,
+          "sha256": "09882915a00aeb07ae50c98212c1bc8f2a0567b0bb5ee1d8bb3c21490be6de6d",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Brain/train.csv",
+          "bytes": 428156,
+          "sha256": "ede73d6726f8ea72919bc8dbcab9ea3fb377abd8bce7f2acb12f81c0a56b98e4",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Brain/validation.csv",
+          "bytes": 83196,
+          "sha256": "f1f402d6c8dbdc8b84e9c1c1d1fbb257ca8d1b321fe2de94bfe84d0a2acf49c0",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Colon/test.csv",
+          "bytes": 214209,
+          "sha256": "56c69661340300f895a0876598223895054860da944079b23b20e12109b6f39c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Colon/train.csv",
+          "bytes": 384868,
+          "sha256": "7cbac46d4c1bfa5f990d94600ef9dc6cd31e0e9f0ce1e414c13fb5215cf0bdc7",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Colon/validation.csv",
+          "bytes": 75657,
+          "sha256": "4d7636f115488db07cb39633f7a57b098a22d1484ab04238f00bc0d66f4b5903",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Duodenum/test.csv",
+          "bytes": 225458,
+          "sha256": "1844749ea8e0f852422a5cf0b894b0f4cc119c0705f02952677f955b31e556e8",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Duodenum/train.csv",
+          "bytes": 356902,
+          "sha256": "2b0900baa7f15ff4c57e8bd80cc10650cd3595fb0280584120cc2ff3c20974df",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Duodenum/validation.csv",
+          "bytes": 69811,
+          "sha256": "3d8fedff87297be6edef5da5628c60975aecd216ba51a4a069639f7ec9eb66b6",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Endometrium/test.csv",
+          "bytes": 222565,
+          "sha256": "faea187993895f0af8c659eaff9aa58236afd7f0d70ff8f2ca40d2a1be0ad14d",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Endometrium/train.csv",
+          "bytes": 354449,
+          "sha256": "f33f403f6902b48e4f08ef252d78bae4a9ab2e23c2f6d9a467a5283256f313b1",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Endometrium/validation.csv",
+          "bytes": 58988,
+          "sha256": "6f99f8d9753e31db5cf742ecb27378ba27af96516cf28e20e0e90f82578007d4",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Esophagus/test.csv",
+          "bytes": 213786,
+          "sha256": "46f42491727f19466ec0b27dff995f59dfdcebdf1e5bd6a821bf38daed1c99b3",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Esophagus/train.csv",
+          "bytes": 324052,
+          "sha256": "8cf1364a63c7d8d9df139874a76e43e1426363cc27138563b12da2ece0238516",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Esophagus/validation.csv",
+          "bytes": 61109,
+          "sha256": "200611eba7a0dfea3e7730143eb689cd770db3347073bbb5dc563a87f11d51b4",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Fallopian_tube/test.csv",
+          "bytes": 209538,
+          "sha256": "e062707f66ae379730ad6a64a4926f6e1f72d4895c0ac0e755c86ba9659074fc",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Fallopian_tube/train.csv",
+          "bytes": 421916,
+          "sha256": "5b9ada6c9d754169ba4b6fa139cf452b91c38addd21ccbd0acf4b6b73acff25e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Fallopian_tube/validation.csv",
+          "bytes": 76077,
+          "sha256": "50fcdf451712eb01e6a2622ff052e8445c6bc3b3aa73111a9f0cc6937eb1c9d5",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Fat/test.csv",
+          "bytes": 173919,
+          "sha256": "154048855805a07bb8de7f70d506440206dc93179b85deab7b1dad9d65b5f3f5",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Fat/train.csv",
+          "bytes": 277727,
+          "sha256": "c7779f6f07dbffdb1f3aea51dc893649648e56d37c4b66184280a17716ec7372",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Fat/validation.csv",
+          "bytes": 56561,
+          "sha256": "81ea3a4de010506fe0f836c8c543b1f9e3d59f52063b842b80ca8db3398a057a",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Gallbladder/test.csv",
+          "bytes": 214304,
+          "sha256": "0df3618620c575f02a3213061bcc64050dac574a167a346b4115cf5629961241",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Gallbladder/train.csv",
+          "bytes": 340275,
+          "sha256": "aa437432acb02e33221c2d93171d7824f98222923e331cc65ec1acc43c5e5fc0",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Gallbladder/validation.csv",
+          "bytes": 64778,
+          "sha256": "d4957e158eaec7550d37b179593021aeff5bbde307b4792305a7132607465b8c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Heart/test.csv",
+          "bytes": 180303,
+          "sha256": "251ef7367a9f7652f480e0d967f22ee458334abb1fe15fe3b95ea230b064e109",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Heart/train.csv",
+          "bytes": 290502,
+          "sha256": "ebbd9bb5a878a7fe29b34dcc111551f339f2b87261bb3afed2a0cc37260c8f27",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Heart/validation.csv",
+          "bytes": 55607,
+          "sha256": "1cf80bc1be372bca39dba461ecc3bd2aedf59bd054a3d94aca12d7c7d3728673",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Kidney/test.csv",
+          "bytes": 201223,
+          "sha256": "902b25ab0cd85857e5b2f4ad8d1d4dc1e1e44665c95abc505ab80cd6dbe9849f",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Kidney/train.csv",
+          "bytes": 329626,
+          "sha256": "2505fb23e7fd71c89e11aaf67abe73fe7142570689fdeae6027f90eca575f8e7",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Kidney/validation.csv",
+          "bytes": 61254,
+          "sha256": "c3650093ece698577fa36786c0d311dac660ec049406ceb2b25e655504995260",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Liver/test.csv",
+          "bytes": 192962,
+          "sha256": "99182218ae67dde8c2b3c7f9a76f20b630c81609c29a4b69a1c54b49307a5d51",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Liver/train.csv",
+          "bytes": 322323,
+          "sha256": "4d166a4f08e366117ea6778d17da9a965834d33d5ac438a621597fed998a6510",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Liver/validation.csv",
+          "bytes": 55637,
+          "sha256": "69111f9f03ace7546fdcc47e0a57ab2eaaf1b982eda2fbe2206afe356eef9ffc",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Lung/test.csv",
+          "bytes": 221559,
+          "sha256": "dc020f09c6abd19819108d766bd5cf27cfbec8cf109330123947f0adb35fde53",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Lung/train.csv",
+          "bytes": 491203,
+          "sha256": "4339a68a8e1712ccfef642957dae0212d79753167c7a0c8dbd4b33d07a456591",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Lung/validation.csv",
+          "bytes": 94779,
+          "sha256": "e0c8bb56c3302cf71ef474dcd6a1afcbc7f0d9f252045df70c23eb4377700639",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Lymph_node/test.csv",
+          "bytes": 188303,
+          "sha256": "ba4012835f1128c49e5d8b37d44f104ab47df6ad16a62d3f47c64a5b41566eb6",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Lymph_node/train.csv",
+          "bytes": 274742,
+          "sha256": "9d072f9981beadd6a5e93b96a92fa438e32fb72f16e546f309f5412f0a136300",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Lymph_node/validation.csv",
+          "bytes": 52679,
+          "sha256": "9033534bd9695db6312d923156e0c65142e128d93f8d74e0d78f45337f59e8cb",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Ovary/test.csv",
+          "bytes": 200369,
+          "sha256": "b7d3c61b58ac4896b15318f683985a68f247cfb361d4d39f3eb4a6a9a00ffa00",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Ovary/train.csv",
+          "bytes": 342257,
+          "sha256": "e8d2b045239bdc27beb159376a1d5d5f6930788efa52e3c29a082838a0df5458",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Ovary/validation.csv",
+          "bytes": 60446,
+          "sha256": "1d4f243a9bd63861bebabb7daff74b300a9992933d7942ffdd859100ac9d786f",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Pancreas/test.csv",
+          "bytes": 145142,
+          "sha256": "488ec4998def05acd84bf8567d41d201399b790e99f8bea9d30e5d56b4155d57",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Pancreas/train.csv",
+          "bytes": 268348,
+          "sha256": "8d48652156301db2826c0ca6c2c98aa86cc2aa61b7b86ee82c06b6ca71a4990d",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Pancreas/validation.csv",
+          "bytes": 50906,
+          "sha256": "b7182267af6ca0ef6b299cd44a5782c0ab9240853f0ed2772848cf716e7e7fe5",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Placenta/test.csv",
+          "bytes": 211110,
+          "sha256": "d135610708fbaad146542d7ebfe485e41d0724975b1f270c9ec44ebe8d73ceaf",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Placenta/train.csv",
+          "bytes": 352631,
+          "sha256": "7271e4f41f410475101c3b6fbf7e558648fe10e0b270fab8517848b3b2ade245",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Placenta/validation.csv",
+          "bytes": 63354,
+          "sha256": "835265cb4797fb307bcdde133fc193111955f3709a90281535de6ddeb5225061",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Prostate/test.csv",
+          "bytes": 207333,
+          "sha256": "88b3cfb7e73cd50452a0d093ab6ea433f158f4e9d00c95a70ea0e51fcf8b89fe",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Prostate/train.csv",
+          "bytes": 332212,
+          "sha256": "ad8154d11bfe6b5c5cc110ed1dd383aeb054452e47dbc870ad2373b8ebb3db98",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Prostate/validation.csv",
+          "bytes": 62385,
+          "sha256": "e288eccb62264a819f487f48eb85bed9127a9cc4c36db1ba15c3f7f5f6f3e89c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Rectum/test.csv",
+          "bytes": 204608,
+          "sha256": "f714438f3ac0637d635fea52e70aebda854d0b32d54dc1d0a7116277534d629e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Rectum/train.csv",
+          "bytes": 321650,
+          "sha256": "4000ce8c88ad04d4e6accd609416ddb25ac8f48d4523e80be2fafc8c4e6f459c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Rectum/validation.csv",
+          "bytes": 61608,
+          "sha256": "a807154827db2f36c27ae0850ef5849b9bf1a4e1417a244fd20af0e0fdb3b7fe",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Salivary_gland/test.csv",
+          "bytes": 180108,
+          "sha256": "fa1d36b9db6760527f69a65fc521bc12abf81ebb913457b7916abb2e21b7603d",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Salivary_gland/train.csv",
+          "bytes": 287034,
+          "sha256": "a688d1008cf1a83be6741b9597daa2c61b83e492783dcf394cec5e9ea82563cc",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Salivary_gland/validation.csv",
+          "bytes": 52868,
+          "sha256": "5100592350123022a1693920a6e97ce34039852c5543cdb2ad1706457571942c",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Small_intestine/test.csv",
+          "bytes": 241397,
+          "sha256": "2848bd6584f1da84832efe6ba2ba92ff299cbc4ee00ead96de31b7ecb3558e3b",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Small_intestine/train.csv",
+          "bytes": 415913,
+          "sha256": "3c584c3ceda9bb0048fbb2e36616a9e3995f4c1e3c685bf874067e38a07ad1d3",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Small_intestine/validation.csv",
+          "bytes": 74608,
+          "sha256": "6d364194b295eeb3bd7c4ea49ca8775271c032acebecfc534fdcb5300271c833",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Smooth_muscle/test.csv",
+          "bytes": 193541,
+          "sha256": "76fcbbd3625e9df919002addc288ba907efa3fdb0ce54c8f9e0d0ea017028eb1",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Smooth_muscle/train.csv",
+          "bytes": 302927,
+          "sha256": "9a34e39f5f2489e01ca29efe4f615acdd48360b675a5efd48106cabf0fc161d1",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Smooth_muscle/validation.csv",
+          "bytes": 57975,
+          "sha256": "0814a288b15f6dc29ff3dc58ccf3c223c742c5edb8c86e51bf9dfe619430aad5",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Spleen/test.csv",
+          "bytes": 183024,
+          "sha256": "a8ed29e6c058d66fb2a1cd2863e0a3c3d02d8bbc5a2da1c5a972e6ff7f9b346f",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Spleen/train.csv",
+          "bytes": 271324,
+          "sha256": "9e97f1f58a7a1e4938e31fede00dd72989e1768a52530a65b1c8c25a30e692ae",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Spleen/validation.csv",
+          "bytes": 50896,
+          "sha256": "2920c558c24137585c19a17c6ee79c2004c764bc7bd4d4de41a401483f3cfe2e",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Stomach/test.csv",
+          "bytes": 216844,
+          "sha256": "f3a18a1cdb3f433e75a5754613eb3a4a83712e4b1c3c7671820d7e458e5813e5",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Stomach/train.csv",
+          "bytes": 356161,
+          "sha256": "a1158f59e78fc3eef60dc4b7684d70ea3e17c67ad8b7e2568b50df071c212099",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Stomach/validation.csv",
+          "bytes": 65741,
+          "sha256": "48f2811d5a216340370f5bbf538616bdaaf7bac3aa7053b57d3bff7e778d8932",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Testis/test.csv",
+          "bytes": 220984,
+          "sha256": "1a7f55a4cac47d8566a3a3e9fc6cb6d8ab508414174d7471012e9b4c311a90cc",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Testis/train.csv",
+          "bytes": 444041,
+          "sha256": "eb71b2e7e79104dcb0420b9bcca04bd3930c2c6421fba97c16eea4c0b15e7b47",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Testis/validation.csv",
+          "bytes": 85136,
+          "sha256": "f879524f6e79403349606a5829f01dd976f667a424715224d8e23eed798b29fd",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Thyroid/test.csv",
+          "bytes": 195375,
+          "sha256": "4bb5ce13c752e70d6e0072c74889988a664644bce9f58e9f62798f88fd68daee",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Thyroid/train.csv",
+          "bytes": 323572,
+          "sha256": "9da87c03064f546b98a9b26dab0148241befe5dd85cf3d585df51788f48ceb83",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Thyroid/validation.csv",
+          "bytes": 59223,
+          "sha256": "12d3db8da62ef290583f82e05cb4a12f0da7235af15d7ff4101d4d1c770d63e0",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Tonsil/test.csv",
+          "bytes": 206243,
+          "sha256": "743f2792400ea93d9b79bf7396e0af1a40f30c033aa9f2b85ee2df16ae54e145",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Tonsil/train.csv",
+          "bytes": 364932,
+          "sha256": "2df700d7828dd536cf7f3f603d00b74f9d28f8c3671d89cb02091028aa1b48c9",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Tonsil/validation.csv",
+          "bytes": 65349,
+          "sha256": "6cbffa710b003dcb9e92e0a9c33298dcb326496bb20491647a13a4b023ea0c1b",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Urinary_bladder/test.csv",
+          "bytes": 211967,
+          "sha256": "6923f6b06a8b33800d39313dcc5344e9d0baf065f2f19bdc4ef80e224168edec",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Urinary_bladder/train.csv",
+          "bytes": 344844,
+          "sha256": "ffd22aa10e1aa09310dd9be69f330aa66dbd9188d662ea4096933fe1b872b7b9",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/Urinary_bladder/validation.csv",
+          "bytes": 65431,
+          "sha256": "8665efd29d3463bb59c77dc4f22b1d3a351e90e7a15fd91421fb5aeef33e6262",
+          "derived": true
+        },
+        {
+          "path": "bert2bert/5utr/data_provenance.json",
+          "bytes": 9362,
+          "sha256": "87347de82a5e3ced3207a5b073426343c864cbab3b6e9463be40a39d8030e3e3",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/5utr_tissue_lora_20261025/data_provenance.json"
+        },
+        {
+          "path": "bert2bert/5utr/data_split_summary.csv",
+          "bytes": 1272,
+          "sha256": "cc01cb990b681debd68257e04555f4cc296b9687cc5bf6048534ec70ad1fbf30",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/5utr_tissue_lora_20261025/data_split_summary.csv"
+        },
+        {
+          "path": "bert2bert/5utr/data_splits.json",
+          "bytes": 12823363,
+          "sha256": "060a5760c791697da3b8c3db79f8f9592e8516eef5e043990a65e5a183d7d121",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/5utr_tissue_fullft_paired_20261026/data_splits.json"
+        },
+        {
+          "path": "bert2bert/5utr/original_validation_records.json",
+          "bytes": 180074,
+          "sha256": "e40080d3a359456085451d3eec88342207aa7ab9bd82f6cc8139ce09f7b2d5bf",
+          "source": "mRNAviewer_compare/evaluation_results/UTR/v2/5utr_validation_records.json"
+        },
+        {
+          "path": "data_preparation_provenance/convert_tissue_csv_to_txt.py",
+          "bytes": 7383,
+          "sha256": "8e6f119f8bceee0504c786cffe1473be304d3df55e95b5b34863b4634277baf7",
+          "source": "codon_cds/scripts/convert_tissue_csv_to_txt.py"
+        },
+        {
+          "path": "data_preparation_provenance/finetune.py",
+          "bytes": 10998,
+          "sha256": "585d3c81fad0b54bd254f27f9c779810c42cfe72d4eb88d79af6c0938b643949",
+          "source": "xspec_utr/finetune.py"
+        },
+        {
+          "path": "data_preparation_provenance/finetune_5utr_tissue_lora.py",
+          "bytes": 22953,
+          "sha256": "18ba3192bfb8862c699483ba894f786a8d096a3d96176b73c71067157f1125e1",
+          "source": "mRNAviewer_compare/finetune_5utr_tissue_lora.py"
+        },
+        {
+          "path": "data_preparation_provenance/prepare_3utr_tissue_finetuning.py",
+          "bytes": 3985,
+          "sha256": "ae825580bd5c051f20cde305697ce126a4f48d447b25eea7c2ca54e37d834d55",
+          "source": "mRNAviewer_compare/prepare_3utr_tissue_finetuning.py"
+        },
+        {
+          "path": "data_preparation_provenance/process_tissue_data.py",
+          "bytes": 5536,
+          "sha256": "d7e66abc78bd62a91e1dfede1c787bda368c536a26efcc22d28b66f54d1991b5",
+          "source": "xspec_utr/process_tissue_data.py"
+        }
+      ]
+    },
+    {
+      "file": "cds_sequence_pairs.tar.gz",
+      "bytes": 73615159,
+      "sha256": "31386c88e2a28c14154af0502af80c0901eab24e66de357b5c9a548edad2f8c9",
+      "uncompressed_bytes": 186709370,
+      "members": [
+        {
+          "path": "cds_original_csv/Adrenal_gland/test.csv",
+          "bytes": 330437,
+          "sha256": "fb5a73f636e84e7743736c7684010a591f00e8e55d51df9b564524004ccedcc1",
+          "source": "codon_cds/tissue_data/Adrenal_gland/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Adrenal_gland/train.csv",
+          "bytes": 2720953,
+          "sha256": "ce574e0d435fa03db986606dcdbb7874b0f3e43fa4a8cecdc11c5436f6ebdb0d",
+          "source": "codon_cds/tissue_data/Adrenal_gland/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Adrenal_gland/val.csv",
+          "bytes": 325477,
+          "sha256": "f149177476632440f1c04cf1bce95137366dd6aa943cb59e0d3bd73994837bf5",
+          "source": "codon_cds/tissue_data/Adrenal_gland/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Appendix/test.csv",
+          "bytes": 325775,
+          "sha256": "4c135b0c751b25b5f7cfc4130c9f36422cdb8529ef63ac6d8c89acfe56085302",
+          "source": "codon_cds/tissue_data/Appendix/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Appendix/train.csv",
+          "bytes": 2420633,
+          "sha256": "e25b02fbe7491f1f0858da4141835150e685b33cbeabc29428aeea9b46d57c8f",
+          "source": "codon_cds/tissue_data/Appendix/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Appendix/val.csv",
+          "bytes": 311075,
+          "sha256": "7d9fac551c643fd5edc3b63e84d1b293a9b4a775157a470566a7d3b6c516f7bf",
+          "source": "codon_cds/tissue_data/Appendix/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Brain/test.csv",
+          "bytes": 323970,
+          "sha256": "aec5177ebdff5d18d149e41a0dae759b375101dda2f12ae855afc883eaa00f0a",
+          "source": "codon_cds/tissue_data/Brain/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Brain/train.csv",
+          "bytes": 2666058,
+          "sha256": "54d4191b4c1c05bd830ef642fcebb32e0cc2d44224545751b86240452d400b6e",
+          "source": "codon_cds/tissue_data/Brain/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Brain/val.csv",
+          "bytes": 345150,
+          "sha256": "6550ea0109f9eb1ca4118935a081d72c49b3a564d2575c1bd7644e9e619cd608",
+          "source": "codon_cds/tissue_data/Brain/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Colon/test.csv",
+          "bytes": 343047,
+          "sha256": "0e21dab1f0793866ca328c9edac2361bb3189dbcf432e1ebc466ac1a54ce6e0d",
+          "source": "codon_cds/tissue_data/Colon/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Colon/train.csv",
+          "bytes": 2700955,
+          "sha256": "5409276c51395df53141afbaf1847a3343414e9ac067efc04733edfde5b6a45e",
+          "source": "codon_cds/tissue_data/Colon/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Colon/val.csv",
+          "bytes": 337976,
+          "sha256": "e862c182b3150d3a25f13242df999aa9883791e4b3ccaf7c012017725b590c8c",
+          "source": "codon_cds/tissue_data/Colon/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Duodenum/test.csv",
+          "bytes": 344133,
+          "sha256": "fbc256ec15e8d462ce431dcb20803b51ddca5960c678eb4172ade2b757fde6d0",
+          "source": "codon_cds/tissue_data/Duodenum/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Duodenum/train.csv",
+          "bytes": 2814197,
+          "sha256": "727137643f3802be52f76e237c59b7a953834d6436eb257cb5f18e93b551e67c",
+          "source": "codon_cds/tissue_data/Duodenum/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Duodenum/val.csv",
+          "bytes": 364390,
+          "sha256": "7a0e1aa5f13b7fc8e41d5e01d242aed1310d2369e55cb0da76f3d19296d4c286",
+          "source": "codon_cds/tissue_data/Duodenum/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Endometrium/test.csv",
+          "bytes": 341838,
+          "sha256": "588a468ae1a4ac568be7afa31aa04eeee0274e881b86f9d73aeee1a1a7e7f265",
+          "source": "codon_cds/tissue_data/Endometrium/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Endometrium/train.csv",
+          "bytes": 2747398,
+          "sha256": "c4e109ba3e78aaa8f27d916720f4abb24f50064f2d7a611f2a0adc40b27b530d",
+          "source": "codon_cds/tissue_data/Endometrium/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Endometrium/val.csv",
+          "bytes": 336157,
+          "sha256": "fa7b063ff779898f4e6b2addab4725951e4afca1ae6db0c66828f131138ea6be",
+          "source": "codon_cds/tissue_data/Endometrium/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Esophagus/test.csv",
+          "bytes": 322441,
+          "sha256": "347b5b09743198fb1a50e74482037cf231f21f80b8208fe35b2ddd4904642308",
+          "source": "codon_cds/tissue_data/Esophagus/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Esophagus/train.csv",
+          "bytes": 2552289,
+          "sha256": "5af5a9de7e64a029e78b5b329ef644fda7bd7e7e55bd7ec30346bea47960216a",
+          "source": "codon_cds/tissue_data/Esophagus/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Esophagus/val.csv",
+          "bytes": 329516,
+          "sha256": "9a59b954318f109b5676e31cb0529771975568ef4786fe1496c0f08b49df4d4f",
+          "source": "codon_cds/tissue_data/Esophagus/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Fallopian_tube/test.csv",
+          "bytes": 368020,
+          "sha256": "f516b0dd070f7b42093153a2de0377b020d00d2069abe9a3c4939ff634d2e196",
+          "source": "codon_cds/tissue_data/Fallopian_tube/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Fallopian_tube/train.csv",
+          "bytes": 2852341,
+          "sha256": "af6899210ddd05dd84b26c650d42c1ee6c44e4925e4c8224ba73f27a5ba6923d",
+          "source": "codon_cds/tissue_data/Fallopian_tube/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Fallopian_tube/val.csv",
+          "bytes": 373197,
+          "sha256": "d1da37e632d76f15cd720f97dfd27fb8c528c2f2157ca661f90e33ceed0bf417",
+          "source": "codon_cds/tissue_data/Fallopian_tube/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Fat/test.csv",
+          "bytes": 284351,
+          "sha256": "3080bbcb0542a4a2c9d3c69721f2505fe658db5f9047ad5efd860517dec10dde",
+          "source": "codon_cds/tissue_data/Fat/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Fat/train.csv",
+          "bytes": 2292412,
+          "sha256": "b71dc58c253bf0ffe2fa2c4ba522e962be7ae5f87a5d0b7c1c59745060674269",
+          "source": "codon_cds/tissue_data/Fat/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Fat/val.csv",
+          "bytes": 275153,
+          "sha256": "3afafac0dfe91de450642f62889b8e33db16edae19461c8bdf4697a672a1de85",
+          "source": "codon_cds/tissue_data/Fat/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Gallbladder/test.csv",
+          "bytes": 337915,
+          "sha256": "2e0bae417683b17fca9f51d5e2508b842f12d71c56f017f15813a9bc59665f13",
+          "source": "codon_cds/tissue_data/Gallbladder/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Gallbladder/train.csv",
+          "bytes": 2711939,
+          "sha256": "37f83a3faa65bbc4c791be4e5697de7dbfb1ce6423d3950117f6ac12dab44b39",
+          "source": "codon_cds/tissue_data/Gallbladder/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Gallbladder/val.csv",
+          "bytes": 332287,
+          "sha256": "37c94e2c802ef5db6c0e1914b8027f4e83028501d2e99d171eceaa23802f6c35",
+          "source": "codon_cds/tissue_data/Gallbladder/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Heart/test.csv",
+          "bytes": 280257,
+          "sha256": "0735e6c42ec1c2bba20dbe189a667d8a2537a1c511c2a7ae7a1630830a50bc2d",
+          "source": "codon_cds/tissue_data/Heart/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Heart/train.csv",
+          "bytes": 2308556,
+          "sha256": "126ba3327f10f6627fb851c93427a67a26d60e1fcab8ec11178a30f5ca65c865",
+          "source": "codon_cds/tissue_data/Heart/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Heart/val.csv",
+          "bytes": 272718,
+          "sha256": "abfc0d2aacae65fb892554e2e47cccc61c5507ec6c07e71586383cb9823b225c",
+          "source": "codon_cds/tissue_data/Heart/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Kidney/test.csv",
+          "bytes": 291139,
+          "sha256": "635c53409d076b48b6d21396e803be3b8d25ec6640668109afeb27e57b659935",
+          "source": "codon_cds/tissue_data/Kidney/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Kidney/train.csv",
+          "bytes": 2436341,
+          "sha256": "244a5f72139d35c78f9d277f7b5c6cd13118e433fc472d4054f6fd3a200ce4d9",
+          "source": "codon_cds/tissue_data/Kidney/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Kidney/val.csv",
+          "bytes": 286431,
+          "sha256": "85e428b8bc2ffeb94a2e2c3843d6bbe93050a917d05500d7760a01d0fcd1133e",
+          "source": "codon_cds/tissue_data/Kidney/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Liver/test.csv",
+          "bytes": 321059,
+          "sha256": "b092bc2f991fb908104344523165b1b8b99fa87b392c4df4365e628357cfcd21",
+          "source": "codon_cds/tissue_data/Liver/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Liver/train.csv",
+          "bytes": 2407099,
+          "sha256": "cf7bbe6c40b20b0bd77375ec8d705263b09a7ec12f2be7582fa079e6a9563abe",
+          "source": "codon_cds/tissue_data/Liver/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Liver/val.csv",
+          "bytes": 276615,
+          "sha256": "a436b4219acc61623c35b6bc2dc3c246bf2c248b44bb2c0e4c7c0c2949a7098e",
+          "source": "codon_cds/tissue_data/Liver/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Lung/test.csv",
+          "bytes": 378369,
+          "sha256": "8afd2c220227f0c1b40ecad8dfc094567b0ea6758ed0b17536746bffb7f2a25b",
+          "source": "codon_cds/tissue_data/Lung/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Lung/train.csv",
+          "bytes": 2985718,
+          "sha256": "36ea7b3c4d796f645a00becee973520271be0f7e2b0fc76c64e8d8750a4379cb",
+          "source": "codon_cds/tissue_data/Lung/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Lung/val.csv",
+          "bytes": 361846,
+          "sha256": "aff4d475349d0facd9d6773cc3ebf7cfbe727749b1926f3fa6a5c1fafe063539",
+          "source": "codon_cds/tissue_data/Lung/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Lymph_node/test.csv",
+          "bytes": 292995,
+          "sha256": "92398170758aacc070d04b3b51bf8f628a481e87ab67306f45b4087d51af9969",
+          "source": "codon_cds/tissue_data/Lymph_node/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Lymph_node/train.csv",
+          "bytes": 2417317,
+          "sha256": "acee34b14c6a5160599263625b45875130fb74f3ad40bc0f6c8b84919b451c13",
+          "source": "codon_cds/tissue_data/Lymph_node/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Lymph_node/val.csv",
+          "bytes": 306487,
+          "sha256": "6de085a042c39f0538b6a9b2ce45219fa5c5e87fe5caaf11daa4928b2f418983",
+          "source": "codon_cds/tissue_data/Lymph_node/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Ovary/test.csv",
+          "bytes": 322732,
+          "sha256": "3cb1d975efcf4f94d4bd64be72b99eb61fcff0de6f1f623bb0044a19fd1e7b8c",
+          "source": "codon_cds/tissue_data/Ovary/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Ovary/train.csv",
+          "bytes": 2439489,
+          "sha256": "d7b90fc6d68da72e43f1856831fdc6923d76d302af70d4bc272b0459a36add3c",
+          "source": "codon_cds/tissue_data/Ovary/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Ovary/val.csv",
+          "bytes": 283204,
+          "sha256": "044a75e6a7ded1784a9595e684d2a82a6cc4b7290152e1abc8b5b839318a8f63",
+          "source": "codon_cds/tissue_data/Ovary/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Pancreas/test.csv",
+          "bytes": 259503,
+          "sha256": "a3bb3fda64c1f87dd37fb26e665df5e32041ded84d37a107d64be46581742e4f",
+          "source": "codon_cds/tissue_data/Pancreas/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Pancreas/train.csv",
+          "bytes": 1943046,
+          "sha256": "501d612c8d68ed9606b2b300eecc19bcdecd23e512e5e158ebd56bca46ed6c40",
+          "source": "codon_cds/tissue_data/Pancreas/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Pancreas/val.csv",
+          "bytes": 252203,
+          "sha256": "94b24b116ce8adc499e26beffe061628864a9ca5c55bafaf6086f62b619f744b",
+          "source": "codon_cds/tissue_data/Pancreas/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Placenta/test.csv",
+          "bytes": 324289,
+          "sha256": "4325bb6ca9f29ade97973f821590296d9f5d5c3a594316973503ec835c80a885",
+          "source": "codon_cds/tissue_data/Placenta/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Placenta/train.csv",
+          "bytes": 2642484,
+          "sha256": "c278ad4ec97d26e7a8027a29fabc433c04610bbc674709cce5781e385c268ea5",
+          "source": "codon_cds/tissue_data/Placenta/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Placenta/val.csv",
+          "bytes": 334621,
+          "sha256": "9d20da04993fd8ca3c0ec64436e94cead63837d892c4f4e6f643996e03a9ec20",
+          "source": "codon_cds/tissue_data/Placenta/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Prostate/test.csv",
+          "bytes": 328847,
+          "sha256": "a23c78e839076144ac632ce6bd93147fc9c07f9583986672fd8f25c7c96ba918",
+          "source": "codon_cds/tissue_data/Prostate/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Prostate/train.csv",
+          "bytes": 2613632,
+          "sha256": "60fe8bf1f753513144e191af273a610f0ba4d414bf27a21f455a66e0132860ca",
+          "source": "codon_cds/tissue_data/Prostate/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Prostate/val.csv",
+          "bytes": 335840,
+          "sha256": "95191d6db1a8110675193ca768f94e9228c6fb554879b99e9847a70ced2cd833",
+          "source": "codon_cds/tissue_data/Prostate/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Rectum/test.csv",
+          "bytes": 334590,
+          "sha256": "30c45dc5d3d286a1bf9fb4faa2933c4aa29b0b0a3764146e358b9c665c284ffd",
+          "source": "codon_cds/tissue_data/Rectum/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Rectum/train.csv",
+          "bytes": 2645993,
+          "sha256": "e4e381f10b51a3fa560b0cfa3aacdf3874c9c521881c10ab6a09898c5a4d7bb9",
+          "source": "codon_cds/tissue_data/Rectum/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Rectum/val.csv",
+          "bytes": 312331,
+          "sha256": "58f215270f229ba7a374ae812dfbd28877f2571a0e6f7eb94ac3dd70e68eaa44",
+          "source": "codon_cds/tissue_data/Rectum/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Salivary_gland/test.csv",
+          "bytes": 305546,
+          "sha256": "180180695bfa4fffc5072eac4ae77d11e3118b33790182e32ab8c01d7df48143",
+          "source": "codon_cds/tissue_data/Salivary_gland/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Salivary_gland/train.csv",
+          "bytes": 2379117,
+          "sha256": "aece38078dd358d9bd051ef8836d6a267f24d0c5512b7231ea187c547b09f4bd",
+          "source": "codon_cds/tissue_data/Salivary_gland/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Salivary_gland/val.csv",
+          "bytes": 315746,
+          "sha256": "b2090f63ce9211ba5ff509574cce4904ef287a93b3cd6ec1f76bff3ca6241132",
+          "source": "codon_cds/tissue_data/Salivary_gland/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Small_intestine/test.csv",
+          "bytes": 347433,
+          "sha256": "135e4ed24d559e5e8856983c794ed2d42826d6183e2611d30382121c37ec44ef",
+          "source": "codon_cds/tissue_data/Small_intestine/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Small_intestine/train.csv",
+          "bytes": 2828186,
+          "sha256": "55f9b8938331c1575f20ffafd22d7fcc39f332993a771cb4922b49bd81c05ec3",
+          "source": "codon_cds/tissue_data/Small_intestine/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Small_intestine/val.csv",
+          "bytes": 342934,
+          "sha256": "8c78e3486190cf53ca9d4efc744d600bc485fbfffa291fca38c6f6d25fbf6be1",
+          "source": "codon_cds/tissue_data/Small_intestine/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Smooth_muscle/test.csv",
+          "bytes": 314909,
+          "sha256": "09ec7addd39746ca41246f4e7c8cb9bf7992c86bb53c7c5e1ef28af9293fc4aa",
+          "source": "codon_cds/tissue_data/Smooth_muscle/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Smooth_muscle/train.csv",
+          "bytes": 2538135,
+          "sha256": "3a11ba78855192b93f3ae94240db4b3bd9445615faf884ea3b6bb76928226678",
+          "source": "codon_cds/tissue_data/Smooth_muscle/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Smooth_muscle/val.csv",
+          "bytes": 311797,
+          "sha256": "4b0cba010d52568df56a4e573b9c4244e6d2b4972c61f50bb5b40e79ff57c3bd",
+          "source": "codon_cds/tissue_data/Smooth_muscle/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Spleen/test.csv",
+          "bytes": 304003,
+          "sha256": "823baa413453c0dec55d14260367e7c560d0f8bd366fa0fbbc71ec0af286c3dc",
+          "source": "codon_cds/tissue_data/Spleen/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Spleen/train.csv",
+          "bytes": 2376274,
+          "sha256": "2493433dc6163200dadac48e2e3d28e3f858bd4dbb5420da7fbea913b62147eb",
+          "source": "codon_cds/tissue_data/Spleen/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Spleen/val.csv",
+          "bytes": 301944,
+          "sha256": "35faa70a92dae4b38f283ef606bbdc375c9a931e173fc5efcf30ba063a60d631",
+          "source": "codon_cds/tissue_data/Spleen/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Stomach/test.csv",
+          "bytes": 337264,
+          "sha256": "d363358ef9c1c6c1cb44301ee4fb8708658e769799d6ceaa8f41610f5168111e",
+          "source": "codon_cds/tissue_data/Stomach/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Stomach/train.csv",
+          "bytes": 2713381,
+          "sha256": "02c6e155c6c3ffce6383fd52a8cd5902a6f54d74d3d40d1d729567f20029b688",
+          "source": "codon_cds/tissue_data/Stomach/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Stomach/val.csv",
+          "bytes": 343926,
+          "sha256": "32866beec7345c8d334e894b910ea0a6c81a6a7d6153c0882fd2866dafc4a349",
+          "source": "codon_cds/tissue_data/Stomach/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Testis/test.csv",
+          "bytes": 348811,
+          "sha256": "b266380bf21769235b2dd22d198374e7d61152818e52868c9ac03663142035f3",
+          "source": "codon_cds/tissue_data/Testis/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Testis/train.csv",
+          "bytes": 2780240,
+          "sha256": "cfc79d1656451063dc7a90442d70f6a52a46a4ad8199cc1dfd3d4416f20ea293",
+          "source": "codon_cds/tissue_data/Testis/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Testis/val.csv",
+          "bytes": 349184,
+          "sha256": "46cf6ae063747aa23c19ed647d68c8bfaab73b335bf30a97274d30aef7b8f7bf",
+          "source": "codon_cds/tissue_data/Testis/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Thyroid/test.csv",
+          "bytes": 317584,
+          "sha256": "284ff28471f04229744812e10d7cdeada56f26b8f8b982d1bcfb0bedce1565d2",
+          "source": "codon_cds/tissue_data/Thyroid/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Thyroid/train.csv",
+          "bytes": 2428466,
+          "sha256": "6501436bde96d31bc56aaf2d2d6a13af7aa922ef9a139675e6bccb482d79709e",
+          "source": "codon_cds/tissue_data/Thyroid/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Thyroid/val.csv",
+          "bytes": 322728,
+          "sha256": "2d13080aefbf1f8ea51efbb9e8a56e8b212c9dcfe2d864d7e649ed627d40a736",
+          "source": "codon_cds/tissue_data/Thyroid/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Tonsil/test.csv",
+          "bytes": 319310,
+          "sha256": "4f686e825828d226ae51569820deb9967dbb0242515b40b7ec9c1c5865790e15",
+          "source": "codon_cds/tissue_data/Tonsil/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Tonsil/train.csv",
+          "bytes": 2628681,
+          "sha256": "5c7f4cba13d1e3b03aad90d9fa3bc49346ebc74cb0f02b461ca0f068457567c3",
+          "source": "codon_cds/tissue_data/Tonsil/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Tonsil/val.csv",
+          "bytes": 334242,
+          "sha256": "ddaff965d17e3907e448d37b8fe468afda059e768665e582ab174887bc58124e",
+          "source": "codon_cds/tissue_data/Tonsil/val.csv"
+        },
+        {
+          "path": "cds_original_csv/Urinary_bladder/test.csv",
+          "bytes": 320973,
+          "sha256": "44089ff97e68036f82316d708a92dd8bb03b4763b903d1fa630994696343364c",
+          "source": "codon_cds/tissue_data/Urinary_bladder/test.csv"
+        },
+        {
+          "path": "cds_original_csv/Urinary_bladder/train.csv",
+          "bytes": 2601037,
+          "sha256": "1393d07acc2e7b8b15445337973312966e596a6e47c0a958f312ce69dda1cc0c",
+          "source": "codon_cds/tissue_data/Urinary_bladder/train.csv"
+        },
+        {
+          "path": "cds_original_csv/Urinary_bladder/val.csv",
+          "bytes": 314477,
+          "sha256": "3bce80a4049ae001af3cb99d2ec1376d787556a27d50334872cd0068b310240c",
+          "source": "codon_cds/tissue_data/Urinary_bladder/val.csv"
+        },
+        {
+          "path": "cds_sequence_pairs/Adrenal_gland/dev.csv",
+          "bytes": 327172,
+          "sha256": "dc0f153540c140e97237cdde34d6c331c9e9e54c0507ab4acfcd910eab3821cf",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Adrenal_gland/test.csv",
+          "bytes": 331637,
+          "sha256": "eb02cfd95735f3cae96bb64eb6d365e0329908cf941ffabdb28df3f4bf6789b5",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Adrenal_gland/train.csv",
+          "bytes": 2734879,
+          "sha256": "ac164efd38101d2fc968f5d20211754752cfeeea45e493bf8c8f2150311846a0",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Appendix/dev.csv",
+          "bytes": 311642,
+          "sha256": "437b8bdc7c180d5f6cb64682a30d84242f18c45a8f10800e3b9a5dd79f36e6a5",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Appendix/test.csv",
+          "bytes": 326342,
+          "sha256": "330ce53e317d7a2938a1179c75633557c9bb8750bcdb5ffd65ba6280e7d0ab7e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Appendix/train.csv",
+          "bytes": 2426014,
+          "sha256": "e97b2ea2156fab0830459fa7f32b3ffba9d69d75623b4ccd66ac3f9dcad89836",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Brain/dev.csv",
+          "bytes": 345180,
+          "sha256": "d5959753b553c77c6c713d109333a3bc4dc7d757cdb36cd9a18104d64786527b",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Brain/test.csv",
+          "bytes": 324000,
+          "sha256": "7c2dd118892280662db5144288fd16955bc330c4d889634c4108f7daf4dcc962",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Brain/train.csv",
+          "bytes": 2668849,
+          "sha256": "50376bd6341c37646a04898201942ead3a6bfbe2f7c970806b0d5159a1a763ae",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Colon/dev.csv",
+          "bytes": 338000,
+          "sha256": "dedf2a6a3a1ad074826592f1c84ee4dda94b829e8c83074006d2b874e6197080",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Colon/test.csv",
+          "bytes": 343072,
+          "sha256": "9ee81947af494783ec9c3993d31a8ab8bfde6b4eefd5b8c94253ff7452723dfa",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Colon/train.csv",
+          "bytes": 2702708,
+          "sha256": "5e57cc9ce7fab6e1bbcffc0bfacb31ed3d0fe5d51ec348fbd3c2de72dbea0f07",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Duodenum/dev.csv",
+          "bytes": 364649,
+          "sha256": "e01b8c30a6e1b056c6d6c57dde54bd460cc6446f7733c3ad578dd84154b59f90",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Duodenum/test.csv",
+          "bytes": 344804,
+          "sha256": "0b4fe494dfb8e5ed031f015b75b20d84c861ffc8cc51ce733a2510d1a0d7a807",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Duodenum/train.csv",
+          "bytes": 2822199,
+          "sha256": "3ec2966c9f9bcc1f31ec938b18f2983d6a3e1a42e15274c365d9c4fef1fce491",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Endometrium/dev.csv",
+          "bytes": 337408,
+          "sha256": "60d50aa5f777367d2541fda215879fc4da0f88c2eea8768071c3e125ce75c3ac",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Endometrium/test.csv",
+          "bytes": 340859,
+          "sha256": "709941ce8b425424e487794eaccf4eca84aa6fe7dca1991b53edb3c5c34f94b4",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Endometrium/train.csv",
+          "bytes": 2757946,
+          "sha256": "45d01b22c8e30d2f3f6aedad476904e72869fe62bb9db205316daecfeeebeee8",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Esophagus/dev.csv",
+          "bytes": 330304,
+          "sha256": "8c028f62ed2b67afccdc801775407fd3a45d1880de46485762f9a8ba42a76115",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Esophagus/test.csv",
+          "bytes": 322764,
+          "sha256": "73bc3d928e9ab596bd0096f70390ee3350cdc255ae733b2e77e0af9a75782fb1",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Esophagus/train.csv",
+          "bytes": 2558264,
+          "sha256": "ec7c183aa42f33733d733ce21ac5a46dad8cb05ed495f086b9ece69bc28713fa",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Fallopian_tube/dev.csv",
+          "bytes": 375180,
+          "sha256": "1d542b20d1c19440fc7609fd1eecb6d9bd93d02d178c939c488436377e4f0cb6",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Fallopian_tube/test.csv",
+          "bytes": 370013,
+          "sha256": "d6afdb92cc2a1528c459262dda9b1ea0e64767d46548829a0368759ab2276b0a",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Fallopian_tube/train.csv",
+          "bytes": 2866992,
+          "sha256": "9ef8a4e9a675641e5dd0afd6006e622bf5266b4377493d76e023d01c762e9cb3",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Fat/dev.csv",
+          "bytes": 273839,
+          "sha256": "f69695733478ea6d2a2fbb1c1c4c129791cb4478ac09e7ab3ac9a2de6b6c1b4e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Fat/test.csv",
+          "bytes": 283555,
+          "sha256": "b3b113280ed64797997c83aa8a5d2294c390718702f267d4a5ee76e56736e666",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Fat/train.csv",
+          "bytes": 2287603,
+          "sha256": "9afebed88d2f818b592d1178ca407d3a9a2eb1becd0e97a62be818d8feef8436",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Gallbladder/dev.csv",
+          "bytes": 333042,
+          "sha256": "bd56da37d9a8e1d5af6b855997d4c6b15ec8b72e09ba691848f4ff7d1e8cff5a",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Gallbladder/test.csv",
+          "bytes": 337989,
+          "sha256": "d5b8f58c1a5dce537972069c020c9c113ee7d3ecd119fc060d19e8f34e958b96",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Gallbladder/train.csv",
+          "bytes": 2723903,
+          "sha256": "70a7fac8ccdd5eb6abb52b7b886e90d8be76adbbacc81e4513fe882340971bf9",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Heart/dev.csv",
+          "bytes": 272716,
+          "sha256": "854d4b72d5ea6e264353cdf840fe27b1722e8c518e9fa06499d2a250717b76d2",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Heart/test.csv",
+          "bytes": 280256,
+          "sha256": "d1b681ae6c5fd6db7cbc8a224547f944bef428e2f6a1134eaa45ef38f2fd234e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Heart/train.csv",
+          "bytes": 2309645,
+          "sha256": "637b48a77f7fecbd7a325885fab7d295b150a92be00bfab2896ab820d39ee27b",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Kidney/dev.csv",
+          "bytes": 286634,
+          "sha256": "a82f14a59d161f1a404b7dc5ada3693f497e50998da103dc5f3518505099a038",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Kidney/test.csv",
+          "bytes": 289927,
+          "sha256": "4470f887823eb24304847ae932a29de360fb786ef0818097922aff8b47295234",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Kidney/train.csv",
+          "bytes": 2438080,
+          "sha256": "0abf7750fc9c7683b042791b4ee4d8c033517c55604ed34c00a4935e290df49f",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Liver/dev.csv",
+          "bytes": 276176,
+          "sha256": "d04745a3a7d8b35554a217cd3e7c962df90d8f5436310d283ae757c2b413d67a",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Liver/test.csv",
+          "bytes": 321064,
+          "sha256": "18882efbc33b327ac785db4abfca4525329a03d4ccdb1a027dbe7b4c95aece8a",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Liver/train.csv",
+          "bytes": 2407633,
+          "sha256": "33c997e02c3b564479fc02fe829774fbbaee054144f4cc8e5dde452e0a2dad10",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Lung/dev.csv",
+          "bytes": 361669,
+          "sha256": "a746bc032f77743774d6dd2f4177fc5173457eafb80a12921770b89b73ff9f90",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Lung/test.csv",
+          "bytes": 377699,
+          "sha256": "3a7085f297ee5168151763ceaa5d6076c9bf8fa2a688700f436d028b0b3016f5",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Lung/train.csv",
+          "bytes": 2985195,
+          "sha256": "4867b69684cbf93666c2ec7e212a4781a64d9cdbf63d0524bb239ce73abb3cc1",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Lymph_node/dev.csv",
+          "bytes": 307450,
+          "sha256": "bd44afc26ad09552d0006c5bd2fd16244d66a03cfcd7470c973204ced8573283",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Lymph_node/test.csv",
+          "bytes": 293958,
+          "sha256": "5d20cb45b5ca6291490d8bd96d65c5c41a752a24266529231b3c9c2c4e721945",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Lymph_node/train.csv",
+          "bytes": 2426085,
+          "sha256": "a9f8a78b5f05cd34df4bffd030a4e08f8332d45ad25bd65f1d7107922b70cc3c",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Ovary/dev.csv",
+          "bytes": 281977,
+          "sha256": "7700bd658de80e67189a946410969a0ba4cc68e61fe81db6946e4ffdd836680d",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Ovary/test.csv",
+          "bytes": 322740,
+          "sha256": "da3c7d6d65df6e7d68f2f0e51b0125f35244a56118a2b15f0c01205c95ba01a9",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Ovary/train.csv",
+          "bytes": 2440299,
+          "sha256": "2ba01090ecae430d29f5b6d810445d2dc74b76ffdccc195ec9283a0a97f8385e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Pancreas/dev.csv",
+          "bytes": 252626,
+          "sha256": "cf8221a59af6a25e2b3f9e6cc321b480045828eb638b1671edb44d5d600edc23",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Pancreas/test.csv",
+          "bytes": 259926,
+          "sha256": "18125d516c00ed51c896cdbbc6979da66c520816939249c6f0d63b0d3ee5df3e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Pancreas/train.csv",
+          "bytes": 1947618,
+          "sha256": "c1f4d16d492f8b8c7248c8aeeff81fe6bc8f96a2fa489e745f238d7219553526",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Placenta/dev.csv",
+          "bytes": 335244,
+          "sha256": "5c93864cdec218c751c3dc0f49a51cec4ee9a7b25935d558219a662b2ea026e1",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Placenta/test.csv",
+          "bytes": 324912,
+          "sha256": "3eaa3e5083b68501bc17dc089f3c450faf628fd1e13aed1ba5ede9874ff00ec3",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Placenta/train.csv",
+          "bytes": 2646813,
+          "sha256": "09fce76c42987aebc3114e3a2a439c4ee808c6acef1d6c502e38492400dae210",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Prostate/dev.csv",
+          "bytes": 336451,
+          "sha256": "b1e348ee79ddbd507ea8d759557d7adcbb47a892e9fc9402a70c09528aa8f711",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Prostate/test.csv",
+          "bytes": 329462,
+          "sha256": "aa151a4d01d12beabebf3840e8ff87df3fbb9f7a4173bb462ebe392b515570a0",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Prostate/train.csv",
+          "bytes": 2617772,
+          "sha256": "83b4bfc174342d007bb07a64d6b0af7f9d0825ed658eb39b902abc696e727ed8",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Rectum/dev.csv",
+          "bytes": 312550,
+          "sha256": "c388cbe6af91030a9f65485d42e03e31851d395405c7bd689b3caca8ed2d22c1",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Rectum/test.csv",
+          "bytes": 334811,
+          "sha256": "b0ce4d8409f28f09a66d30880c77643a23c532ca282088343585bb3e81767a36",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Rectum/train.csv",
+          "bytes": 2650155,
+          "sha256": "ccd27dd4b667f259f722c11b5c4c57679783adbab017eb50e70af54920f19276",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Salivary_gland/dev.csv",
+          "bytes": 317439,
+          "sha256": "103c7633533224f523deea646d68e3ebc86a86a79a6cf30c4cd4335fa10c81d6",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Salivary_gland/test.csv",
+          "bytes": 307239,
+          "sha256": "f9f5ead4904b8d55362085c4570aa39db236d0e8e9f8c2fb47a09455a38a47e0",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Salivary_gland/train.csv",
+          "bytes": 2394847,
+          "sha256": "49c2a0434ec4c3dba83f39815ecc999d27e90dcb5496b8c9521a5d1bdf75b223",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Small_intestine/dev.csv",
+          "bytes": 345078,
+          "sha256": "2978fef323f416f1539caaf9b289522d34ca536159c0e51eadd877613e8b9cf7",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Small_intestine/test.csv",
+          "bytes": 349588,
+          "sha256": "6230eacd2e5ce14e3510bcbb818d2f6e95fb4118c780e00e30ecd6ae435c82e4",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Small_intestine/train.csv",
+          "bytes": 2846764,
+          "sha256": "b0f6f6525ebb10d5631b80e41d0985136f48b458a2ebd5aae59b43de5069b8cf",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Smooth_muscle/dev.csv",
+          "bytes": 313384,
+          "sha256": "7198fd3f33af2baaa961cb05fba4734c59a35a7c6d42e8ea8c886e274bc5669a",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Smooth_muscle/test.csv",
+          "bytes": 316496,
+          "sha256": "95f614f451a44b521e6c7d50368962f415f0b3fa1e450e44a2f314d7fe579a18",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Smooth_muscle/train.csv",
+          "bytes": 2550980,
+          "sha256": "76cb109fdc0d621c7c169adcfa7c9cd286ad1cde936d5bf5408e625c0efa5cbf",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Spleen/dev.csv",
+          "bytes": 302137,
+          "sha256": "eb1929064ac11569ae0a5d673f594b20a078002511a6c0018e7bb3aa810d6f67",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Spleen/test.csv",
+          "bytes": 304198,
+          "sha256": "7ac778217192f30881ff97d2bcbf693cddb152c294ddd83fb405f43ebc15d8ae",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Spleen/train.csv",
+          "bytes": 2378850,
+          "sha256": "5ce497128447a89c3ae265832c355fb43fda40076adac0a4feaeb3401b6ead0d",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Stomach/dev.csv",
+          "bytes": 342780,
+          "sha256": "711d5d5a9d1f2513301452b7d6ff0015896b1e6f2bf54e5e8dc6cef20ddcab20",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Stomach/test.csv",
+          "bytes": 337714,
+          "sha256": "d352178b3870716d20664339f834cd37c711628adc3305832ee08a31dad520ad",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Stomach/train.csv",
+          "bytes": 2717330,
+          "sha256": "01e40d11747d3d1ef92b3516f086fc1989b03b47fe5964b77b3db0217422e55e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Testis/dev.csv",
+          "bytes": 349433,
+          "sha256": "2854abe831684d8f61c3cc19b5546dbadeb0039ca8244ff54291be1b29818814",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Testis/test.csv",
+          "bytes": 346949,
+          "sha256": "72816290f2a2770c81ea35756b01726aa5dcdff576821f96399f9b0eb0c53700",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Testis/train.csv",
+          "bytes": 2782754,
+          "sha256": "dfedd16ff55ed734a51eca9b9a41da28267a3794d3bfa3ff30e357a11f75182c",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Thyroid/dev.csv",
+          "bytes": 323118,
+          "sha256": "fb51eb60f3f1e6081c547f3d2641cdf5ecee6d55ffd4df8fc80e630cefbe45af",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Thyroid/test.csv",
+          "bytes": 317974,
+          "sha256": "756bc3a8d63d9882e9449512c6119531421a39d54494f64f31283609a5ed3a19",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Thyroid/train.csv",
+          "bytes": 2431150,
+          "sha256": "48a9b1c731df0bfe49528c8cf83b912398c331c14ad1f374d24e4ba808c92e28",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Tonsil/dev.csv",
+          "bytes": 334463,
+          "sha256": "1b04d5ba4e511e90fb148fe8da2a11615c99f8266844cdd274c0eaba5138fe59",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Tonsil/test.csv",
+          "bytes": 319531,
+          "sha256": "ef1703cb2dc552cc4b7324abbb9a6d9b31cf43dbede132b268dc4b395abdd2b3",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Tonsil/train.csv",
+          "bytes": 2631896,
+          "sha256": "a53826a7bc0097f361afabffe8f6fbc0dc990dfa7a114b07b2d9922fc56bdb2b",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Urinary_bladder/dev.csv",
+          "bytes": 316456,
+          "sha256": "e5a8acef7a76ec34c5403afff37a6ca3ef459fc403cbbc18ac5f5a1bf1cd666e",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Urinary_bladder/test.csv",
+          "bytes": 322545,
+          "sha256": "2227ba52dc046e50b402a2bf81974e190fe6afbf2896f1bbdcb7efb987d6dc75",
+          "derived": true
+        },
+        {
+          "path": "cds_sequence_pairs/Urinary_bladder/train.csv",
+          "bytes": 2616367,
+          "sha256": "67edde18862c46c17d650573c27086d8eee97614cd6e0b365c85d67a6f019fcb",
+          "derived": true
+        }
+      ]
+    },
+    {
+      "file": "cds_tissue_data.tar.gz",
+      "bytes": 25293535,
+      "sha256": "a6cf2decded4fc976d8ff040e4acd92865ccc19f1135349c590d8f0dad0bd956",
+      "uncompressed_bytes": 92394807,
+      "members": [
+        {
+          "path": "cds_tissue_data/Adrenal_gland/dev.txt",
+          "bytes": 322544,
+          "sha256": "e3deec1b4f546c14ee56eb8b26ac8910ce4f5c370d0bd4902e7687b4b2b8a24f",
+          "source": "codon_cds/cds_tissue_data/Adrenal_gland/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Adrenal_gland/test.txt",
+          "bytes": 327008,
+          "sha256": "996f06e3dae8a7992b793a052f90b04020320e90d76eeed03505948ce5f8a0dc",
+          "source": "codon_cds/cds_tissue_data/Adrenal_gland/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Adrenal_gland/train.txt",
+          "bytes": 2695455,
+          "sha256": "c6d9f16a57d6e23af9d355fb1ecbc7746f9ddeddc9ff38cb31cc6403536843ae",
+          "source": "codon_cds/cds_tissue_data/Adrenal_gland/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Appendix/dev.txt",
+          "bytes": 308450,
+          "sha256": "81b7da163ce606df4041a4b389da347d30e1932974b2b0626bfad655b7de5364",
+          "source": "codon_cds/cds_tissue_data/Appendix/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Appendix/test.txt",
+          "bytes": 323150,
+          "sha256": "b9edbd257aa1a7c68c4896a8b3e6d1df4469ee94ad3293561f7385e723de960e",
+          "source": "codon_cds/cds_tissue_data/Appendix/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Appendix/train.txt",
+          "bytes": 2398465,
+          "sha256": "bd6147fbd359431edaf5b9b62f01dd267eb7d085f5956d86eedb04eef6161224",
+          "source": "codon_cds/cds_tissue_data/Appendix/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Brain/dev.txt",
+          "bytes": 342231,
+          "sha256": "d5c86fa80f262e55e804a62865637dc0e9498739ef1b04a4965aa7da4e2c7016",
+          "source": "codon_cds/cds_tissue_data/Brain/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Brain/test.txt",
+          "bytes": 321051,
+          "sha256": "a06238b868b4a137337baa67c7963dcbe1b69f04e47bae6f4109f3106724fa61",
+          "source": "codon_cds/cds_tissue_data/Brain/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Brain/train.txt",
+          "bytes": 2642867,
+          "sha256": "ac75f5856a838f6ed62cdb50bec781aa7e97a74363c71081f66dae721cf39ef4",
+          "source": "codon_cds/cds_tissue_data/Brain/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Colon/dev.txt",
+          "bytes": 335141,
+          "sha256": "5590d78890b2bc922ab92638155c87337613c56792d315905709c48a765f5cca",
+          "source": "codon_cds/cds_tissue_data/Colon/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Colon/test.txt",
+          "bytes": 340198,
+          "sha256": "38f32d1019d193c49a5ee14ede95a29a21e3456e1fb0ed0ef05f3f2e17034123",
+          "source": "codon_cds/cds_tissue_data/Colon/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Colon/train.txt",
+          "bytes": 2677558,
+          "sha256": "0a70319e4f1e536a5351f6dbf068b5bc8c0dffe4d10effbc6f3b783b60a2a781",
+          "source": "codon_cds/cds_tissue_data/Colon/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Duodenum/dev.txt",
+          "bytes": 361007,
+          "sha256": "41d77577598e8f1505057296e0a0b24f277f0cac7bdf43b3b7f43c5996ff4465",
+          "source": "codon_cds/cds_tissue_data/Duodenum/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Duodenum/test.txt",
+          "bytes": 341144,
+          "sha256": "9a5b677cac4591676991e5a87523c6e653ef01314153ba2e5c19fd76d8e8fc39",
+          "source": "codon_cds/cds_tissue_data/Duodenum/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Duodenum/train.txt",
+          "bytes": 2790432,
+          "sha256": "5e7803191c2b2e12b8afac11db2704622da6b0c8281ea500aa1e5c18ee4df040",
+          "source": "codon_cds/cds_tissue_data/Duodenum/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Endometrium/dev.txt",
+          "bytes": 333280,
+          "sha256": "7abc000e6baddcb0662c3700ebb11954487bbf2d25e4b22f9d35b2fcb5d21d8b",
+          "source": "codon_cds/cds_tissue_data/Endometrium/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Endometrium/test.txt",
+          "bytes": 336793,
+          "sha256": "bf802f2c76ed8e6c407b55ed1890699edead480458878bfa471e9cec7ee78b3d",
+          "source": "codon_cds/cds_tissue_data/Endometrium/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Endometrium/train.txt",
+          "bytes": 2722744,
+          "sha256": "67fd05cb06852d09704140ab16bc564552f2f9a454f169350461e82412b12942",
+          "source": "codon_cds/cds_tissue_data/Endometrium/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Esophagus/dev.txt",
+          "bytes": 326793,
+          "sha256": "eb7b5886d4a933b982c04c915b09b85be599d86930fa95c378c733e4f3ba8bc3",
+          "source": "codon_cds/cds_tissue_data/Esophagus/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Esophagus/test.txt",
+          "bytes": 319253,
+          "sha256": "abe16707a7fc886a0c4b05fb34b45f3dd0c218595546e2117cb66e5c3f5ea576",
+          "source": "codon_cds/cds_tissue_data/Esophagus/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Esophagus/train.txt",
+          "bytes": 2528053,
+          "sha256": "ed5598977c83aa5ae1e230189ac0978ea5f9f7b444db2d7dee2c9bf5ff5dc2be",
+          "source": "codon_cds/cds_tissue_data/Esophagus/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Fallopian_tube/dev.txt",
+          "bytes": 370152,
+          "sha256": "209bb73ae8ebf383c96aa7124d02599f783599717ad9c64294d90f95cef5346c",
+          "source": "codon_cds/cds_tissue_data/Fallopian_tube/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Fallopian_tube/test.txt",
+          "bytes": 364961,
+          "sha256": "f4ba43c0bd01388a311404f7be38a7ee7740475800f5961b19f03885cd178d6a",
+          "source": "codon_cds/cds_tissue_data/Fallopian_tube/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Fallopian_tube/train.txt",
+          "bytes": 2824343,
+          "sha256": "0059e5bb862ec94cb2d498b7ebe35fb205b0ffe7be40c0a9ac1e1b24761754e2",
+          "source": "codon_cds/cds_tissue_data/Fallopian_tube/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Fat/dev.txt",
+          "bytes": 271719,
+          "sha256": "aedd25c42fda40a7f53a208b2f86cf484a11157e5bdbf4dc77bad2cc1be42160",
+          "source": "codon_cds/cds_tissue_data/Fat/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Fat/test.txt",
+          "bytes": 281409,
+          "sha256": "7a5d3c2a32611252200839887fe5ee50fbe82e5ac0f8661b7d62fd51866c372f",
+          "source": "codon_cds/cds_tissue_data/Fat/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Fat/train.txt",
+          "bytes": 2268598,
+          "sha256": "7077fefb323c5d13c64fcc79023072de9e20d1e227975f382d54fd60fbf6fe0d",
+          "source": "codon_cds/cds_tissue_data/Fat/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Gallbladder/dev.txt",
+          "bytes": 328954,
+          "sha256": "4efa56aa2c790dd475863e4dc4546fabf39010d761938b21093e6bbfc7bbb07d",
+          "source": "codon_cds/cds_tissue_data/Gallbladder/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Gallbladder/test.txt",
+          "bytes": 333902,
+          "sha256": "761fae57192f70acf9cc7b22934b1cbbdcc1d241da3ac3cb84cfdf981c032cd9",
+          "source": "codon_cds/cds_tissue_data/Gallbladder/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Gallbladder/train.txt",
+          "bytes": 2688704,
+          "sha256": "b0fb756f24864d68edae7b0eda8b9bd28848669dc30b5f8d217aeaf685f324c6",
+          "source": "codon_cds/cds_tissue_data/Gallbladder/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Heart/dev.txt",
+          "bytes": 270247,
+          "sha256": "af6b0094e18be142acab40653125716aabed71e44483b97c886e835e4a986598",
+          "source": "codon_cds/cds_tissue_data/Heart/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Heart/test.txt",
+          "bytes": 277772,
+          "sha256": "a922ad748bf9c779a6317e3afe40e36c3dae2681f59626d949585c00e174c84d",
+          "source": "codon_cds/cds_tissue_data/Heart/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Heart/train.txt",
+          "bytes": 2287996,
+          "sha256": "5d9686bcd34bf895689334571c3586a4fc587cf73f82ad0ca08bb2f0e51ad0a8",
+          "source": "codon_cds/cds_tissue_data/Heart/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Kidney/dev.txt",
+          "bytes": 283750,
+          "sha256": "54f738e11555fa087f0f5b5d3ae69d3df3409989d80bffbaae0ea059e5a6e5dc",
+          "source": "codon_cds/cds_tissue_data/Kidney/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Kidney/test.txt",
+          "bytes": 287072,
+          "sha256": "c41747c94f452fdfb32c182ceafdfb047f181a9a8447c0b774929e7d13770297",
+          "source": "codon_cds/cds_tissue_data/Kidney/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Kidney/train.txt",
+          "bytes": 2412853,
+          "sha256": "bd2074728c7dcb9a3cfd92cfdb94c6db6bd2940540392e36f5a8336e5f36ec3b",
+          "source": "codon_cds/cds_tissue_data/Kidney/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Liver/dev.txt",
+          "bytes": 273617,
+          "sha256": "68680e5b6cf9a2198807ee960f6fae4b6176885277e72b3f1e190c5ee0525c04",
+          "source": "codon_cds/cds_tissue_data/Liver/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Liver/test.txt",
+          "bytes": 318490,
+          "sha256": "0e4eccc8bba25aea2cee72414f6852b6d3aa178299482f4ffbbb459286d93d78",
+          "source": "codon_cds/cds_tissue_data/Liver/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Liver/train.txt",
+          "bytes": 2385134,
+          "sha256": "97ec946d4aa3a63f48df651c286549071205f2147d3bde9b093b6d634111a1e4",
+          "source": "codon_cds/cds_tissue_data/Liver/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Lung/dev.txt",
+          "bytes": 358703,
+          "sha256": "4f83c9e245ef45e77084dac2e98b22c6eade12f632799117774e9c6d16b1d17d",
+          "source": "codon_cds/cds_tissue_data/Lung/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Lung/test.txt",
+          "bytes": 374746,
+          "sha256": "43e9b11c7aed5d50337802164bc762c94f1314995977ffe8850255426ef478e1",
+          "source": "codon_cds/cds_tissue_data/Lung/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Lung/train.txt",
+          "bytes": 2958913,
+          "sha256": "64ef81564684107631694df58d7424e746c7d40e2d8c44c7b605dfbf25b6cc50",
+          "source": "codon_cds/cds_tissue_data/Lung/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Lymph_node/dev.txt",
+          "bytes": 303806,
+          "sha256": "0785aca680eca731b3a80a778be9c44330c0bbfe9433c0f96d451a2ab73f45d1",
+          "source": "codon_cds/cds_tissue_data/Lymph_node/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Lymph_node/test.txt",
+          "bytes": 290314,
+          "sha256": "4a6c8c0d2d9a32a65a276929f0ed268a753fa0934d8c0454935b97a757340201",
+          "source": "codon_cds/cds_tissue_data/Lymph_node/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Lymph_node/train.txt",
+          "bytes": 2394907,
+          "sha256": "dc72d0bd0546e217ae9a8ef0323557b116fd229cae1d148e29baa697e04fbde3",
+          "source": "codon_cds/cds_tissue_data/Lymph_node/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Ovary/dev.txt",
+          "bytes": 279387,
+          "sha256": "daf3328fba868a37984d89838b8d26cf3207292a2d0e62c65d6d599e7bc5aa69",
+          "source": "codon_cds/cds_tissue_data/Ovary/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Ovary/test.txt",
+          "bytes": 320121,
+          "sha256": "12283ea2a203c7e8c0f600e081f080f31938a26299c81ca74cbe036bcc76407d",
+          "source": "codon_cds/cds_tissue_data/Ovary/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Ovary/train.txt",
+          "bytes": 2417477,
+          "sha256": "6e8680b108e33379bcca3054b43b02a2f5480c1064e4582e47aa393258847f67",
+          "source": "codon_cds/cds_tissue_data/Ovary/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Pancreas/dev.txt",
+          "bytes": 250082,
+          "sha256": "6f3e3f719cc832a1235b25eb455a1cbd8f94d11e6c06db5ec9f44a450bff78ff",
+          "source": "codon_cds/cds_tissue_data/Pancreas/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Pancreas/test.txt",
+          "bytes": 257382,
+          "sha256": "314f1471b652f512af909d322bd7155b71c824a89a0869c5902d9b31c4b50007",
+          "source": "codon_cds/cds_tissue_data/Pancreas/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Pancreas/train.txt",
+          "bytes": 1925810,
+          "sha256": "3f0ffc1d18bd1cbd3f4876722d1d96bac8b404411f006ef6a7dedb8e8826e2f8",
+          "source": "codon_cds/cds_tissue_data/Pancreas/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Placenta/dev.txt",
+          "bytes": 331800,
+          "sha256": "5975875e4f8269b992bfb360fe112d85cfba61cd7235d23a84ed236471bb8052",
+          "source": "codon_cds/cds_tissue_data/Placenta/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Placenta/test.txt",
+          "bytes": 321468,
+          "sha256": "9a45774f1de3d4c6748ce1179ef75edd662073a34bcabdfb033313674cfc0382",
+          "source": "codon_cds/cds_tissue_data/Placenta/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Placenta/train.txt",
+          "bytes": 2617063,
+          "sha256": "29ccaee43deb589637ae79479db286873f653b0f332e127b4e5b7cc36980edbc",
+          "source": "codon_cds/cds_tissue_data/Placenta/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Prostate/dev.txt",
+          "bytes": 333061,
+          "sha256": "9b89979ed19be344745398524e3477da9e44f5c4506ce887e910a3ed6306232e",
+          "source": "codon_cds/cds_tissue_data/Prostate/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Prostate/test.txt",
+          "bytes": 326054,
+          "sha256": "3597927dfb9104fc47a08d1ef89e9de35da2b171cc4800aaa6b0ae08bd72eb7f",
+          "source": "codon_cds/cds_tissue_data/Prostate/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Prostate/train.txt",
+          "bytes": 2588503,
+          "sha256": "b8ec3b82ad07299858c1d0f3ddd89e10b7cf983c3f4147ea5f5fa751c5f1e78c",
+          "source": "codon_cds/cds_tissue_data/Prostate/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Rectum/dev.txt",
+          "bytes": 309538,
+          "sha256": "fc34b856f3399acbaefc4eae9c88652252b764b8ed6bedfef01a1bab7c12da1b",
+          "source": "codon_cds/cds_tissue_data/Rectum/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Rectum/test.txt",
+          "bytes": 331783,
+          "sha256": "db51811c28900c2562902caabac3fd21123e3a0010df993773ce34afc01fcfc1",
+          "source": "codon_cds/cds_tissue_data/Rectum/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Rectum/train.txt",
+          "bytes": 2623796,
+          "sha256": "a02fc823c382241d891442ef20be0bf099c858271f1aa93a3aa1a167a3911d91",
+          "source": "codon_cds/cds_tissue_data/Rectum/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Salivary_gland/dev.txt",
+          "bytes": 313107,
+          "sha256": "a20650edf8fed73d622f92fbb47c4c4d651fda318d965ab4f4fea7c7346256b8",
+          "source": "codon_cds/cds_tissue_data/Salivary_gland/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Salivary_gland/test.txt",
+          "bytes": 302907,
+          "sha256": "b8a7e623050f3785260f68dde89ce4b199cb24aab4ee6656d5ba507e721c4ace",
+          "source": "codon_cds/cds_tissue_data/Salivary_gland/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Salivary_gland/train.txt",
+          "bytes": 2358208,
+          "sha256": "2f3ac24d6bb99550720706d74bf6e86fda344c04244fd4e5a660ef8e499e7b4f",
+          "source": "codon_cds/cds_tissue_data/Salivary_gland/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Small_intestine/dev.txt",
+          "bytes": 339959,
+          "sha256": "85f0fe0f33b0b9c9939c9d5a0d102a3588416aae6353448de91a17c145c5b97b",
+          "source": "codon_cds/cds_tissue_data/Small_intestine/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Small_intestine/test.txt",
+          "bytes": 344444,
+          "sha256": "313479ee5e2023594babea2322927342e4d891d457e4f85ea94edf08bf6b5028",
+          "source": "codon_cds/cds_tissue_data/Small_intestine/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Small_intestine/train.txt",
+          "bytes": 2803367,
+          "sha256": "729e3824ff7af3b978e1a189ec100fa35486d84df1924c0973eb9bfdba31b951",
+          "source": "codon_cds/cds_tissue_data/Small_intestine/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Smooth_muscle/dev.txt",
+          "bytes": 309032,
+          "sha256": "dc89a9d6a56cf28d6f95008eedaa52195deb9b986ade128227704541a8380ced",
+          "source": "codon_cds/cds_tissue_data/Smooth_muscle/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Smooth_muscle/test.txt",
+          "bytes": 312144,
+          "sha256": "5edb7f1e90a06742022959f0bacde787f64f3f9434804bdd092790268b636957",
+          "source": "codon_cds/cds_tissue_data/Smooth_muscle/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Smooth_muscle/train.txt",
+          "bytes": 2514032,
+          "sha256": "9523482d6af778b07d3b6c9730beb92c474609eca1b9a113368386dfba842654",
+          "source": "codon_cds/cds_tissue_data/Smooth_muscle/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Spleen/dev.txt",
+          "bytes": 299333,
+          "sha256": "7bb74f36af222bb51a49988cd0bab09a3bd35374c28c294f9eff375626c07ba4",
+          "source": "codon_cds/cds_tissue_data/Spleen/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Spleen/test.txt",
+          "bytes": 301378,
+          "sha256": "4bb5823fb90dbec60cb7d2ae091e3a448804465f6f1c5f70e81c061ac2a0973d",
+          "source": "codon_cds/cds_tissue_data/Spleen/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Spleen/train.txt",
+          "bytes": 2354326,
+          "sha256": "d32f9f8936e9913ff1a8d99b6dece160cc0576b3ce12c3fe10b54d8b18ea890b",
+          "source": "codon_cds/cds_tissue_data/Spleen/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Stomach/dev.txt",
+          "bytes": 339434,
+          "sha256": "20faec88678d5dce8f19e91787574d9ecae0a962e2237413cc35d00751d7e36c",
+          "source": "codon_cds/cds_tissue_data/Stomach/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Stomach/test.txt",
+          "bytes": 334317,
+          "sha256": "156a912cf89d329f7c833f67dbf7e3bfb896e2a01b5a88de3f628bdb9179c12c",
+          "source": "codon_cds/cds_tissue_data/Stomach/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Stomach/train.txt",
+          "bytes": 2687883,
+          "sha256": "6ce7c74e15c8522f2afc4d2e507ec1ecabe5b72997f91183b79443617b298999",
+          "source": "codon_cds/cds_tissue_data/Stomach/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Testis/dev.txt",
+          "bytes": 346181,
+          "sha256": "b363ddda31aca230a2ffeb35ee0b3d1806f7d4e8ae4333844f96b9db5f1adbe6",
+          "source": "codon_cds/cds_tissue_data/Testis/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Testis/test.txt",
+          "bytes": 343697,
+          "sha256": "4247a0ea850f858b14e4e7abbc1545fdc4adf90dbd833a71064e5bb366dc9cf7",
+          "source": "codon_cds/cds_tissue_data/Testis/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Testis/train.txt",
+          "bytes": 2754304,
+          "sha256": "2c9fbcbcf68c3c15eda72c18d2ea6105c81e9a807d13249f1dd7a88c01318e4a",
+          "source": "codon_cds/cds_tissue_data/Testis/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Thyroid/dev.txt",
+          "bytes": 320061,
+          "sha256": "1af0dc21741ce13bd15d77c07aac1aa87c69f1c80c5afdec859b52a7c691a987",
+          "source": "codon_cds/cds_tissue_data/Thyroid/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Thyroid/test.txt",
+          "bytes": 314917,
+          "sha256": "68ec5938bbae0483f3dd90cfab2ac37671cb2d8f6968f35a1e538cacb7d999f5",
+          "source": "codon_cds/cds_tissue_data/Thyroid/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Thyroid/train.txt",
+          "bytes": 2404705,
+          "sha256": "b383aac8cff6f978bbada8095dc6c086b32c1b2f66c7bd32bfbd21625b47f55b",
+          "source": "codon_cds/cds_tissue_data/Thyroid/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Tonsil/dev.txt",
+          "bytes": 331435,
+          "sha256": "7416dfdcaf9a4a433e3402b3901628a046cfd96b86ee5a7500c5830bde43554e",
+          "source": "codon_cds/cds_tissue_data/Tonsil/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Tonsil/test.txt",
+          "bytes": 316503,
+          "sha256": "aab804d9a09128e277a6cc3bf49737ca768280daabd52b179e85eee48c053069",
+          "source": "codon_cds/cds_tissue_data/Tonsil/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Tonsil/train.txt",
+          "bytes": 2605464,
+          "sha256": "cc93253c1d5f84680e04b62c8694bf1c704ebde853ada2e26c28d578a1fa8efd",
+          "source": "codon_cds/cds_tissue_data/Tonsil/train.txt"
+        },
+        {
+          "path": "cds_tissue_data/Urinary_bladder/dev.txt",
+          "bytes": 311712,
+          "sha256": "e855dc6feaeb175b6891a23444a47dccebc7d905eb9ee81aec3279ddc7c0ff84",
+          "source": "codon_cds/cds_tissue_data/Urinary_bladder/dev.txt"
+        },
+        {
+          "path": "cds_tissue_data/Urinary_bladder/test.txt",
+          "bytes": 317800,
+          "sha256": "bba02d871f22fdf62d4ccdfaa9c6313583a4a4a106d1132c684638342a931f10",
+          "source": "codon_cds/cds_tissue_data/Urinary_bladder/test.txt"
+        },
+        {
+          "path": "cds_tissue_data/Urinary_bladder/train.txt",
+          "bytes": 2576153,
+          "sha256": "2b828e2a9c994e512a0e13940c547988afc456583ae567654e0634e89941aad6",
+          "source": "codon_cds/cds_tissue_data/Urinary_bladder/train.txt"
+        }
+      ]
+    },
+    {
+      "file": "utr_tissue_data.tar.gz",
+      "bytes": 33725455,
+      "sha256": "3616dcf80367ffe6b396bc71cfd19552d8fe1238a35302188f055895aa9442bd",
+      "uncompressed_bytes": 98051787,
+      "members": [
+        {
+          "path": "utr_tissue_data/Adrenal_gland/eval_3u.txt",
+          "bytes": 12067,
+          "sha256": "8de1c4d63bb54bf91dc91a5fcd6fa99dfea1e32012726c8c09c39a1738d30123",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/eval_5u.txt",
+          "bytes": 23112,
+          "sha256": "fb89ba72c9aab4911401d8bd20ebd22be7be9d8ec0b55cd9061cc2691ab8194e",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/eval_c3.txt",
+          "bytes": 60421,
+          "sha256": "92f56cc83440bbd11b7ebeaa620ef0fdca27ac780b702603a8db475f0a192d98",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/eval_c5.txt",
+          "bytes": 185918,
+          "sha256": "769ed662166b337222260fe44dd044869f0ac6ef4b0008994bd1dca88dfe5ea6",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/tran_3u.txt",
+          "bytes": 124439,
+          "sha256": "8d88829a13aae83496c28cf9d4d43735b6a9fb9c356aca1717f251e0176217f7",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/tran_5u.txt",
+          "bytes": 216054,
+          "sha256": "aec11cdfa5d80d46d055fffda023c306ce8ca59233be3506902a84c4cf410a8d",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/tran_b3.txt",
+          "bytes": 166273,
+          "sha256": "d88ead2151313ddb74b9569693a0b23c918203879678268849e48f170dadd485",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/tran_b5.txt",
+          "bytes": 566652,
+          "sha256": "73a3a1adbb6c4225d0e18358b725f1db36f9bc02a901a3a5e77b851e3d702f77",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/tran_c3.txt",
+          "bytes": 497912,
+          "sha256": "b4c989cbe6f0ecfda59e5127ea0c635d2bb768fb823a45077f0bc378c137a376",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Adrenal_gland/tran_c5.txt",
+          "bytes": 1697187,
+          "sha256": "0911ca66d2c01dc615425043d26b2e06887d74d249d2e0d258d6eccb2288e988",
+          "source": "xspec_utr/tissue_data/Adrenal_gland/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/eval_3u.txt",
+          "bytes": 12665,
+          "sha256": "344e7df7c4fef7dcd044a56c881c13a4e3d911c9e2ae28282091ba084ebc7afb",
+          "source": "xspec_utr/tissue_data/Appendix/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/eval_5u.txt",
+          "bytes": 20476,
+          "sha256": "02882affaca4a38008927938fb157437a306a5636bfaa89ef5baa061df2f6fe2",
+          "source": "xspec_utr/tissue_data/Appendix/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/eval_c3.txt",
+          "bytes": 49194,
+          "sha256": "05e5916775954b4c25a981142ceb9bcac97677883d7f51212dd1bed3b534f8a0",
+          "source": "xspec_utr/tissue_data/Appendix/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/eval_c5.txt",
+          "bytes": 158337,
+          "sha256": "6f3ede3929b31fb941793fa6dfc483595ddb289135e0efb6db1bedcd86d4cc1a",
+          "source": "xspec_utr/tissue_data/Appendix/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/tran_3u.txt",
+          "bytes": 114519,
+          "sha256": "6a72ef1c5a6fd15721591b26845ecdb8f77c35dd287370866392476ae6fd999f",
+          "source": "xspec_utr/tissue_data/Appendix/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/tran_5u.txt",
+          "bytes": 193883,
+          "sha256": "ed7f0d26dcb379d6442360606fc0a6cf9e7de944c25bec4678ccdf7bbed49f73",
+          "source": "xspec_utr/tissue_data/Appendix/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/tran_b3.txt",
+          "bytes": 158278,
+          "sha256": "349dbdf8a13c905d19830dc5c48a47b03a631b1eb8816a8ebf77b8c5e13d7a46",
+          "source": "xspec_utr/tissue_data/Appendix/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/tran_b5.txt",
+          "bytes": 511958,
+          "sha256": "ee10c009083a92e9259101697544c4932ea67f5081fdd2bd175242c94ab00ec3",
+          "source": "xspec_utr/tissue_data/Appendix/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/tran_c3.txt",
+          "bytes": 473993,
+          "sha256": "388062c46ab478a85137908a524e5d1fff776a11ec5505a4620f19405b3fbb79",
+          "source": "xspec_utr/tissue_data/Appendix/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Appendix/tran_c5.txt",
+          "bytes": 1533413,
+          "sha256": "6829a508ab06417a807b03d2d4de66c234a60dd66a524d3f67b68dfc5c1aeab7",
+          "source": "xspec_utr/tissue_data/Appendix/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/eval_3u.txt",
+          "bytes": 14138,
+          "sha256": "5ed5e2d8d0dbca36998177b7c4d4f3af9ecd55072369cca567f35b678986511e",
+          "source": "xspec_utr/tissue_data/Brain/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/eval_5u.txt",
+          "bytes": 25532,
+          "sha256": "19cbfb51961b75be1dd927742601bb6135bf4f7fa435e99d29665abf6d680b3e",
+          "source": "xspec_utr/tissue_data/Brain/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/eval_c3.txt",
+          "bytes": 53962,
+          "sha256": "8b2a9e8b5848e2cdb616bc2efa068518fb57d6f050c76ac844f2e578aa827a4d",
+          "source": "xspec_utr/tissue_data/Brain/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/eval_c5.txt",
+          "bytes": 187595,
+          "sha256": "b1b7f6ecc16fe7826682d212a5abbb5ab618927c7b6135a29b14865f6796c667",
+          "source": "xspec_utr/tissue_data/Brain/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/tran_3u.txt",
+          "bytes": 119702,
+          "sha256": "8b27962c6563d50502ed451eb7f3407308b7817239ab92c9c87bcccb383723db",
+          "source": "xspec_utr/tissue_data/Brain/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/tran_5u.txt",
+          "bytes": 219908,
+          "sha256": "b2eafd558ac2697d6a8558d8670379d84f19a09caf8f14711b8ca648f969d2ea",
+          "source": "xspec_utr/tissue_data/Brain/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/tran_b3.txt",
+          "bytes": 153146,
+          "sha256": "a419ee1baef7bcabf1a7eb4c9f65c17cc6b58fd96fe18c3c0fff28f19f295b6b",
+          "source": "xspec_utr/tissue_data/Brain/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/tran_b5.txt",
+          "bytes": 557270,
+          "sha256": "94353f51dd814aecd353a8fc2b730f864b45be9adf7a37783300312992470e8d",
+          "source": "xspec_utr/tissue_data/Brain/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/tran_c3.txt",
+          "bytes": 458575,
+          "sha256": "918b1fb10c1cebbabcb42d762a339152448df49ef8b6f30e40785f4c2a412d41",
+          "source": "xspec_utr/tissue_data/Brain/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Brain/tran_c5.txt",
+          "bytes": 1669055,
+          "sha256": "a705aeb3b2b1e44063443429c1e5a51e688d43e4b235222fbf6eafb9dc317f24",
+          "source": "xspec_utr/tissue_data/Brain/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/eval_3u.txt",
+          "bytes": 12258,
+          "sha256": "ad6ad230ff143a8e8a821b2b4b0bb85965419c4f61ff2b5d894e772f6c49092a",
+          "source": "xspec_utr/tissue_data/Colon/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/eval_5u.txt",
+          "bytes": 24060,
+          "sha256": "5c1ef7dd59c0d57b7b79ee64e9aef2abcf218240fda88b50fc0564b237c17707",
+          "source": "xspec_utr/tissue_data/Colon/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/eval_c3.txt",
+          "bytes": 59943,
+          "sha256": "a161c5a4f061f6f1761e75c6ced6fad55beb03039a8a2d43b4b047e68d811e41",
+          "source": "xspec_utr/tissue_data/Colon/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/eval_c5.txt",
+          "bytes": 188583,
+          "sha256": "ad735bfb1aa216ea2a46a211f0d06e693e736b8898bb69334013a22a1b781bfc",
+          "source": "xspec_utr/tissue_data/Colon/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/tran_3u.txt",
+          "bytes": 122476,
+          "sha256": "dea23661c3672a596031c9f5c47ca539c551e9cb2de4dad2cf4f7a2c9df06f5d",
+          "source": "xspec_utr/tissue_data/Colon/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/tran_5u.txt",
+          "bytes": 214733,
+          "sha256": "0db69e185df413df8f4c1732075893c743ed387b669680af2cdcf6253358ab65",
+          "source": "xspec_utr/tissue_data/Colon/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/tran_b3.txt",
+          "bytes": 169229,
+          "sha256": "7603adc8cf6da8d675f1de7fec5d6fb473b09c65ba9c805ce6bbb6d3388178ba",
+          "source": "xspec_utr/tissue_data/Colon/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/tran_b5.txt",
+          "bytes": 566781,
+          "sha256": "69bbc461fc9ee2f4069c0afc9a11c92ab050b959f696c9afb6d5a7dd90d2bf6e",
+          "source": "xspec_utr/tissue_data/Colon/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/tran_c3.txt",
+          "bytes": 506788,
+          "sha256": "721317885cd72142e4dc1ea3dffe1146583150fe57ffe8ff68c4aad1da64e7c5",
+          "source": "xspec_utr/tissue_data/Colon/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Colon/tran_c5.txt",
+          "bytes": 1697678,
+          "sha256": "caf56a3054c2731cd56441d439b6daf070fe65037dd4cd0dc2fc99a40571a3f2",
+          "source": "xspec_utr/tissue_data/Colon/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/eval_3u.txt",
+          "bytes": 14912,
+          "sha256": "15d2996595e624cc621b9b191560e7099f999f7a02e5c9c25c2198fc10c681f8",
+          "source": "xspec_utr/tissue_data/Duodenum/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/eval_5u.txt",
+          "bytes": 23993,
+          "sha256": "fe97e1ffc633950cd50486889028fb4e11bd7a60ce4c301788de273b58c9fffa",
+          "source": "xspec_utr/tissue_data/Duodenum/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/eval_c3.txt",
+          "bytes": 55144,
+          "sha256": "24606fa6d64884ed7a0879e053ac71ad27b0a567b8210a4ff8e70675a7a1a494",
+          "source": "xspec_utr/tissue_data/Duodenum/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/eval_c5.txt",
+          "bytes": 199357,
+          "sha256": "9a910a9dbbabac529fa6435fcfae1c2aa5249d6572c36f2fdc5afbf259d504a8",
+          "source": "xspec_utr/tissue_data/Duodenum/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/tran_3u.txt",
+          "bytes": 132436,
+          "sha256": "84f7db7d63a7259f5c43a0d452a53eba34a869e3b864b69a84d195e3d7fce444",
+          "source": "xspec_utr/tissue_data/Duodenum/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/tran_5u.txt",
+          "bytes": 220588,
+          "sha256": "9da8cf3a168f26c3df89e1f85545aba6c2a98c06f6e36dedc7ca9a56eee95a0f",
+          "source": "xspec_utr/tissue_data/Duodenum/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/tran_b3.txt",
+          "bytes": 180727,
+          "sha256": "ee2e23613bf4a66ddb8556bf0048d5a049326229a0f50012d13ce51fd62a8c83",
+          "source": "xspec_utr/tissue_data/Duodenum/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/tran_b5.txt",
+          "bytes": 587040,
+          "sha256": "9cdc2f69981951843adc3f5c2295c01a755a7c6c41aee0e5da4510663b386843",
+          "source": "xspec_utr/tissue_data/Duodenum/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/tran_c3.txt",
+          "bytes": 541218,
+          "sha256": "c8e90fbc008d4ea08fb771f338a1b82ee03282cdf6cd06c32b00a0a853df7b11",
+          "source": "xspec_utr/tissue_data/Duodenum/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Duodenum/tran_c5.txt",
+          "bytes": 1758327,
+          "sha256": "a667f195f2fc29dd26e94273715631418aab752b37484eb6c0dead9c983abade",
+          "source": "xspec_utr/tissue_data/Duodenum/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/eval_3u.txt",
+          "bytes": 12968,
+          "sha256": "5f35fcc4a72ca28bad72868fad71b9c8ae59d3b799ae0f09a0e339dd3661ba06",
+          "source": "xspec_utr/tissue_data/Endometrium/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/eval_5u.txt",
+          "bytes": 24682,
+          "sha256": "4b8fa944de473b0df3d12a20e06577fe0dd88cdee8a4f5f161a297c8395065bc",
+          "source": "xspec_utr/tissue_data/Endometrium/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/eval_c3.txt",
+          "bytes": 53238,
+          "sha256": "6f79ed625457565003531353f7c9a79ba35a5f7b4603b86ba2716c88f0b42ea9",
+          "source": "xspec_utr/tissue_data/Endometrium/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/eval_c5.txt",
+          "bytes": 195412,
+          "sha256": "f3f02361025d8b7e4ac730bf0a4e1c4b3919caddb1d846a3cd5e42e6a0761900",
+          "source": "xspec_utr/tissue_data/Endometrium/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/tran_3u.txt",
+          "bytes": 120014,
+          "sha256": "e1f3eae1685908207ee6eac5589b78cad9e150283b1145f8004cf372f5573a6f",
+          "source": "xspec_utr/tissue_data/Endometrium/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/tran_5u.txt",
+          "bytes": 211625,
+          "sha256": "5081fa3190e4df2e9ba00651f4ea8d65509195ce0c22da83faff2bf56f60b27a",
+          "source": "xspec_utr/tissue_data/Endometrium/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/tran_b3.txt",
+          "bytes": 171383,
+          "sha256": "7abc3a1e5300a68d1fa6c3311b7945841763b49df2522ebfb05bd0fe8ab70359",
+          "source": "xspec_utr/tissue_data/Endometrium/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/tran_b5.txt",
+          "bytes": 573608,
+          "sha256": "0518cb395cd3da761dba1b30b7651586917d55372c083a00a152ffa9bdd75b5b",
+          "source": "xspec_utr/tissue_data/Endometrium/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/tran_c3.txt",
+          "bytes": 513260,
+          "sha256": "53b5a3976139736fa5c9f15ce39bc02e6cc8e8bda0aa5a10bb3cfa34de6c535c",
+          "source": "xspec_utr/tissue_data/Endometrium/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Endometrium/tran_c5.txt",
+          "bytes": 1718131,
+          "sha256": "1dc239edccb54abc8e16a4b9e9f0f8cefdf00f4b4b0193ff60e72ab68a93bc43",
+          "source": "xspec_utr/tissue_data/Endometrium/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/eval_3u.txt",
+          "bytes": 13936,
+          "sha256": "ccc922076d6edc5183673791c396f7c742015fcc3124d074396aa374fd63f5ec",
+          "source": "xspec_utr/tissue_data/Esophagus/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/eval_5u.txt",
+          "bytes": 23076,
+          "sha256": "8f417f7eff5dd4ef424ffe7843c8474ce789641f3b334b7e3963c509ba6fba5f",
+          "source": "xspec_utr/tissue_data/Esophagus/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/eval_c3.txt",
+          "bytes": 49696,
+          "sha256": "9d5a5e7849cc116874a71a288bb42770a07d5d5092f89236e58d557a4fd6de80",
+          "source": "xspec_utr/tissue_data/Esophagus/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/eval_c5.txt",
+          "bytes": 188657,
+          "sha256": "92617e5b17cf71bf2b8b7ee41bd182a1f284b311d44fccfe81ed3a2b5e27dcd8",
+          "source": "xspec_utr/tissue_data/Esophagus/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/tran_3u.txt",
+          "bytes": 113976,
+          "sha256": "4efa33ec40ab6869516f3c43c563bd3caa710e3ea15de770fd6053449d685ae1",
+          "source": "xspec_utr/tissue_data/Esophagus/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/tran_5u.txt",
+          "bytes": 199829,
+          "sha256": "90b0e2d7b6b307e2c17f033c3fa0fce879f6faf31a7e828fc9d1d923e161483f",
+          "source": "xspec_utr/tissue_data/Esophagus/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/tran_b3.txt",
+          "bytes": 162376,
+          "sha256": "5b588de2fbb4064b7d0d58864c9c0a4c58bad4be5ee122b0ef1aa5b58b5c413f",
+          "source": "xspec_utr/tissue_data/Esophagus/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/tran_b5.txt",
+          "bytes": 531634,
+          "sha256": "cb1f72cbda5d897d5bf733aa3c5072616ba0aa36ddbe19e7d64c80d8b778b978",
+          "source": "xspec_utr/tissue_data/Esophagus/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/tran_c3.txt",
+          "bytes": 486277,
+          "sha256": "1bdb7ea820a7ca81e3128a89094645c390f9fffeb267a3f5240657b6d0216069",
+          "source": "xspec_utr/tissue_data/Esophagus/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Esophagus/tran_c5.txt",
+          "bytes": 1592345,
+          "sha256": "39f87c87ea1c97097f5e88e2de23db0430174f9ecb0b797f6c796297991cc359",
+          "source": "xspec_utr/tissue_data/Esophagus/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/eval_3u.txt",
+          "bytes": 13584,
+          "sha256": "3fcc1b49bfb7409963104208b377d203ac5abfae6a75a3c43bd1e4067d6f8c02",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/eval_5u.txt",
+          "bytes": 23979,
+          "sha256": "2c833aa25b066bab03779bed39303a48b17865929938032f85a73de65de94a4d",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/eval_c3.txt",
+          "bytes": 63040,
+          "sha256": "04a406e0d70529a583595ee7ca10ca8d58bfb7996d9c86d4de4da77b7cd37e81",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/eval_c5.txt",
+          "bytes": 182461,
+          "sha256": "a8d671da0f479cf1bac387871a2bd19995836ce6f4cbfa09916938ab9a8f8b16",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/tran_3u.txt",
+          "bytes": 133718,
+          "sha256": "b4b0ddbf44acf91c67bc47733fe3e518c88b6f5923df1d430eb8de4fbb568558",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/tran_5u.txt",
+          "bytes": 228929,
+          "sha256": "7907bb86c6b86d5a27dace35c02961df43e2ff3e56e1143e867b67aebe8be215",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/tran_b3.txt",
+          "bytes": 180622,
+          "sha256": "9d8a5dc9e7b81628075f24b2ba865bef5c19172e95c734ca26d4fe95753cddb0",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/tran_b5.txt",
+          "bytes": 604945,
+          "sha256": "97eaa4f48d1a610938a8348f4fee8fa91654711e5098ea73edcc04883c4c7382",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/tran_c3.txt",
+          "bytes": 540911,
+          "sha256": "f223b4d4549431ee2effbdc5584da0df2e13555432b2460381dc63a1e2b43c49",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fallopian_tube/tran_c5.txt",
+          "bytes": 1811972,
+          "sha256": "f1b393155d4f06db4c66768f2e97c27a951452cb6a1f778f8ac35c7bd51ae978",
+          "source": "xspec_utr/tissue_data/Fallopian_tube/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/eval_3u.txt",
+          "bytes": 11809,
+          "sha256": "2f4f27ad33791175c21756e8be63f91bc848df678be02908fc44d987344231df",
+          "source": "xspec_utr/tissue_data/Fat/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/eval_5u.txt",
+          "bytes": 19494,
+          "sha256": "6d2657fc7c67e4c38d3cb898493a92a6264273acfd0ad56616f3a800f570f75c",
+          "source": "xspec_utr/tissue_data/Fat/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/eval_c3.txt",
+          "bytes": 48910,
+          "sha256": "fb3b1a579e36855add53a8d88515daea7beb5553007cbbb90768b2c1567ea2be",
+          "source": "xspec_utr/tissue_data/Fat/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/eval_c5.txt",
+          "bytes": 153326,
+          "sha256": "bc4d1e0990285d486313bd8da071f3916f81f68f63cc7cbaec4399d56d8839b3",
+          "source": "xspec_utr/tissue_data/Fat/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/tran_3u.txt",
+          "bytes": 106892,
+          "sha256": "53a7beb7bb0b03fbcd194c8a4826557341543ca85d66e2e0b68b1cf5fa7f4276",
+          "source": "xspec_utr/tissue_data/Fat/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/tran_5u.txt",
+          "bytes": 180489,
+          "sha256": "5b5f77fc21282e4b76ede4f41367436f7dfd5243b35e0d6c702947689614a5a4",
+          "source": "xspec_utr/tissue_data/Fat/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/tran_b3.txt",
+          "bytes": 147510,
+          "sha256": "707453125a819d20bab2cd04bc7180bb213adaae7f302b96d5973a5dd71d90f8",
+          "source": "xspec_utr/tissue_data/Fat/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/tran_b5.txt",
+          "bytes": 477743,
+          "sha256": "868722ce87de077a62348d7055e17d3c8605db661250bebd9c5fc6f9b48d37c5",
+          "source": "xspec_utr/tissue_data/Fat/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/tran_c3.txt",
+          "bytes": 441737,
+          "sha256": "0cd5fbbe84a0df9e02c1f369bd1dc791bee4c17314763d8e741c99859fb98ea8",
+          "source": "xspec_utr/tissue_data/Fat/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Fat/tran_c5.txt",
+          "bytes": 1430895,
+          "sha256": "45066d7e52fe0ad11e1905e6b21fcd91b5fd4d66d7debc8ffad9f99e2589d0a3",
+          "source": "xspec_utr/tissue_data/Fat/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/eval_3u.txt",
+          "bytes": 14044,
+          "sha256": "ba647143537bfd72d2afa1863a3a914d898edef70548eef5d06b764596509c79",
+          "source": "xspec_utr/tissue_data/Gallbladder/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/eval_5u.txt",
+          "bytes": 23600,
+          "sha256": "39ac8cf0493b0a93485fef05f1613c23d2f82078f3be1cc2de2cba43c789888f",
+          "source": "xspec_utr/tissue_data/Gallbladder/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/eval_c3.txt",
+          "bytes": 55343,
+          "sha256": "10fb675053f34474bdacaff51faa34ef5e8a3417878922b38aa83213854f33e3",
+          "source": "xspec_utr/tissue_data/Gallbladder/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/eval_c5.txt",
+          "bytes": 188216,
+          "sha256": "8aac5206c717898b7284fdb86ab645c1b89d750c5d5e3f4cad3f76cd03192eee",
+          "source": "xspec_utr/tissue_data/Gallbladder/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/tran_3u.txt",
+          "bytes": 128420,
+          "sha256": "255e2b8694aabdeef5a94aeb075f7079c42a70d78d7affd5432de7e6c83e949b",
+          "source": "xspec_utr/tissue_data/Gallbladder/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/tran_5u.txt",
+          "bytes": 208754,
+          "sha256": "41976b83c913c4a4323ba6af9aed9a822ef2ba06324c9a558481feb0ebf690fa",
+          "source": "xspec_utr/tissue_data/Gallbladder/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/tran_b3.txt",
+          "bytes": 174030,
+          "sha256": "813e3bd6a7b80ac8ff2b40c219de337822b3adc13660fae340caad21bc52761d",
+          "source": "xspec_utr/tissue_data/Gallbladder/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/tran_b5.txt",
+          "bytes": 567774,
+          "sha256": "0bb395128cce5c51522d7cca23df0e1e160a68839a0d27acd3a88650625f3320",
+          "source": "xspec_utr/tissue_data/Gallbladder/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/tran_c3.txt",
+          "bytes": 521163,
+          "sha256": "fb5e2c974c2d7f9081663d6fad128e4b1a5d4d817827a8a32f10f953c3839669",
+          "source": "xspec_utr/tissue_data/Gallbladder/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Gallbladder/tran_c5.txt",
+          "bytes": 1700617,
+          "sha256": "55a381cfaaa147aad134610e7a3eae87f815b938b9a11391349a36c56cadffc0",
+          "source": "xspec_utr/tissue_data/Gallbladder/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/eval_3u.txt",
+          "bytes": 12592,
+          "sha256": "34f67c25fe07f55f6ebe331b14d9ee5d5c76f692f9c8c59bca77edd89d1cddc2",
+          "source": "xspec_utr/tissue_data/Heart/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/eval_5u.txt",
+          "bytes": 20367,
+          "sha256": "eb763e4850d0f32ebc092e2d5179014ae32155b163a63977f21cb513a294b78e",
+          "source": "xspec_utr/tissue_data/Heart/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/eval_c3.txt",
+          "bytes": 51906,
+          "sha256": "17054e853a57cda05c365e39f6623faeeb5f14360ddb2f6651e3027b8a575f25",
+          "source": "xspec_utr/tissue_data/Heart/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/eval_c5.txt",
+          "bytes": 158601,
+          "sha256": "cade50dea1b889b796aeb453844f60c0e3d6dc21a8e8a2e9928305cd6660ea28",
+          "source": "xspec_utr/tissue_data/Heart/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/tran_3u.txt",
+          "bytes": 104444,
+          "sha256": "6b028ca524666cb683ba06cc5e53ff0f56df5b07935ba92633c8924524bcdec1",
+          "source": "xspec_utr/tissue_data/Heart/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/tran_5u.txt",
+          "bytes": 179565,
+          "sha256": "2131698ce772006ad967200c65b2d09b2952307bfd28bd8d0abc35f8d5389af3",
+          "source": "xspec_utr/tissue_data/Heart/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/tran_b3.txt",
+          "bytes": 144876,
+          "sha256": "1fb2086e60d8b02f3cad393fc42db94690eaf20bfb0903bb8f33424dc416376e",
+          "source": "xspec_utr/tissue_data/Heart/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/tran_b5.txt",
+          "bytes": 472267,
+          "sha256": "284cda9c9defc94a0f534d9f6912b63771208900aebb1fecc5b91520a350d9b6",
+          "source": "xspec_utr/tissue_data/Heart/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/tran_c3.txt",
+          "bytes": 433849,
+          "sha256": "2eb13af09dd41ff56387a815397e641ffdf1113eab004adc848221dbab22402d",
+          "source": "xspec_utr/tissue_data/Heart/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Heart/tran_c5.txt",
+          "bytes": 1414498,
+          "sha256": "722c348c9e0779689e94fe7601cc28db0a1adfe8bcc6f903307db09a4eacfeb3",
+          "source": "xspec_utr/tissue_data/Heart/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/eval_3u.txt",
+          "bytes": 10761,
+          "sha256": "157d64000f77f0d06eec5aba2ed86ccc7076b59f8f3bc4463ceb29fd698311f5",
+          "source": "xspec_utr/tissue_data/Kidney/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/eval_5u.txt",
+          "bytes": 22662,
+          "sha256": "60e02567464e89567e22cd6cff70e8aef9dbf5b1fd62079420c529586d45c544",
+          "source": "xspec_utr/tissue_data/Kidney/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/eval_c3.txt",
+          "bytes": 46533,
+          "sha256": "668146289d5d3c9a03ee44e6d3dbd0a4eac55a36abb8f133d393a81503ca6786",
+          "source": "xspec_utr/tissue_data/Kidney/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/eval_c5.txt",
+          "bytes": 176955,
+          "sha256": "2990cf70ebd50d2a7a0ee55180efb2c2a408b08306334330f11608c9ae85f634",
+          "source": "xspec_utr/tissue_data/Kidney/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/tran_3u.txt",
+          "bytes": 111470,
+          "sha256": "a01a732597deaa68c8034614174ac68c2344bb467f158e78f425219282d9a3e0",
+          "source": "xspec_utr/tissue_data/Kidney/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/tran_5u.txt",
+          "bytes": 188406,
+          "sha256": "f55c076587e310e7345b17fc65134ee76ef1aa2df81691ad74523e9a5bd14117",
+          "source": "xspec_utr/tissue_data/Kidney/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/tran_b3.txt",
+          "bytes": 151536,
+          "sha256": "6c2ac3eedb30b1c4e7e8bf6c30db31ecabee05b1f511f9301ca7efe65532368d",
+          "source": "xspec_utr/tissue_data/Kidney/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/tran_b5.txt",
+          "bytes": 499364,
+          "sha256": "71c0558702e0510162e00d0a19fee99ff98edef6982aaf2a943f412efbb1fe3c",
+          "source": "xspec_utr/tissue_data/Kidney/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/tran_c3.txt",
+          "bytes": 453769,
+          "sha256": "9149e2756d0b39430adcadb3278cd9efc4051757036f68bd99ee9588e0eb4a01",
+          "source": "xspec_utr/tissue_data/Kidney/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Kidney/tran_c5.txt",
+          "bytes": 1495579,
+          "sha256": "e681f69e412a1e4b78c09faed1c87a1378d753e996ef7f7ee9ed35e73cef39e4",
+          "source": "xspec_utr/tissue_data/Kidney/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/eval_3u.txt",
+          "bytes": 13553,
+          "sha256": "c8f222ed9f631bc2ecaa45d3110ded802769b7202122bd4302769ea101ba9742",
+          "source": "xspec_utr/tissue_data/Liver/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/eval_5u.txt",
+          "bytes": 18770,
+          "sha256": "25e661026d82ea3f27ed3723c102f39a8a13ed0cb93ef11e4aae283007a18019",
+          "source": "xspec_utr/tissue_data/Liver/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/eval_c3.txt",
+          "bytes": 53443,
+          "sha256": "6f97545df4650a18b76b108ab0aef7e1900087853ea8b7bb6d490709d22e6d82",
+          "source": "xspec_utr/tissue_data/Liver/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/eval_c5.txt",
+          "bytes": 172813,
+          "sha256": "7b959d9220a7a8fd1f4b51be45c6d8122a87525e4be994227768a7ce78a0c105",
+          "source": "xspec_utr/tissue_data/Liver/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/tran_3u.txt",
+          "bytes": 114414,
+          "sha256": "77fb8aaf033204ac6711eff5c35fcc98280ff97f5b75c7ee7c569a1a3e87aca5",
+          "source": "xspec_utr/tissue_data/Liver/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/tran_5u.txt",
+          "bytes": 183794,
+          "sha256": "4f856d0530141bd65c991b1e7afc12b66e57ed096010ff2d065068c722b7060e",
+          "source": "xspec_utr/tissue_data/Liver/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/tran_b3.txt",
+          "bytes": 166487,
+          "sha256": "379af9035a42db71f04ea5e27d8674744c28449feef9d6685bd795cb730f4f80",
+          "source": "xspec_utr/tissue_data/Liver/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/tran_b5.txt",
+          "bytes": 492122,
+          "sha256": "1b697398cccb995b0badb2861ae5bcaa13f3be95119599f8a9c6e3a54fab7af1",
+          "source": "xspec_utr/tissue_data/Liver/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/tran_c3.txt",
+          "bytes": 498606,
+          "sha256": "294989563b0a91cebb3e5836f9dd78e8d5d5dc4fc3995476f6227cb95bb11bce",
+          "source": "xspec_utr/tissue_data/Liver/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Liver/tran_c5.txt",
+          "bytes": 1474001,
+          "sha256": "797e1eb7927de4cd5713fdecc7a0a7e0fffe8dc2904324b6b2987f8358f75c1f",
+          "source": "xspec_utr/tissue_data/Liver/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/eval_3u.txt",
+          "bytes": 14115,
+          "sha256": "7c782ccfea442e1c89fd73d5568096bc3eb59a20838c9d30157b065987c03803",
+          "source": "xspec_utr/tissue_data/Lung/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/eval_5u.txt",
+          "bytes": 24869,
+          "sha256": "73adb50955e048f79895f559ad045e55d0c312a42a3acdd3082370925addfcc7",
+          "source": "xspec_utr/tissue_data/Lung/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/eval_c3.txt",
+          "bytes": 66725,
+          "sha256": "7cd84aa90940aba5484421518ce47667ddbfc03cedb5fba56228baf8e598d90f",
+          "source": "xspec_utr/tissue_data/Lung/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/eval_c5.txt",
+          "bytes": 195112,
+          "sha256": "c58bc960f2fe783165615b17017a61a4208d7007b1b39fa22c15eeb21e627488",
+          "source": "xspec_utr/tissue_data/Lung/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/tran_3u.txt",
+          "bytes": 134054,
+          "sha256": "411b1695edd5c71ad19b1993bf257af5ef05e43813de5dff995ebea71e0acb3f",
+          "source": "xspec_utr/tissue_data/Lung/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/tran_5u.txt",
+          "bytes": 235407,
+          "sha256": "7c4c895256032f1560f454b5c473654a1a0030d9fd39e47bb52e3fb645ac4186",
+          "source": "xspec_utr/tissue_data/Lung/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/tran_b3.txt",
+          "bytes": 187469,
+          "sha256": "3d0987313f627e1018bd02a26159549014249549b781bb415c4cdc6263abf5af",
+          "source": "xspec_utr/tissue_data/Lung/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/tran_b5.txt",
+          "bytes": 626231,
+          "sha256": "721cc0748a72979a752d8cc6ff608e71935436ceb3f4ebaef5df694ee8669f80",
+          "source": "xspec_utr/tissue_data/Lung/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/tran_c3.txt",
+          "bytes": 561428,
+          "sha256": "350d262c7898e830d102bbcc4b5ecfc07a74c06ab214acdf5c376dc522a48381",
+          "source": "xspec_utr/tissue_data/Lung/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lung/tran_c5.txt",
+          "bytes": 1875737,
+          "sha256": "f88b16037ea14d1548b8c5be99f91bfeaf3f8018dddb169c73f30818129d8c9c",
+          "source": "xspec_utr/tissue_data/Lung/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/eval_3u.txt",
+          "bytes": 13422,
+          "sha256": "58f162e9c16e64a21d4e00a4029665904f5ec68ede0e62265873ecab3ac1e468",
+          "source": "xspec_utr/tissue_data/Lymph_node/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/eval_5u.txt",
+          "bytes": 22796,
+          "sha256": "eb8c2696a1f204e03a3c76ba3c6a2f06f361d12472deac6298c4e184c7d5c1be",
+          "source": "xspec_utr/tissue_data/Lymph_node/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/eval_c3.txt",
+          "bytes": 57803,
+          "sha256": "1274094d8d0aa5d930f980690bd8d13c9dfbd31406084092bae11343452a9e72",
+          "source": "xspec_utr/tissue_data/Lymph_node/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/eval_c5.txt",
+          "bytes": 163361,
+          "sha256": "79ae96eea8ccccd596dcec3edab1addd3bc22f6c6350bdb4fb27c3f70a2f8a6c",
+          "source": "xspec_utr/tissue_data/Lymph_node/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/tran_3u.txt",
+          "bytes": 110907,
+          "sha256": "2b20cbb1d1d13228b2159e4c496e060e6c9e1bf8ad4071f35a458f4b85adae0a",
+          "source": "xspec_utr/tissue_data/Lymph_node/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/tran_5u.txt",
+          "bytes": 192693,
+          "sha256": "aec133be173916a98ab6f035386fe10f82330880505c2e2265a92632114dd4fc",
+          "source": "xspec_utr/tissue_data/Lymph_node/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/tran_b3.txt",
+          "bytes": 146745,
+          "sha256": "cc1b11508e3381d4a3b66d4fde963e01ab327e5928550e251e45e573570ea605",
+          "source": "xspec_utr/tissue_data/Lymph_node/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/tran_b5.txt",
+          "bytes": 501887,
+          "sha256": "e4cda489e784b3935d3fa2aedc2c01dd82235cf63dcf36b81788a04750ff2133",
+          "source": "xspec_utr/tissue_data/Lymph_node/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/tran_c3.txt",
+          "bytes": 439410,
+          "sha256": "4002594f951f2fed4396422ea895dc7114503d9362e128a9cd52888d35539e26",
+          "source": "xspec_utr/tissue_data/Lymph_node/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Lymph_node/tran_c5.txt",
+          "bytes": 1503162,
+          "sha256": "06ecaa9864aee41bb8fa8a1687cfa2989a01637851fd73acb953531b3a1ff22e",
+          "source": "xspec_utr/tissue_data/Lymph_node/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/eval_3u.txt",
+          "bytes": 12155,
+          "sha256": "22381d064be43dc5c29d32a1efa4fb68a506fb3e8bd2072e557d43850daa18b7",
+          "source": "xspec_utr/tissue_data/Ovary/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/eval_5u.txt",
+          "bytes": 21329,
+          "sha256": "f00e883f24ddb3cc3888fb8f6c54bd5b9f06ef75dd07f68721959c2598e93654",
+          "source": "xspec_utr/tissue_data/Ovary/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/eval_c3.txt",
+          "bytes": 46928,
+          "sha256": "63323f0863bca2cae7e55622b974a54abf190d1c9888d091c898f0c46cdcbe2a",
+          "source": "xspec_utr/tissue_data/Ovary/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/eval_c5.txt",
+          "bytes": 177628,
+          "sha256": "3383e4e03a6c42de459e094a1c1d766ac344450719c99ad1131c679baff30804",
+          "source": "xspec_utr/tissue_data/Ovary/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/tran_3u.txt",
+          "bytes": 113016,
+          "sha256": "4788302296e0b28854485132a689a43b0463620c6d9ac3f20c709660861cd5bd",
+          "source": "xspec_utr/tissue_data/Ovary/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/tran_5u.txt",
+          "bytes": 187939,
+          "sha256": "00f235a046b241afe5c36cef30db39a51e3523ee353a8c61793f9853b2c5e3d5",
+          "source": "xspec_utr/tissue_data/Ovary/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/tran_b3.txt",
+          "bytes": 157269,
+          "sha256": "2402d7a36bcaebb3304e7cf5ee163ebb123614700d9395e5885b10fd8483eadc",
+          "source": "xspec_utr/tissue_data/Ovary/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/tran_b5.txt",
+          "bytes": 499324,
+          "sha256": "69f2c48585f7e57a147a0968f955930947a3cecbd9474e2059aebf899ade2b69",
+          "source": "xspec_utr/tissue_data/Ovary/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/tran_c3.txt",
+          "bytes": 470986,
+          "sha256": "95a6bc167556843a3f4a1472ff6b7435849838cee97200fc2cae7380a7e4b562",
+          "source": "xspec_utr/tissue_data/Ovary/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Ovary/tran_c5.txt",
+          "bytes": 1495553,
+          "sha256": "2466ace161002737bacdcc085208c269bbb26c2f9f8c4187c672eb262abb48a2",
+          "source": "xspec_utr/tissue_data/Ovary/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/eval_3u.txt",
+          "bytes": 11930,
+          "sha256": "c8ef4950eade4edeff34c84a5188685b8923e0f252f4421e6fd8e819208bd6a2",
+          "source": "xspec_utr/tissue_data/Pancreas/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/eval_5u.txt",
+          "bytes": 15092,
+          "sha256": "415dd9333036616285c3fb060a7036290e71cda13ef91bbc4ae3d6d25f9e46ac",
+          "source": "xspec_utr/tissue_data/Pancreas/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/eval_c3.txt",
+          "bytes": 47967,
+          "sha256": "3ab264c5aecd31648034bd7ffce4c7917f355df62c8c716f518aa3e5143b1684",
+          "source": "xspec_utr/tissue_data/Pancreas/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/eval_c5.txt",
+          "bytes": 128600,
+          "sha256": "5193b3da337ded18f9775d61e3e29f8c62c6e8dd1b66f17cf39d72f47ea993eb",
+          "source": "xspec_utr/tissue_data/Pancreas/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/tran_3u.txt",
+          "bytes": 98577,
+          "sha256": "84207a1ef57c8c0a5aaacb01f521b2b1d0bdc769e2c051d30cb056e8eb1bfdd4",
+          "source": "xspec_utr/tissue_data/Pancreas/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/tran_5u.txt",
+          "bytes": 147544,
+          "sha256": "e634a9aa48780989a0db17ebbd8293445a2e3a923c60f810445c990cb2ba8008",
+          "source": "xspec_utr/tissue_data/Pancreas/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/tran_b3.txt",
+          "bytes": 138151,
+          "sha256": "0e8095e976bee73a518eb8e4563a463e3052f43579e7723fe818cfecf29e0aa8",
+          "source": "xspec_utr/tissue_data/Pancreas/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/tran_b5.txt",
+          "bytes": 406489,
+          "sha256": "96c8b8adbaeadc13476410ada385f5bb0ec1aba8563074d6743970d1879ce9cc",
+          "source": "xspec_utr/tissue_data/Pancreas/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/tran_c3.txt",
+          "bytes": 413722,
+          "sha256": "d784e4c4a7ea0fe2edbed28ce588a745ea391e724ed1a2eec73b4944d03e31b3",
+          "source": "xspec_utr/tissue_data/Pancreas/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Pancreas/tran_c5.txt",
+          "bytes": 1217508,
+          "sha256": "f72a5b57fc4013e878566195ea24924085683f5e12286d0f88927a54d3d891cb",
+          "source": "xspec_utr/tissue_data/Pancreas/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/eval_3u.txt",
+          "bytes": 13111,
+          "sha256": "d7eb653153a336531e07a9e1a26f7ae97a2f5ce52406d310f9bc0730fe853b27",
+          "source": "xspec_utr/tissue_data/Placenta/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/eval_5u.txt",
+          "bytes": 24555,
+          "sha256": "6a1fb08ead02a402c6744042d7921ba2b0b82a8a57a15c73830dee3e2b7282c1",
+          "source": "xspec_utr/tissue_data/Placenta/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/eval_c3.txt",
+          "bytes": 53295,
+          "sha256": "d2dacf23290e49e58f5e04a877dcc55f75b6418048f510e9c9bcab78ca96c2ae",
+          "source": "xspec_utr/tissue_data/Placenta/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/eval_c5.txt",
+          "bytes": 184559,
+          "sha256": "e04598021ef6d600b4cc95be7eb2ac059b45b2534edc7564d49be26df6cb868e",
+          "source": "xspec_utr/tissue_data/Placenta/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/tran_3u.txt",
+          "bytes": 119830,
+          "sha256": "899e5c2050484880e129a063590a7432d8a19fc6eceb732726a42ef1d11091df",
+          "source": "xspec_utr/tissue_data/Placenta/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/tran_5u.txt",
+          "bytes": 204831,
+          "sha256": "4f821ea87498e58889d7eedc62f33bda1d0fa546f622ae4baca7f11fcae4ca13",
+          "source": "xspec_utr/tissue_data/Placenta/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/tran_b3.txt",
+          "bytes": 169452,
+          "sha256": "84ed725e1067361eb0671cd308551f93e2d9e58fd11284e0de929f86fdc68a7a",
+          "source": "xspec_utr/tissue_data/Placenta/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/tran_b5.txt",
+          "bytes": 550116,
+          "sha256": "a6bafdd539378595113cf23e1bc7f488a9bfe0442d1e6c7365ab527e6369726e",
+          "source": "xspec_utr/tissue_data/Placenta/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/tran_c3.txt",
+          "bytes": 507459,
+          "sha256": "fda95820df3a92cb17a2d192f9bf92b77e572d72a55ea4e29120f09c401a3fad",
+          "source": "xspec_utr/tissue_data/Placenta/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Placenta/tran_c5.txt",
+          "bytes": 1647701,
+          "sha256": "b302a97416aba735b75fc3b7d334d4afd263ebe37aeb98e79ffed4a1962b3633",
+          "source": "xspec_utr/tissue_data/Placenta/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/eval_3u.txt",
+          "bytes": 13951,
+          "sha256": "98baa7b2517c52c6e4f67a145cfbd754f7d35d35010d39210f487631cc24c645",
+          "source": "xspec_utr/tissue_data/Prostate/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/eval_5u.txt",
+          "bytes": 22380,
+          "sha256": "b3645ee3329f5c4602a9420dc939d856c81f514b2ed5e1343cd0e73b4eb0fb38",
+          "source": "xspec_utr/tissue_data/Prostate/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/eval_c3.txt",
+          "bytes": 50933,
+          "sha256": "3c65c2012e31c8de0e2300e50a958ee6b28cca76d3986a9cd1fa6f2c12d5db72",
+          "source": "xspec_utr/tissue_data/Prostate/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/eval_c5.txt",
+          "bytes": 182985,
+          "sha256": "c2bd7aeca02ab82866aef3989892b134db01d7f01d74b1bf0e3f64a10b2c5d44",
+          "source": "xspec_utr/tissue_data/Prostate/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/tran_3u.txt",
+          "bytes": 119286,
+          "sha256": "b017a97ee1718fb855a2bdbf82fd0428725fe2f14b0644a378ded786a0405557",
+          "source": "xspec_utr/tissue_data/Prostate/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/tran_5u.txt",
+          "bytes": 206398,
+          "sha256": "f231dfee82439bc8902c495e7345af986287fe7a37e726d043c3584542ef6d9f",
+          "source": "xspec_utr/tissue_data/Prostate/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/tran_b3.txt",
+          "bytes": 165337,
+          "sha256": "de246d03b79ed1f6ba9b9ff4e0c79298fc01f7adeb656a2029470a43cc5c8855",
+          "source": "xspec_utr/tissue_data/Prostate/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/tran_b5.txt",
+          "bytes": 547596,
+          "sha256": "b7c50e0edc40336062730101f36c6110e63262aa34724c72b0ada03e16a93c09",
+          "source": "xspec_utr/tissue_data/Prostate/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/tran_c3.txt",
+          "bytes": 495138,
+          "sha256": "581af021b647d4ff8f6818a357e16263a507aa2d478b2e1b3ffd988d96b86f90",
+          "source": "xspec_utr/tissue_data/Prostate/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Prostate/tran_c5.txt",
+          "bytes": 1640175,
+          "sha256": "6fd30dfe6308f723b73bee22841ff67d5447ff61777291659367287633155fa1",
+          "source": "xspec_utr/tissue_data/Prostate/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/eval_3u.txt",
+          "bytes": 13563,
+          "sha256": "d760c8c43c8638fb7202279d3b3daeb1a8aa205a881473b3958b6969355726ce",
+          "source": "xspec_utr/tissue_data/Rectum/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/eval_5u.txt",
+          "bytes": 23098,
+          "sha256": "027a0108e05e263ff6021b127b860fd8bb5199edcec3bc46c7a174c3f2528087",
+          "source": "xspec_utr/tissue_data/Rectum/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/eval_c3.txt",
+          "bytes": 51518,
+          "sha256": "ba7b9938446479c75170a4788df6ac51d509fb2ea5a94def0161a3511b8e5b2e",
+          "source": "xspec_utr/tissue_data/Rectum/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/eval_c5.txt",
+          "bytes": 179832,
+          "sha256": "8828f4fedac24efcca7dbdc01d37e68fb2bcf1264b3d96ce1eba6f1aab9bb75f",
+          "source": "xspec_utr/tissue_data/Rectum/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/tran_3u.txt",
+          "bytes": 121595,
+          "sha256": "4cc9beb6cfecd8272af05641d2b20f2bac21d345494e8bd106fa79725a2519b3",
+          "source": "xspec_utr/tissue_data/Rectum/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/tran_5u.txt",
+          "bytes": 204395,
+          "sha256": "36321d9196a318992a988565f0090e45818f38598da851c3294fe28bfadd4658",
+          "source": "xspec_utr/tissue_data/Rectum/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/tran_b3.txt",
+          "bytes": 165711,
+          "sha256": "9c6505c5624a63394285cd4982c28b8c21bda1dd64d4afbc3c35d8d162bc40af",
+          "source": "xspec_utr/tissue_data/Rectum/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/tran_b5.txt",
+          "bytes": 550809,
+          "sha256": "a1ade47876fc91643ca8087d22e1899170651f784593161436026163f4eb5960",
+          "source": "xspec_utr/tissue_data/Rectum/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/tran_c3.txt",
+          "bytes": 496262,
+          "sha256": "a9d0e855a3ef88a6b1d41a134db70b70e2d8ca75015e3973d71b4072f4e499f0",
+          "source": "xspec_utr/tissue_data/Rectum/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Rectum/tran_c5.txt",
+          "bytes": 1649808,
+          "sha256": "add8d72f6c38c3c92e6a85c133a2fe46a07252ea3dfd15bea21928fb93f6ddf7",
+          "source": "xspec_utr/tissue_data/Rectum/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/eval_3u.txt",
+          "bytes": 13132,
+          "sha256": "fc602f0f83096e26f60c9ebea0fd1dee12deacce44233b695f79c4018039e75a",
+          "source": "xspec_utr/tissue_data/Salivary_gland/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/eval_5u.txt",
+          "bytes": 19050,
+          "sha256": "e6e30d204ba728fe219b152918b36caba8c70e7d6080fe0e93955f60b0b0b309",
+          "source": "xspec_utr/tissue_data/Salivary_gland/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/eval_c3.txt",
+          "bytes": 51600,
+          "sha256": "efdd1dab48a022f8a0c45f70b40e90f13c81623567d333b3ca7d3ec7f9df668e",
+          "source": "xspec_utr/tissue_data/Salivary_gland/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/eval_c5.txt",
+          "bytes": 158400,
+          "sha256": "2b26445a37c2057735f8bc2ec7ba64a9af185a1f13befd157fd6eb1a5b6ae33f",
+          "source": "xspec_utr/tissue_data/Salivary_gland/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/tran_3u.txt",
+          "bytes": 114851,
+          "sha256": "45d79c8ae03de486adf7ecce970ba421644c28e183f93349ac9547a11eae8cc5",
+          "source": "xspec_utr/tissue_data/Salivary_gland/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/tran_5u.txt",
+          "bytes": 191057,
+          "sha256": "91200e22de195537a93d84ef600fa0e8877e97d11592342229424f0a2bb5fc99",
+          "source": "xspec_utr/tissue_data/Salivary_gland/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/tran_b3.txt",
+          "bytes": 154223,
+          "sha256": "ddf1744a29faf647195ca88c7b46a3435754cfc8785203ff13ab15e9c7d11660",
+          "source": "xspec_utr/tissue_data/Salivary_gland/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/tran_b5.txt",
+          "bytes": 497998,
+          "sha256": "bd9f7e20fa65274ee7fcf667d96090b57b03826efcb714a5bc0b652755ac3238",
+          "source": "xspec_utr/tissue_data/Salivary_gland/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/tran_c3.txt",
+          "bytes": 461824,
+          "sha256": "6e672f8a8a4ac0ac6a1d8092b4b983a37295dd4123d57f426319121736b22ee5",
+          "source": "xspec_utr/tissue_data/Salivary_gland/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Salivary_gland/tran_c5.txt",
+          "bytes": 1491545,
+          "sha256": "137f5fddb5931c5dcdbe0bff47a5039cdcb28ce166168a569204531b16da835d",
+          "source": "xspec_utr/tissue_data/Salivary_gland/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/eval_3u.txt",
+          "bytes": 14242,
+          "sha256": "6261d2738cf6b0de55fdc42d2ac0253039836ec3465ca1255a96b41c064f093d",
+          "source": "xspec_utr/tissue_data/Small_intestine/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/eval_5u.txt",
+          "bytes": 24534,
+          "sha256": "79240cfae7a767519611d3fb040c86084712cf515cdade57dfe1687509336c3a",
+          "source": "xspec_utr/tissue_data/Small_intestine/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/eval_c3.txt",
+          "bytes": 58330,
+          "sha256": "c49c285f71bdba885ddf4e6a5a42a0c654fbbd94caa2b66c9c52ac95fd290088",
+          "source": "xspec_utr/tissue_data/Small_intestine/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/eval_c5.txt",
+          "bytes": 213670,
+          "sha256": "190085903225dd12cdc64ee304c4534e2d1333b85b4950e898d7d3a7d04972fa",
+          "source": "xspec_utr/tissue_data/Small_intestine/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/tran_3u.txt",
+          "bytes": 132208,
+          "sha256": "800657ccc81f630b8388348bbd11e97668542fd4dc31c48a3a0c7433cee92b10",
+          "source": "xspec_utr/tissue_data/Small_intestine/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/tran_5u.txt",
+          "bytes": 218475,
+          "sha256": "bfcb33514ba93b41dcdc25487ea93382cb8ad714c47407f5e0f0e42a632f4c3a",
+          "source": "xspec_utr/tissue_data/Small_intestine/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/tran_b3.txt",
+          "bytes": 179253,
+          "sha256": "d59e9ab60147bc034cb1aa17080642629a9dce21bbd5876afa18157dd06ca278",
+          "source": "xspec_utr/tissue_data/Small_intestine/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/tran_b5.txt",
+          "bytes": 582751,
+          "sha256": "205d37dfeb5f493657203fbf043740bf045f91fb477f5b8691057d2fb3ac8e9c",
+          "source": "xspec_utr/tissue_data/Small_intestine/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/tran_c3.txt",
+          "bytes": 536802,
+          "sha256": "4702d95721eef2791084de123f0511e6cb55e50a921eba42807bee58d51baa1e",
+          "source": "xspec_utr/tissue_data/Small_intestine/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Small_intestine/tran_c5.txt",
+          "bytes": 1745460,
+          "sha256": "bde4e1b6e5072a9fcc3757ddc5fa5175082dc93d9cbe1b76beb3eb54fb75df23",
+          "source": "xspec_utr/tissue_data/Small_intestine/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/eval_3u.txt",
+          "bytes": 12099,
+          "sha256": "4d7407d337352aab5e15437dcd54cea30a4aab3180e22038bc5f629d3833e531",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/eval_5u.txt",
+          "bytes": 21289,
+          "sha256": "0188250758943bcc2142dd725dda5b569cd5b644ad607eb5f5d37cac02cdc7c6",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/eval_c3.txt",
+          "bytes": 56524,
+          "sha256": "b6fb160c82e4907fd2b02044a39cd12390c1337302debafaf4f852bd33343861",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/eval_c5.txt",
+          "bytes": 169597,
+          "sha256": "9ff2f6dca2f474f3fec4328d96c76f14df0df5bc20481c09d20a7a7e0bef8509",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/tran_3u.txt",
+          "bytes": 115786,
+          "sha256": "4ac0cac435b4038d905729de3064698d7df6c66544e005e3569e89d02f8d0c4d",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/tran_5u.txt",
+          "bytes": 205024,
+          "sha256": "88bfe4591d93aad0db74b36013e4031f6c15605343b6cb2d61847c94517caad1",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/tran_b3.txt",
+          "bytes": 156214,
+          "sha256": "4864790cb6b3ad7b904d8b4c3efce3aefc1dd3d9abaede4db3a8f28a7cacae2a",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/tran_b5.txt",
+          "bytes": 526812,
+          "sha256": "34e3214adb81f86925570f418e383d735bc80f9f0a8936e2fdd3514025f6a6bf",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/tran_c3.txt",
+          "bytes": 467791,
+          "sha256": "fe696cf57bb95f55fdfea74ae987d8bc36b45a761853986bfc5ca3644ab4aaf9",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Smooth_muscle/tran_c5.txt",
+          "bytes": 1577847,
+          "sha256": "c4710b3503397b2aba65da6e14998e0cbb475cf5d69532a3c3e056dce5d1f4b9",
+          "source": "xspec_utr/tissue_data/Smooth_muscle/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/eval_3u.txt",
+          "bytes": 11426,
+          "sha256": "cc31f2b253c82639f40e2019d50a467e3232360c4496844d694919957303c003",
+          "source": "xspec_utr/tissue_data/Spleen/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/eval_5u.txt",
+          "bytes": 21108,
+          "sha256": "6048ca90ce3f374b0f2fe45793c3001095d1ce738ac65dcd7ec38fa082cb465e",
+          "source": "xspec_utr/tissue_data/Spleen/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/eval_c3.txt",
+          "bytes": 48641,
+          "sha256": "2bade2138678b836dc04e35d4b32a3712d4c96c1be22f65f608d077c4f5ded39",
+          "source": "xspec_utr/tissue_data/Spleen/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/eval_c5.txt",
+          "bytes": 160358,
+          "sha256": "33798996b630421c35b70d8c557c4ec6625e196be9fe97b61e3778c93e3e71e1",
+          "source": "xspec_utr/tissue_data/Spleen/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/tran_3u.txt",
+          "bytes": 112349,
+          "sha256": "87b759cd211530cfcd3962781041597699afa841f80d77344895d4b8b47a14a2",
+          "source": "xspec_utr/tissue_data/Spleen/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/tran_5u.txt",
+          "bytes": 188416,
+          "sha256": "a7d392d90c89e9b6755ab41a731868a9bc59be12f26426bbe3de02c2dea93481",
+          "source": "xspec_utr/tissue_data/Spleen/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/tran_b3.txt",
+          "bytes": 145238,
+          "sha256": "55127ca3530195dc2af3b29ca9b6b3f952f4cf3ba0172c5cc61f6aa93941d81c",
+          "source": "xspec_utr/tissue_data/Spleen/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/tran_b5.txt",
+          "bytes": 491426,
+          "sha256": "6144b739fb9e18977132ae0cb4ba0d62efa8c3739cd86b002cbc41144009e722",
+          "source": "xspec_utr/tissue_data/Spleen/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/tran_c3.txt",
+          "bytes": 434903,
+          "sha256": "c22b769a0462b124fd9c0bb70dfd9a579ea74adf18dba829e530babffafbbb3c",
+          "source": "xspec_utr/tissue_data/Spleen/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Spleen/tran_c5.txt",
+          "bytes": 1471833,
+          "sha256": "73057c450e54354821a82efe49dde58b02de879555d526535f555339a579f526",
+          "source": "xspec_utr/tissue_data/Spleen/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/eval_3u.txt",
+          "bytes": 12781,
+          "sha256": "99be80f3707b3b435e956824513ed2dba92e2e53775cab3d92e4fd9d3e812841",
+          "source": "xspec_utr/tissue_data/Stomach/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/eval_5u.txt",
+          "bytes": 25177,
+          "sha256": "097a81bccf2f89576dd418d09406dfa3527540387f021b7aa618573ab9ee9dff",
+          "source": "xspec_utr/tissue_data/Stomach/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/eval_c3.txt",
+          "bytes": 57884,
+          "sha256": "e541f80aeaf47c194d1a31b0a3be7cd7064711ded7e6e7ea31cf0588006cdf90",
+          "source": "xspec_utr/tissue_data/Stomach/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/eval_c5.txt",
+          "bytes": 189740,
+          "sha256": "dc4523877843cadf39e4231455cd409ca02b1e7a6445e9efafaecb3b05432cc9",
+          "source": "xspec_utr/tissue_data/Stomach/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/tran_3u.txt",
+          "bytes": 129185,
+          "sha256": "07a46de7259aacae906e311f772923aa105c914246b98ce2d02a18f10b320659",
+          "source": "xspec_utr/tissue_data/Stomach/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/tran_5u.txt",
+          "bytes": 211022,
+          "sha256": "11f23abecf0a21b2e7649c92252e7cdd392852b93312c79bed42f9a7883cc6c8",
+          "source": "xspec_utr/tissue_data/Stomach/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/tran_b3.txt",
+          "bytes": 171179,
+          "sha256": "899d73a017d3a612a1030b044f6221637cc19ff8b2d79f054fc299aca0c3bbc4",
+          "source": "xspec_utr/tissue_data/Stomach/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/tran_b5.txt",
+          "bytes": 565943,
+          "sha256": "11302447342511fd1471c9e6af9957f7577cbe498b94ee2317b9bdbbdd981d83",
+          "source": "xspec_utr/tissue_data/Stomach/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/tran_c3.txt",
+          "bytes": 512604,
+          "sha256": "680aa38dc600410e2551d1e2526517527d51573e23cf1e4e8c4130208b95e49c",
+          "source": "xspec_utr/tissue_data/Stomach/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Stomach/tran_c5.txt",
+          "bytes": 1695075,
+          "sha256": "12149cbc67bdac8e7bf3aab3758fccc8f77e1844521f6ccbbbbf179e407333be",
+          "source": "xspec_utr/tissue_data/Stomach/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/eval_3u.txt",
+          "bytes": 14306,
+          "sha256": "886a57ac45cd0e8388f3a09f5bbb4ba1c488f9ad96de54ab05e67a34174f0e87",
+          "source": "xspec_utr/tissue_data/Testis/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/eval_5u.txt",
+          "bytes": 24291,
+          "sha256": "3a4b1a0c60b8106983ab46e7ac4c0a765a6f3496eca41952dd76b587ae43bf46",
+          "source": "xspec_utr/tissue_data/Testis/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/eval_c3.txt",
+          "bytes": 57293,
+          "sha256": "5b0176f131974ab7dc74b56975e912e9bae47da7bb2644d80ba77b529112e3cb",
+          "source": "xspec_utr/tissue_data/Testis/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/eval_c5.txt",
+          "bytes": 194871,
+          "sha256": "24140a8bcae03b27fcb5c897335604f819eef8b2878588b6be383dbb14f365bf",
+          "source": "xspec_utr/tissue_data/Testis/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/tran_3u.txt",
+          "bytes": 133254,
+          "sha256": "c50e4d88d4ef7737eabcf480880d5562a87a2a2cf77a563da8a0fedd2055a847",
+          "source": "xspec_utr/tissue_data/Testis/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/tran_5u.txt",
+          "bytes": 220276,
+          "sha256": "cc7a56d57098ec8dd3e11521deaf6da6305ac6cb228a51c45e8c614b4e18997b",
+          "source": "xspec_utr/tissue_data/Testis/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/tran_b3.txt",
+          "bytes": 185935,
+          "sha256": "2de17378dab3fb9325899f1b575aa1ecafdd89336755b3da850514ca227fff01",
+          "source": "xspec_utr/tissue_data/Testis/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/tran_b5.txt",
+          "bytes": 584050,
+          "sha256": "51a0d013fc42e7a849cfff46e5254b9920c7d62e5998bf4691c94c36599c540b",
+          "source": "xspec_utr/tissue_data/Testis/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/tran_c3.txt",
+          "bytes": 556832,
+          "sha256": "bc36c99753048e4d1312b20d9efddebb5e51cecc6081ce065b29ea6784bbab88",
+          "source": "xspec_utr/tissue_data/Testis/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Testis/tran_c5.txt",
+          "bytes": 1749315,
+          "sha256": "c74e6bbfbd8c47dbe64ae452ffa6fe98bc7cd2271c90a556856f7ed03817ab1f",
+          "source": "xspec_utr/tissue_data/Testis/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/eval_3u.txt",
+          "bytes": 10956,
+          "sha256": "cad4177945f38765a99b7244493c2ed5ddc3e593cd2bc1a92a0ecfa499e63d99",
+          "source": "xspec_utr/tissue_data/Thyroid/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/eval_5u.txt",
+          "bytes": 20723,
+          "sha256": "d395d5318587bee6cb2bf7ed67c8a7aa157fd1f720c2ef0e5d7fbe5812ecb568",
+          "source": "xspec_utr/tissue_data/Thyroid/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/eval_c3.txt",
+          "bytes": 49639,
+          "sha256": "4d5fb0cc54df681e723d1518cc58fb543955fd76cba3596c34bf42468d211421",
+          "source": "xspec_utr/tissue_data/Thyroid/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/eval_c5.txt",
+          "bytes": 172933,
+          "sha256": "3362e0340203c8488e144e2959d6bb3fd310be2a460f7fef92b009a8b6d74fb5",
+          "source": "xspec_utr/tissue_data/Thyroid/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/tran_3u.txt",
+          "bytes": 105374,
+          "sha256": "14e6cac9f259dbb22702e785e2a0c1c356556aa6c070d75fa1df07b404bdb3cf",
+          "source": "xspec_utr/tissue_data/Thyroid/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/tran_5u.txt",
+          "bytes": 190521,
+          "sha256": "9529d16d038545769518e0d9387a747537147e687be6c717beebc499bf7d82bf",
+          "source": "xspec_utr/tissue_data/Thyroid/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/tran_b3.txt",
+          "bytes": 148410,
+          "sha256": "6eea93d71b810225162d9bd12d0214eb5e59824f9886607e5e0f4905234179d8",
+          "source": "xspec_utr/tissue_data/Thyroid/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/tran_b5.txt",
+          "bytes": 501708,
+          "sha256": "8bc708fd479b6566f9e7c792c9bf9ace9a401b3fafe27aaa4fee988db6a2b420",
+          "source": "xspec_utr/tissue_data/Thyroid/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/tran_c3.txt",
+          "bytes": 444435,
+          "sha256": "6a511a75eab7e1db264b49a834887fce635dcfa86c5541ff7f091e895da9b9f1",
+          "source": "xspec_utr/tissue_data/Thyroid/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Thyroid/tran_c5.txt",
+          "bytes": 1502653,
+          "sha256": "af487b29bbbb632284483572effddae53c86def4626b7c1e588b4093892c2783",
+          "source": "xspec_utr/tissue_data/Thyroid/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/eval_3u.txt",
+          "bytes": 14140,
+          "sha256": "481c2970d4297e87b8d4563e0a3034f04200f265a9c7fb685b240da7a4434ccd",
+          "source": "xspec_utr/tissue_data/Tonsil/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/eval_5u.txt",
+          "bytes": 22824,
+          "sha256": "ec11a1d8152a9d208a966c3f972d3a4a0cc8d572ee2f0f7725a642c55bf5e3f1",
+          "source": "xspec_utr/tissue_data/Tonsil/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/eval_c3.txt",
+          "bytes": 50804,
+          "sha256": "13b6adb47be663df6fcc445acabcb609a12770569bec89544bb7ea18a3b6dccb",
+          "source": "xspec_utr/tissue_data/Tonsil/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/eval_c5.txt",
+          "bytes": 181729,
+          "sha256": "798d62a08f93818de55d91e6ac2d3bae7406fdd518511cf23452724647d2828c",
+          "source": "xspec_utr/tissue_data/Tonsil/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/tran_3u.txt",
+          "bytes": 118356,
+          "sha256": "933da3fed3a909a8e8997512e178952797c1ec51b77c9465c5c32cb84adb092c",
+          "source": "xspec_utr/tissue_data/Tonsil/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/tran_5u.txt",
+          "bytes": 202481,
+          "sha256": "da2872e4bd82a6c02a82a5a1b947e14e60637ebf133d92a4c43dff8a0fce751b",
+          "source": "xspec_utr/tissue_data/Tonsil/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/tran_b3.txt",
+          "bytes": 172292,
+          "sha256": "f98f0559b13bfeab902819d612080ae8bc6db0bdf94e4d050f6786f85b05154b",
+          "source": "xspec_utr/tissue_data/Tonsil/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/tran_b5.txt",
+          "bytes": 552631,
+          "sha256": "af389373a3931542bc5285b8803b22fccb6f6c73f0c962883ee8868d5798f9da",
+          "source": "xspec_utr/tissue_data/Tonsil/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/tran_c3.txt",
+          "bytes": 515999,
+          "sha256": "2335a7c621b6c2a8ab78b5590cd66522cb0c811e8b4cb05af24c16055c0333d1",
+          "source": "xspec_utr/tissue_data/Tonsil/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Tonsil/tran_c5.txt",
+          "bytes": 1655250,
+          "sha256": "7ab7a34f93b665379e0b198a3e1e9a817a5b66df0f5c578d50c3ebaaa0c603c6",
+          "source": "xspec_utr/tissue_data/Tonsil/tran_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/eval_3u.txt",
+          "bytes": 12711,
+          "sha256": "f8ac0f78d882ed3e189b44d34beaa0cb04bb4109c09f9897e996fc216aad8ea6",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/eval_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/eval_5u.txt",
+          "bytes": 22103,
+          "sha256": "29fa79d797d7688325e29143326fc1087a9b681e86e743be44d399e0333f75e8",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/eval_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/eval_c3.txt",
+          "bytes": 55212,
+          "sha256": "594dca9f091423b2d57fa946986b8dc9796da96557851a545d37ce702d8da854",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/eval_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/eval_c5.txt",
+          "bytes": 186902,
+          "sha256": "bec87f18ac60d3dc55867cb6a6968e40656b7aa516cf841318e0002df581fe67",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/eval_c5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/tran_3u.txt",
+          "bytes": 119708,
+          "sha256": "c6e5780a3af36dc8a237de511b3fd5a058d2073c8f49d68d02f5a720c65e9648",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/tran_3u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/tran_5u.txt",
+          "bytes": 201891,
+          "sha256": "51eeffb444df5f7bafc4e1bcff304dfabf4b8c216693b54f16887d910c419a06",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/tran_5u.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/tran_b3.txt",
+          "bytes": 166595,
+          "sha256": "c1051ada0cce96266bc96023cce0190a383c03c978976acf35cc3a06b754dcbe",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/tran_b3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/tran_b5.txt",
+          "bytes": 540936,
+          "sha256": "86178cd2a276fa3f9ad08cf51b42f23b344b6c4a610e3a7ddc370cd80e39ed53",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/tran_b5.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/tran_c3.txt",
+          "bytes": 498890,
+          "sha256": "d0774695330e786c00d21938deb61604aa89da7717df0ad03ae0102cc4061010",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/tran_c3.txt"
+        },
+        {
+          "path": "utr_tissue_data/Urinary_bladder/tran_c5.txt",
+          "bytes": 1620205,
+          "sha256": "b74b64fef8aee843f89406ab2a414184aaaf52652d3436a32a4391c0f560e42a",
+          "source": "xspec_utr/tissue_data/Urinary_bladder/tran_c5.txt"
+        }
+      ]
+    }
+  ],
+  "source_files_preserved_byte_for_byte": true,
+  "derived_csv_order_matches_original_records": true
+}

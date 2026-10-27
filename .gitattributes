@@ -2,3 +2,6 @@
 workspace/codon/utr_tissue_model/**/*.json linguist-generated=true
 frontend/mRNAviewer/js/*.min.js linguist-vendored=true
 frontend/mRNAviewer/css/*.min.css linguist-vendored=true
+
+# Preserve original CSV bytes (including CRLF) for archived SHA-256 checks.
+*.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol
