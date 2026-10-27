@@ -1,0 +1,15 @@
+{
+  "context": "tissue",
+  "device": "cpu",
+  "torch": "2.4.1+cu121",
+  "model_config_sha256": "fb5627649ebdf5f49c644c3da5f3d0e2cd3ba6a5d6ae5b6eb923624be8a04423",
+  "weight_files_sha256": {
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Kidney/lstmcrf.model": "468b9cd1d34a00d6502417f99d24a970f48012c110428fca916db14e68a1f702"
+  },
+  "partial_pilot": false,
+  "test_files_sha256": {
+    "Kidney": "c41747c94f452fdfb32c182ceafdfb047f181a9a8447c0b774929e7d13770297"
+  },
+  "macro_test_acc": 0.5570335048312209,
+  "note": "Current checkpoint evaluation; not the historical maximum over test epochs."
+}

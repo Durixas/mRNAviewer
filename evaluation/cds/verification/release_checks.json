@@ -54,8 +54,17 @@
     "all_6_decimal_accuracies_match_archived": true
   },
   "notes": [
-    "CPU checks only; no GPU was used.",
+    "The initial checks above were on CPU; the separate gpu_followup records a later complete six-tissue GPU run.",
     "Brain rounds to 0.5428, matching the archived maximum; this differs from the last dev-selected epoch log score 0.5418.",
     "This is a verification record, not a fresh full 29-tissue checkpoint benchmark."
-  ]
+  ],
+  "gpu_followup": {
+    "path": "evaluation/cds/verification/gpu_deployed_20261026/",
+    "full_test_sequences": 1224,
+    "tissues": 6,
+    "agreement_at_3dp": 5,
+    "agreement_at_4dp": 4,
+    "brain_cpu_gpu_counts_identical": true,
+    "kidney_cpu_gpu_predictions_identical": true
+  }
 }

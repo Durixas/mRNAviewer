@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "tissues": [
+    "Adrenal_gland",
+    "Brain",
+    "Kidney",
+    "Lung",
+    "Placenta",
+    "Tonsil"
+  ],
+  "complete_test_sequences": 1224,
+  "all_prediction_counts_recomputed": true,
+  "all_recorded_weights_match_asset_manifest": true,
+  "local_weights_verified": 0,
+  "matches_historical_table_at_3dp": 5,
+  "matches_historical_table_at_4dp": 4,
+  "all_match_historical_table_at_3dp": false,
+  "all_match_historical_table_at_4dp": false,
+  "brain_cpu_gpu_integer_counts_identical": true,
+  "kidney_cpu_gpu_predictions_identical": true,
+  "scope": "Six complete tissue tests; the remaining 23 tissues have not been remeasured here.",
+  "interpretation": "Passed denotes integrity and score reproduction. It does not assert agreement with the historical maximum-test table."
+}

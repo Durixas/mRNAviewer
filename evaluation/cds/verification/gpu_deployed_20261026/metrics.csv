@@ -1,0 +1,7 @@
+tissue,test_acc,correct_positions,total_positions,test_sequences,coding_codon_acc_excluding_stop,coding_correct_codons,coding_total_codons,stop_correct_sequences,model,checkpoint,partial_pilot
+Adrenal_gland,0.5417625458996328,44262,81700,208,0.5405929416384431,44054,81492,208,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Adrenal_gland/lstmcrf.model,False
+Brain,0.5427809153358019,43537,80211,207,0.5415979201039948,43330,80004,207,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Brain/lstmcrf.model,False
+Kidney,0.5570335048312209,39951,71721,188,0.5558693190555408,39763,71533,188,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Kidney/lstmcrf.model,False
+Lung,0.5300488086210764,49629,93631,222,0.5289319016368872,49407,93409,222,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Lung/lstmcrf.model,False
+Placenta,0.5352042531469053,42986,80317,200,0.5340439607074653,42786,80117,200,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Placenta/lstmcrf.model,False
+Tonsil,0.5470559967626081,43259,79076,199,0.5459132573500514,43060,78877,199,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Tonsil/lstmcrf.model,False

@@ -116,6 +116,12 @@ logs. Fresh checkpoint evaluation is recorded separately; the
 [CDS guide](evaluation/cds/README.md) documents this provenance and provides
 a log-selection audit.
 
+A [complete-test GPU follow-up](evaluation/cds/verification/gpu_deployed_20261026/README.md)
+checks six deployed models (1,224 sequences). Four agree with the historical
+table at four decimals and five at three decimals. Kidney differs at both
+precisions; its independent CPU and GPU predictions are identical. All fresh
+measurements are published alongside the historical results.
+
 | UTR region | Method | ROUGE ↑ | BLEU ↑ |
 | --- | --- | ---: | ---: |
 | 5′ UTR | mRNAviewer BERT2BERT | **0.772** | **0.541** |

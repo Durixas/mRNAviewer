@@ -15,6 +15,7 @@ def main():
     stages = [
         ("Verify and extract processed tissue datasets", ["data/extract.py"]),
         ("Verify and re-score archived CDS predictions", ["evaluation/cds/verify_release.py"]),
+        ("Audit six deployed-model GPU checks", ["evaluation/cds/audit_deployed.py", "--output-dir", str(output / "cds/deployed_gpu")]),
         ("Summarize archived ORF results and log selections", ["evaluation/cds/summarize_archived.py", "--output-dir", str(output / "cds")]),
         ("Recompute UTR ROUGE and BLEU", ["evaluation/utr/evaluate.py", "--archive", "--output-dir", str(output / "utr")]),
         ("Audit UTR tables against saved scores and manuscript means", ["evaluation/utr/audit_results.py", "--results-dir", str(output / "utr")]),

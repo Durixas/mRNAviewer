@@ -8,7 +8,7 @@ python evaluation/reproduce.py
 ```
 
 This verifies all processed data archives and members, extracts the original
-splits, checks archived CDS predictions and training logs, and writes the
+splits, checks archived CDS predictions, the six-model GPU follow-up and training logs, and writes the
 Fig. 1C ORF summary and Fig. 1D–E ROUGE/BLEU tables under `results/`.
 Both figure summaries give the 29 tissues equal weight.
 Existing differing extracted data are never overwritten.
@@ -18,6 +18,7 @@ Individual stages:
 ```bash
 python data/extract.py
 python evaluation/cds/verify_release.py
+python evaluation/cds/audit_deployed.py --output-dir results/cds/deployed_gpu
 python evaluation/cds/summarize_archived.py --output-dir results/cds
 python evaluation/utr/evaluate.py --archive --output-dir results/utr
 python evaluation/utr/audit_results.py --results-dir results/utr
@@ -50,3 +51,8 @@ Metric checks:
 python -m unittest discover -s evaluation/cds -p 'test_*.py' -v
 python -m unittest discover -s evaluation/utr -p test_metrics.py -v
 ```
+
+The complete-test GPU follow-up reports **4/6 agreement at four decimals**
+and **5/6 at three decimals**, with the underlying differences retained.
+Its audit checks measurement integrity and score reproduction; historical
+agreement is a separate field, not a prerequisite for an integrity pass.

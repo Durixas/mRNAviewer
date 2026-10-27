@@ -75,6 +75,27 @@ batch size 32, full-parameter updates and `weight_decay=1e-8`. This differs from
 the manuscript draft's optimizer name “AdamW”; the archived logs are preserved
 for provenance.
 
+### Complete-test GPU follow-up on six deployed models
+
+A subsequent single-GPU run tested Adrenal gland, Brain, Kidney, Lung,
+Placenta and Tonsil: **1,224 complete-test sequences**. Four tissues match
+historical maxima at four decimal places, and five match at three decimals.
+Kidney is 0.5570335 versus historical 0.5579, with identical complete CPU/GPU
+predictions. Tonsil is 0.5470560 versus historical 0.5472; both round to 0.547.
+Brain's GPU counts exactly match its complete CPU test.
+
+The [full GPU verification record](verification/gpu_deployed_20261026/README.md)
+contains every prediction, exact count, weight/test hash and comparison.
+Recompute it without weights or a GPU:
+
+```bash
+python evaluation/cds/audit_deployed.py
+```
+
+This audit separates measurement integrity from historical-score agreement.
+It neither replaces the archived figure column nor establishes agreement
+for the remaining 23 tissues. Model weights remain separate assets.
+
 ## 3. Re-score any saved CDS predictions
 
 Example using the archived GEMORNA output:

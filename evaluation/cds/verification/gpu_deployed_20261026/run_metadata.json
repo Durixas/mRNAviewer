@@ -1,0 +1,48 @@
+{
+  "finished_utc": "2026-10-27T03:53:40.621711+00:00",
+  "tissues": [
+    "Adrenal_gland",
+    "Brain",
+    "Kidney",
+    "Lung",
+    "Placenta",
+    "Tonsil"
+  ],
+  "full_test_sequences": 1224,
+  "hardware": {
+    "gpu_physical_index": 1,
+    "gpu_uuid": "GPU-16a62ed1-e5ff-6ee6-ded3-0a64e33b8efe",
+    "gpu_name": "Tesla V100-PCIE-32GB",
+    "observed_process_vram_mib": 400,
+    "observed_device_vram_mib": 406,
+    "physical_gpu_0_used_by_this_run": false,
+    "gpu_memory_released_after_run": true
+  },
+  "inference": {
+    "context": "tissue",
+    "device": "cuda:0",
+    "batch_size": 1,
+    "threads": 4,
+    "seed": 42,
+    "cudnn_enabled": false,
+    "model_config": "evaluation/cds/model_config.json",
+    "source_checkpoint_template": "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/{tissue}/lstmcrf.model"
+  },
+  "historical_table_sha256": "5fa9c4f7dfef1e772386b1d96fe3ab94a422d150af868602d8130bda1890162c",
+  "files_sha256": {
+    "metrics.csv": "546adfd91f3236eb3b905d14f5f3efa5b61a87febfaadec710273c1ef4bb12ab",
+    "metrics.csv.provenance.json": "8ed26f4dcc79060cabb8971d886b00be90df1260a7c75d15c63aa152fc54d62a",
+    "predictions.csv.gz": "f4aeb0ead6926d51b7ea7e63fe8036050f0bd8bcf8077875d7d57c9034ff4f06",
+    "kidney_cpu.csv": "6a6ed9c3f882241a4ebbadcd81f17ae7bf47eed21c61d1b5e583714896f83103",
+    "kidney_cpu.csv.provenance.json": "b0dbc5af4b1e3ec052ac62ca216e2d2717451502fbda58badf4007d80337ecc8",
+    "kidney_cpu_predictions.csv.gz": "76e2322f0ee3aefaf3cdd52c6311ed23a92b34062fc6c447397da381c844a7f3",
+    "capture_weight_audit.json": "206e4b9953403d005c6b1136d5e20894ffd45a45df502d248dc628635fc6f57f"
+  },
+  "notes": [
+    "All six tissues were selected before observing this run; all complete-test results are retained.",
+    "These are fresh measurements of existing deployment weights; no checkpoint was changed or selected using these test scores.",
+    "The deployed and research-directory model files had matching SHA-256 for all six tissues.",
+    "Kidney received an independent complete CPU inference run to investigate the historical-score discrepancy.",
+    "Model weights remain external assets; this run does not satisfy agreement of every tested checkpoint with the historical table."
+  ]
+}

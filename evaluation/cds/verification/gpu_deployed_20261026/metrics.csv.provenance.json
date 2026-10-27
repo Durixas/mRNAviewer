@@ -1,0 +1,25 @@
+{
+  "context": "tissue",
+  "device": "cuda:0",
+  "torch": "2.4.1+cu121",
+  "model_config_sha256": "fb5627649ebdf5f49c644c3da5f3d0e2cd3ba6a5d6ae5b6eb923624be8a04423",
+  "weight_files_sha256": {
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Adrenal_gland/lstmcrf.model": "652f6f55dc1251c2ac9552961cee68eb877eed57ba6a174ea594492066627e7a",
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Brain/lstmcrf.model": "3c82f75fc51b593f5ea24f6f9116f5da18c8d57786767958f12899a1af0d4489",
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Kidney/lstmcrf.model": "468b9cd1d34a00d6502417f99d24a970f48012c110428fca916db14e68a1f702",
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Lung/lstmcrf.model": "977776548d358c0e4f43a90f399d6e1316496391c78f936689222944e07bf3c8",
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Placenta/lstmcrf.model": "eb32c7142755bad94463052ade8b423ae5646e818ed5078e426457d777c37b5f",
+    "mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Tonsil/lstmcrf.model": "c4bf72dd33d298805817e42d233d8a1034494e9bcfd7649df0424ad5de25b87c"
+  },
+  "partial_pilot": false,
+  "test_files_sha256": {
+    "Adrenal_gland": "996f06e3dae8a7992b793a052f90b04020320e90d76eeed03505948ce5f8a0dc",
+    "Brain": "a06238b868b4a137337baa67c7963dcbe1b69f04e47bae6f4109f3106724fa61",
+    "Kidney": "c41747c94f452fdfb32c182ceafdfb047f181a9a8447c0b774929e7d13770297",
+    "Lung": "43e9b11c7aed5d50337802164bc762c94f1314995977ffe8850255426ef478e1",
+    "Placenta": "9a45774f1de3d4c6748ce1179ef75edd662073a34bcabdfb033313674cfc0382",
+    "Tonsil": "aab804d9a09128e277a6cc3bf49737ca768280daabd52b179e85eee48c053069"
+  },
+  "macro_test_acc": 0.5423143374328743,
+  "note": "Current checkpoint evaluation; not the historical maximum over test epochs."
+}
