@@ -35,7 +35,8 @@ def main():
     if args.hf_repo:
         from huggingface_hub import snapshot_download
         snapshot_download(args.hf_repo, repo_type="model", revision=args.revision,
-                          allow_patterns=[e["path"] for e in manifest["files"]], local_dir=str(ROOT))
+                          allow_patterns=[e["path"] for e in manifest["files"] if not e.get("bundled_in_git")],
+                          local_dir=str(ROOT))
     elif args.source:
         for entry in manifest["files"]:
             target = ROOT / entry["path"]

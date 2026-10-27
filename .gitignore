@@ -19,9 +19,12 @@ __pycache__/
 *.pth
 *.bin
 
-# External database indexes and website paper assets
+# Human miRBase data are versioned; other database downloads remain local.
 workspace/blast/mibase/releases/23.1/*
-!workspace/blast/mibase/releases/23.1/.gitkeep
+!workspace/blast/mibase/releases/23.1/*_hsa.*
+!workspace/blast/mibase/releases/23.1/README.txt
+
+# Optional website paper assets
 frontend/mRNAviewer/docs/*.pdf
 
 # Per-request data and temporary tool outputs
