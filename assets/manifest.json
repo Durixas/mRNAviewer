@@ -13,126 +13,144 @@
       "group": "mirbase",
       "optional": false,
       "bytes": 260245,
-      "sha256": "37877edaf2b0375bdecf6ce56563c65a97a52be32386d540998feaf1dd42cb02"
+      "sha256": "37877edaf2b0375bdecf6ce56563c65a97a52be32386d540998feaf1dd42cb02",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.ndb",
       "group": "mirbase",
       "optional": false,
       "bytes": 20480,
-      "sha256": "7d9905ee708d075c488142c3ce301897400ebcd0e0bca9ad79deb7436d81d46b"
+      "sha256": "7d9905ee708d075c488142c3ce301897400ebcd0e0bca9ad79deb7436d81d46b",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nhr",
       "group": "mirbase",
       "optional": false,
       "bytes": 220025,
-      "sha256": "4eeca184b3374212ed7c83916b59c7a1d737ffce62b4ac242cd9741600649761"
+      "sha256": "4eeca184b3374212ed7c83916b59c7a1d737ffce62b4ac242cd9741600649761",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nin",
       "group": "mirbase",
       "optional": false,
       "bytes": 22448,
-      "sha256": "0bd521aaa2f7c6a91c04d756e452edc10be5a651c6f152ec59644c23bd4a355e"
+      "sha256": "0bd521aaa2f7c6a91c04d756e452edc10be5a651c6f152ec59644c23bd4a355e",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.njs",
       "group": "mirbase",
       "optional": false,
       "bytes": 496,
-      "sha256": "97d8f9202620c92e8018e9e9ab19c8cc25907242d422f58323d3711eb19f6214"
+      "sha256": "97d8f9202620c92e8018e9e9ab19c8cc25907242d422f58323d3711eb19f6214",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.not",
       "group": "mirbase",
       "optional": false,
       "bytes": 22340,
-      "sha256": "69471b4b2f02541ab318ebaa7b92e7987588e086228b05fe0b016faabce7acc7"
+      "sha256": "69471b4b2f02541ab318ebaa7b92e7987588e086228b05fe0b016faabce7acc7",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nsq",
       "group": "mirbase",
       "optional": false,
       "bytes": 39236,
-      "sha256": "e092fc1eedc8aae01cf3913e3ce97e7364d09bdd9a297fcaf9dd51a353189871"
+      "sha256": "e092fc1eedc8aae01cf3913e3ce97e7364d09bdd9a297fcaf9dd51a353189871",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.ntf",
       "group": "mirbase",
       "optional": false,
       "bytes": 16384,
-      "sha256": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a"
+      "sha256": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/hairpin_hsa.nto",
       "group": "mirbase",
       "optional": false,
       "bytes": 7448,
-      "sha256": "49bab82dc41e64b4394928f7409dda5bc4385178b2dc88c3f84010523ecdfbee"
+      "sha256": "49bab82dc41e64b4394928f7409dda5bc4385178b2dc88c3f84010523ecdfbee",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.fa",
       "group": "mirbase",
       "optional": false,
       "bytes": 215743,
-      "sha256": "b0071936233dc315ac47d06cf01ece04b78e79a3db8626504dd31fcb87ce71f5"
+      "sha256": "b0071936233dc315ac47d06cf01ece04b78e79a3db8626504dd31fcb87ce71f5",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.ndb",
       "group": "mirbase",
       "optional": false,
       "bytes": 20480,
-      "sha256": "3aaa15dadd400adfd2a17b7758a9eb5379bd608529566a70e1668e713cb40612"
+      "sha256": "3aaa15dadd400adfd2a17b7758a9eb5379bd608529566a70e1668e713cb40612",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nhr",
       "group": "mirbase",
       "optional": false,
       "bytes": 325483,
-      "sha256": "42978fe178e027174e895853ae1c8c6aafde2f623d16272556d407fdf4098723"
+      "sha256": "42978fe178e027174e895853ae1c8c6aafde2f623d16272556d407fdf4098723",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nin",
       "group": "mirbase",
       "optional": false,
       "bytes": 33576,
-      "sha256": "3c7e321751f1982fe7d5765fe7c83e959992914aaefc8879a5a1f1ea313d2324"
+      "sha256": "3c7e321751f1982fe7d5765fe7c83e959992914aaefc8879a5a1f1ea313d2324",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.njs",
       "group": "mirbase",
       "optional": false,
       "bytes": 486,
-      "sha256": "e72c11237cb1693c298b473d0c0a488fafaf04a08eb596b52a0949c485e08f21"
+      "sha256": "e72c11237cb1693c298b473d0c0a488fafaf04a08eb596b52a0949c485e08f21",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.not",
       "group": "mirbase",
       "optional": false,
       "bytes": 33476,
-      "sha256": "4f9de5b7fec43013e5f58cea157766a54141dda7baed84583e48b141d81241c8"
+      "sha256": "4f9de5b7fec43013e5f58cea157766a54141dda7baed84583e48b141d81241c8",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nsq",
       "group": "mirbase",
       "optional": false,
       "bytes": 16620,
-      "sha256": "7c233c1d07b4d89816d5f5123e236f8cfd7d690b5346109c4864148a6fc3c921"
+      "sha256": "7c233c1d07b4d89816d5f5123e236f8cfd7d690b5346109c4864148a6fc3c921",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.ntf",
       "group": "mirbase",
       "optional": false,
       "bytes": 16384,
-      "sha256": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a"
+      "sha256": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/blast/mibase/releases/23.1/mature_hsa.nto",
       "group": "mirbase",
       "optional": false,
       "bytes": 11160,
-      "sha256": "299c9707788c4a47afb2c27fde08eab8fe32e897fa1ae9586a6405fd1ec353c1"
+      "sha256": "299c9707788c4a47afb2c27fde08eab8fe32e897fa1ae9586a6405fd1ec353c1",
+      "bundled_in_git": true
     },
     {
       "path": "workspace/codon/cds_tissue_model/Adrenal_gland/lstmcrf.model",
@@ -773,5 +791,5 @@
     }
   ],
   "total_bytes": 57287059031,
-  "notes": "Paths relative to repository root. UTR digests reuse previously verified deployment manifests. No model/data binaries are included in Git."
+  "notes": "Paths relative to repository root. Human miRBase FASTA and BLAST indexes are bundled in Git. Model weights and serialized CDS settings are distributed separately; the website paper is optional."
 }

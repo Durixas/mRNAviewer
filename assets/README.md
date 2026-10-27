@@ -1,7 +1,8 @@
 # Runtime assets
 
 `manifest.json` lists model weights and database files with their expected
-paths, sizes and SHA-256 checksums.
+paths, sizes and SHA-256 checksums. Human miRBase files are already included
+in Git; the commands below restore the separate model assets.
 
 ```bash
 python scripts/restore_assets.py --source /path/to/mRNAoptimizer_1212
