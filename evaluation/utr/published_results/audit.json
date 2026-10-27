@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "per_tissue_rows": 174,
+  "metric_fields_per_row": 8,
+  "maximum_absolute_error": 6.661338147750939e-16,
+  "manuscript_rounded_macro_means_match": true,
+  "three_prime_manuscript_win_counts_match": true,
+  "bert2bert_vs_mrnasyner": [
+    {
+      "region": "3utr",
+      "model": "bert2bert_best",
+      "comparator": "mrnasyner",
+      "metric": "rouge",
+      "matched_tissues": "29",
+      "wins": "28",
+      "ties": "0",
+      "losses": "1"
+    },
+    {
+      "region": "3utr",
+      "model": "bert2bert_best",
+      "comparator": "mrnasyner",
+      "metric": "bleu",
+      "matched_tissues": "29",
+      "wins": "29",
+      "ties": "0",
+      "losses": "0"
+    },
+    {
+      "region": "5utr",
+      "model": "bert2bert_best",
+      "comparator": "mrnasyner",
+      "metric": "rouge",
+      "matched_tissues": "29",
+      "wins": "23",
+      "ties": "0",
+      "losses": "6"
+    },
+    {
+      "region": "5utr",
+      "model": "bert2bert_best",
+      "comparator": "mrnasyner",
+      "metric": "bleu",
+      "matched_tissues": "29",
+      "wins": "16",
+      "ties": "0",
+      "losses": "13"
+    }
+  ],
+  "interpretation": "The manuscript's 28 ROUGE / 29 BLEU tissue wins apply to 3-prime UTR. The 5-prime win counts are 23 / 16."
+}

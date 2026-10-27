@@ -48,3 +48,8 @@ outdated_frontend/
 deployment_packages/
 *.tar.gz
 *.zip
+
+# Versioned submission datasets; extracted copies and fresh scores are local.
+!data/*.tar.gz
+data/extracted/
+/results/

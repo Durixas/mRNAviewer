@@ -1,101 +1,65 @@
-# 3′ UTR Bert2Bert deployment — 2026-10-26
+# 3′ UTR BERT2BERT deployment
 
-## Model selection and files
+## Context bundles
 
-`workspace/codon/utr_tissue_model/utr3/<tissue>/` matches the names used in
-`cds_tissue_model/` and the 5′ UTR deployment. It contains 30 independent
-bundles: 29 tissues and `general`, about 26.54 GiB of weights. Every tissue
-has its own regular weight file, including the eight original-weight fallbacks.
+`workspace/codon/utr_tissue_model/utr3/<context>/` holds 30 independent
+bundles: the 29 human tissues and `general`. Model directories match the CDS
+context names. Each bundle carries its tokenizer, architecture, generation
+configuration and selection provenance. `model_manifest.json` records copied
+weight SHA-256 values and the frozen validation selection.
 
-The tissue choices come from the frozen validation selection for
-`3utr_tissue_fullft_small_20261026`: 21 fine-tuned models and eight fallbacks
-(Colon, Lymph_node, Rectum, Salivary_gland, Small_intestine, Smooth_muscle,
-Stomach, Tonsil). No test results were used to change the choices.
-`general` uses the original 3′ UTR Bert2Bert weights. Every bundle uses the
-validated beam8, length penalty2, min_length0, max_length128 BPE configuration,
-without the nucleotide bounds used for 5′ UTR.
+The repository versions configurations and tokenizers. Weight restoration is
+described in [installation and operation](docs/INSTALLATION.md); the region's
+weights occupy approximately 26.54 GiB. Runtime reads local files and loads
+weights strictly.
 
-Each bundle contains the complete weights, tokenizer, local architecture,
-generation settings and selection metadata. `model_manifest.json` records
-the source paths, validation selection hashes and copied weight SHA256 values.
-Deployment needs neither the research directory nor Hugging Face caches.
+Generation uses 8 beams, length penalty 2, and a 128 BPE-token limit.
+There are no explicit nucleotide-length bounds for this region.
 
 ## Request and batch routing
 
-The backend passes `--tissue` to `main.py`. Existing workers that omit it are
-supported through inference of the tissue from the CDS model path. A request
-loads both its 5′ and 3′ UTR bundles through `UTR.get_single_sequence`.
-`main_batch.py` and the file-based `get_full_sequence` also select both regions
-by tissue. `general` uses general Bert2Bert for both regions.
+`backend_server.py` passes `--tissue` to `workspace/codon/main.py`. The selected
+context determines both UTR bundles, and `general` uses the General BERT2BERT
+bundle for each region. Callers that omit `--tissue` can use the tissue name
+encoded in the CDS model path. `main_batch.py` and the file-based
+`UTR.get_full_sequence` helper also route both regions by context.
 
-The Web/CLI CDS decoder produces a coding ORF before `main.decorate` appends
-TGA. The 3′ UTR generator is conditioned on that ORF plus TGA, matching the
-CDS actually emitted. The raw JSON bridge takes its provided CDS unchanged;
-the file-based full-sequence helper also uses its already supplied CDS.
-The existing 5′ UTR generation and final GCCACC decoration are preserved.
-
-New requests start a fresh `main.py`, so this routing takes effect without
-restarting the backend or discarding its in-memory task results.
+Each request starts a new inference process. The web application assembles
+GCCACC before the start codon and tandem TAA/TGA stops at the coding-region
+end. The 3′ UTR generator receives the coding segment including the appended
+TGA, while benchmark decoding receives the supplied test CDS unchanged.
+Raw benchmark UTRs are scored before assembly.
 
 ## Environment and GPU
 
-The backend and CDS use `bart_old`; both UTR generators use the separate
-`dna` environment. 3′ UTR uses `MRNAVIEWER_UTR3_PYTHON` when set, otherwise
-the existing `MRNAVIEWER_UTR5_PYTHON` or a sibling conda environment named
-`dna`. Install [requirements-utr3.txt](requirements-utr3.txt), which includes
-the same pinned dependencies as 5′ UTR. No additional packages are required
-in the existing DNA environment.
+The backend/CDS and DNA environments have separate dependency pins in
+`requirements-backend.txt` and `requirements-utr5.txt`. Both UTR regions use
+the DNA environment; `requirements-utr3.txt` includes the same pins.
+Set `MRNAVIEWER_UTR5_PYTHON` to its Python executable;
+`MRNAVIEWER_UTR3_PYTHON` can override the interpreter for 3′ UTR.
 
-The local encoder and both beam decoders are shared in
-`workspace/codon/utr5_runtime/`; the directory name is kept for compatibility.
-Weights load strictly and all tokenizer/config reads are local.
+The backend selects among physical GPUs 0 and 1 that are not reserved by
+this service, using more free VRAM, then lower utilization, then GPU1 for
+ties. Devices running other users' tasks remain eligible. Inference children
+inherit the reserved UUID via `CUDA_VISIBLE_DEVICES`. UTR children run
+sequentially with a 45% CUDA allocator limit and four CPU threads by default.
+`MRNAVIEWER_UTR3_THREADS` overrides this region's thread count.
+Batch `--cpu` disables CUDA for both UTR children.
 
-GPU scheduling remains in `backend_server.py`: among GPUs not reserved by
-this service, choose more free VRAM, then lower utilization, then GPU1 for
-ties. GPUs used by other users remain eligible. Both UTR subprocesses inherit
-the selected UUID via `CUDA_VISIBLE_DEVICES`. They run sequentially, use a
-45% CUDA allocator limit, and default to four CPU threads.
-`MRNAVIEWER_UTR3_THREADS` can override the 3′ UTR thread count, falling back
-to `MRNAVIEWER_UTR5_THREADS`. Batch `--cpu` disables CUDA for both children.
+## Evaluation and verification
 
-## Reproduction and verification
+The [portable UTR decoder](evaluation/utr/README.md#generate-new-bert2bert-predictions)
+uses these same local runtime modules and frozen configurations. Archived
+predictions and ROUGE/BLEU code are included under `evaluation/utr/`.
+`evaluation/utr/decoder_smoke_verification.json` records a CPU decoding check
+against an archived Brain prediction for each region.
 
-Re-export from the research workspace:
-
-```bash
-CUDA_VISIBLE_DEVICES='' /path/to/dna/bin/python mRNAviewer_compare/export_3utr_tissue_models.py
-```
-
-Routing and bundle checks without GPU allocation:
+With model assets restored, run the routing checks from the repository root:
 
 ```bash
 CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
-  /path/to/bart_old/bin/python -m unittest discover -s mRNAoptimizer_1212/tests -v
+  /path/to/backend/bin/python -m unittest discover -s tests -v
 ```
 
-Compare representative deployed models with saved evaluation predictions:
-
-```bash
-CUDA_VISIBLE_DEVICES=GPU-<selected-uuid> OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 \
-  /path/to/bart_old/bin/python mRNAviewer_compare/verify_3utr_web_models.py
-```
-
-Verification records, including the live service check, are stored in the
-research workspace under
-`mRNAviewer_compare/evaluation_results/UTR/utr3_web_deployment_20261026/`.
-
-### Completed verification
-
-- All nine routing/bundle regression checks passed without GPU allocation.
-- All 30 weight files have matching parameter names and shapes, independent
-  inodes and verified copied SHA256 values.
-- Brain (fine-tuned), Colon (fallback), and general each generated two saved
-  3′ UTR benchmark inputs. All six predictions exactly matched evaluation;
-  both selected Brain examples differ from the general predictions.
-- Two 5′ UTR Brain benchmark outputs also still matched evaluation exactly.
-- Real requests to the existing service succeeded for Brain (`1188dbcc-26f`)
-  and general (`96359006-79a`), without restarting the backend. Process
-  observations confirmed the correct `utr3/<tissue>` model on physical GPU1,
-  selected while GPU0 was occupied. Both returned all four RNAfold MFE values.
-  Output lengths (full/5′/CDS/3′) were 483/151/189/143 nt for Brain and
-  611/216/189/206 nt for general. GPU1 was released after verification.
+These checks validate context selection, independent model bundles, backend
+arguments, batch routing and GPU/CPU device propagation.

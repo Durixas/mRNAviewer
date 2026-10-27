@@ -1,63 +1,66 @@
-# 5′ UTR Bert2Bert deployment — 2026-10-26
+# 5′ UTR BERT2BERT deployment
 
-## Models
+## Context bundles
 
-`workspace/codon/utr_tissue_model/utr5/<tissue>/` follows the tissue directory
-names in `cds_tissue_model`. There are30 independent bundles:29 tissues and
-`general`, using about26.54 GiB for weights. No weight symlinks or hardlinks
-are used, including the four original-weight fallbacks.
+`workspace/codon/utr_tissue_model/utr5/<context>/` holds 30 independent
+bundles: the 29 human tissues and `general`. Model directories match the CDS
+context names. Each bundle carries its tokenizer, architecture, generation
+configuration and selection provenance. `model_manifest.json` records copied
+weight SHA-256 values and the frozen validation selection.
 
-The29 tissue choices exactly follow the frozen validation selection in
-`5utr_tissue_fullft_paired_20261026`:25 fine-tuned models and four original
-Bert2Bert fallbacks (Adrenal_gland, Endometrium, Heart, Tonsil). Each directory
-also stores its own tokenizer, architecture, generation settings and source
-metadata. `model_manifest.json` stores source SHA256 values.
+The repository versions configurations and tokenizers. Weight restoration is
+described in [installation and operation](docs/INSTALLATION.md); the region's
+weights occupy approximately 26.54 GiB. Runtime reads local files and loads
+weights strictly.
 
-`general` also uses the original Bert2Bert, with the prior validation-first
-short decoding configuration:beam8, length penalty2,120–210 nt,128 BPE tokens.
-The old5′ BART is no longer selected for general requests. 3′ UTR has since
-also moved to tissue/general Bert2Bert; see [its deployment guide](UTR3_DEPLOYMENT.md).
+Generation uses the frozen per-tissue beam settings and nucleotide-length
+bounds recorded in each `generation_config.json`. General uses beam search
+with 8 beams, length penalty 2, a 128 BPE-token limit, and 120–210 nt bounds.
 
-## Request path and GPU
+## Request and batch routing
 
-`backend_server.py` selects a GPU using the existing scheduler (more free
-memory first, lower utilization next, GPU1 for ties), reserves it for the
-model phase and passes its UUID through `CUDA_VISIBLE_DEVICES` to `main.py`.
-The5′ UTR subprocess inherits that same GPU. It uses the `dna` interpreter;
-CDS keeps `bart_old`; 3′ UTR also uses `dna`. See `requirements-utr5.txt`
-and the model README.
+`backend_server.py` passes `--tissue` to `workspace/codon/main.py`. The selected
+context determines both UTR bundles, and `general` uses the General BERT2BERT
+bundle for each region. Callers that omit `--tissue` can use the tissue name
+encoded in the CDS model path. `main_batch.py` and the file-based
+`UTR.get_full_sequence` helper also route both regions by context.
 
-The backend now explicitly passes `--tissue`. For an existing backend worker
-that has not reloaded, `main.py` also infers the tissue from the CDS model path
-in decode.config. Because each request starts a fresh main.py process, new
-requests use this routing without restarting the server or dropping its
-in-memory task results. Both CLI and batch generation support explicit tissue.
+Each request starts a new inference process. The web application assembles
+GCCACC before the start codon and tandem TAA/TGA stops at the coding-region
+end. The 3′ UTR generator receives the coding segment including the appended
+TGA, while benchmark decoding receives the supplied test CDS unchanged.
+Raw benchmark UTRs are scored before assembly.
 
-The existing final Kozak/stop-codon decoration is retained. The final web5′ UTR
-can therefore be up to six nt longer than the raw evaluated model prediction.
+## Environment and GPU
 
-## Verification completed
+The backend/CDS and DNA environments have separate dependency pins in
+`requirements-backend.txt` and `requirements-utr5.txt`. Both UTR regions use
+the DNA environment; `requirements-utr3.txt` includes the same pins.
+Set `MRNAVIEWER_UTR5_PYTHON` to its Python executable;
+`MRNAVIEWER_UTR3_PYTHON` can override the interpreter for 3′ UTR.
 
-- Six CPU routing regression tests passed:all30 bundles, fallback copies,
-  general/tissue routing, backend argument propagation, batch generation,
-  GPU UUID inheritance and explicit CPU mode.
-- Brain, general and Tonsil each generated two benchmark CDS inputs through
-  the deployed environment bridge. All six outputs exactly matched the
-  saved evaluation sequences.
-- During the initial 5′ deployment, real CPU end-to-end CDS→Bert2Bert5′ UTR→BART3′ UTR succeeded for general
-  and Brain; Brain deliberately omitted `--tissue` to verify old-worker support.
-- A real request to the running web service (`bf2f1aaf-f55`, Brain) finished
-  successfully on the initially idle physical GPU1. nvidia-smi recorded both
-  bart_old and dna processes on its UUID; GPU0 was occupied by another user.
-  The output lengths were full671 nt /5′ UTR151 nt /CDS189 nt /3′ UTR331 nt,
-  and all four RNAfold MFE values were returned.
+The backend selects among physical GPUs 0 and 1 that are not reserved by
+this service, using more free VRAM, then lower utilization, then GPU1 for
+ties. Devices running other users' tasks remain eligible. Inference children
+inherit the reserved UUID via `CUDA_VISIBLE_DEVICES`. UTR children run
+sequentially with a 45% CUDA allocator limit and four CPU threads by default.
+`MRNAVIEWER_UTR5_THREADS` overrides this region's thread count.
+Batch `--cpu` disables CUDA for both UTR children.
 
-Research-workspace verification records:
-`mRNAviewer_compare/evaluation_results/UTR/utr5_web_deployment_20261026/`.
+## Evaluation and verification
 
-Run routing tests without allocating a GPU:
+The [portable UTR decoder](evaluation/utr/README.md#generate-new-bert2bert-predictions)
+uses these same local runtime modules and frozen configurations. Archived
+predictions and ROUGE/BLEU code are included under `evaluation/utr/`.
+`evaluation/utr/decoder_smoke_verification.json` records a CPU decoding check
+against an archived Brain prediction for each region.
+
+With model assets restored, run the routing checks from the repository root:
 
 ```bash
-CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 \
-  /path/to/bart_old/bin/python -m unittest discover -s mRNAoptimizer_1212/tests -v
+CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
+  /path/to/backend/bin/python -m unittest discover -s tests -v
 ```
+
+These checks validate context selection, independent model bundles, backend
+arguments, batch routing and GPU/CPU device propagation.

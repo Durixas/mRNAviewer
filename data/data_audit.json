@@ -1,0 +1,23 @@
+{
+  "tissue_count": 29,
+  "source_csv_rows_rejected_by_original_converter": 97,
+  "valid_cds_not_shorter_than_2500_nt": 0,
+  "utr_outside_50_to_500_nt": 0,
+  "utr_input_cds_not_shorter_than_2500_nt": 0,
+  "totals": {
+    "cds_train": 45357,
+    "cds_train_codon_positions": 18465689,
+    "cds_dev": 5672,
+    "cds_dev_codon_positions": 2299711,
+    "cds_test": 5682,
+    "cds_test_codon_positions": 2319124,
+    "utr5_pool": 37524,
+    "utr5_test": 4156,
+    "utr3_pool": 12633,
+    "utr3_test": 1391,
+    "bert2bert_utr5_train": 7034,
+    "bert2bert_utr5_validation": 1244,
+    "bert2bert_utr3_train": 2140,
+    "bert2bert_utr3_validation": 697
+  }
+}

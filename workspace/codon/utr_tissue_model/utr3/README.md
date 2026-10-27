@@ -1,20 +1,32 @@
-# 3′ UTR tissue models
+# 3′ UTR BERT2BERT model bundles
 
-30 independent bundles are stored here: `general` and the 29 tissues named
-in `cds_tissue_model/`. Each includes full `model.safetensors`, `config.json`,
-three tokenizer files, `generation_config.json` and `selection_metadata.json`.
-Total weight size is about 26.54 GiB. `model_manifest.json` records source
-weights, SHA256 values and the frozen validation selection.
+This directory provides independent context bundles for General and the
+29 human tissues. Tissue names match `cds_tissue_model/`. Bundle configurations
+and decoding choices follow the frozen validation selection.
 
-21 tissue bundles use fine-tuned weights. Colon, Lymph_node, Rectum,
-Salivary_gland, Small_intestine, Smooth_muscle, Stomach and Tonsil each have
-their own copy of the original 3′ UTR Bert2Bert weights, as does `general`.
-All use beam8, length penalty2 and a 128 BPE-token limit, with no nucleotide
-length bounds. Choices were frozen before test evaluation.
+Each complete runtime bundle contains:
 
-The shared runtime is in `../../utr5_runtime/`. It loads the local DNABERT2
-encoder and BERT decoder strictly without Hub access. Both UTR generators
-use the `dna` environment; CDS/backend stay in `bart_old`.
+- `model.safetensors`: encoder, decoder and language-model head weights.
+- `config.json`: local architecture and special-token settings.
+- `tokenizer.json`, `tokenizer_config.json`, `special_tokens_map.json`.
+- `generation_config.json`: the validated decoding configuration.
+- `selection_metadata.json`: checkpoint source and selection provenance.
 
-See [the deployment guide](../../../../UTR3_DEPLOYMENT.md) for environment
-variables, GPU scheduling, request routing, export and verification commands.
+`model_manifest.json` records source identifiers, copied weight hashes and
+validation-selection metadata. Weights are external assets, approximately
+26.54 GiB for this region; restore them using the
+[installation guide](../../../../docs/INSTALLATION.md).
+
+Generation uses 8 beams, length penalty 2, and a 128 BPE-token limit.
+There are no explicit nucleotide-length bounds for this region.
+
+The shared local runtime is in `../../utr5_runtime/` for both regions.
+The backend and CDS use the backend environment; UTR subprocesses use the
+DNA environment with pinned dependencies in `requirements-utr5.txt` at the
+repository root. They inherit the backend-selected device and support CPU
+execution.
+
+See the [deployment guide](../../../../UTR3_DEPLOYMENT.md) for routing
+and device settings and the [UTR evaluation guide](../../../../evaluation/utr/README.md)
+for frozen prediction decoding and ROUGE/BLEU scoring. The benchmark evaluates
+raw UTR predictions; the web server adds GCCACC during final assembly.

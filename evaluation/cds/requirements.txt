@@ -1,0 +1,4 @@
+# Only checkpoint inference needs these packages. Scoring/archived summaries use stdlib.
+# Tested with Python 3.8.20; CUDA wheels can be installed from the matching PyTorch index.
+torch==2.4.1
+numpy==1.24.4

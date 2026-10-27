@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "runtime": "repository workspace/codon/utr5_runtime",
+  "environment": "torch 2.4.1; transformers 4.46.3; Python 3.8.20",
+  "checks": {
+    "5utr": {
+      "tissue": "Brain",
+      "records": 1,
+      "device": "cpu",
+      "matches_archived_prediction": true,
+      "predicted_length_nt": 166
+    },
+    "3utr": {
+      "tissue": "Brain",
+      "records": 1,
+      "device": "cpu",
+      "matches_archived_prediction": true,
+      "predicted_length_nt": 184
+    }
+  }
+}
