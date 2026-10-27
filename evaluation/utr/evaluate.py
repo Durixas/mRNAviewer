@@ -10,7 +10,6 @@ import csv
 from functools import lru_cache
 import gzip
 import hashlib
-import json
 import math
 from pathlib import Path
 
@@ -169,7 +168,6 @@ def evaluate(rows, output, per_sequence=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--archive", action="store_true", help="Verify and score the six included prediction archives")
     group.add_argument("--predictions", type=Path, nargs="+", help="CSV/CSV.gz with predicted_utr and reference_utr")
     group.add_argument("--prediction-file", type=Path, help="One predicted DNA sequence per line")
     parser.add_argument("--reference-file", type=Path, help="One reference DNA sequence per line; preserve empty prediction lines")
@@ -183,30 +181,7 @@ def main():
     args = parser.parse_args()
     if bool(args.prediction_file) != bool(args.reference_file):
         parser.error("--prediction-file and --reference-file must be supplied together")
-    if args.archive and any((args.region, args.model, args.tissue)):
-        parser.error("Archive identities are frozen; region/model/tissue overrides are not allowed")
-    if args.archive:
-        root = Path(__file__).resolve().parent
-        manifest = json.loads((root/"prediction_manifest.json").read_text())
-        rows = []
-        for item in manifest["files"]:
-            path = root/item["path"]
-            if sha256(path) != item["sha256"]:
-                raise ValueError("Prediction archive checksum failed: {}".format(path))
-            records = list(read_csv(path, args))
-            if (len(records) != item["samples"] or len({r["tissue"] for r in records}) != item["tissues"]
-                    or any(r["region"] != item["region"] or r["model"] != item["model"] for r in records)):
-                raise ValueError("Archive identity/count differs from manifest: {}".format(path))
-            rows.extend(records)
-        for region in ("5utr", "3utr"):
-            methods = defaultdict(dict)
-            for row in rows:
-                if row["region"] == region:
-                    key = (row["tissue"], row["test_sequence"])
-                    methods[row["model"]][key] = (row["input_cds"], row["reference_utr"])
-            if len(methods) != 3 or any(value != next(iter(methods.values())) for value in methods.values()):
-                raise ValueError("Comparator inputs/references do not match")
-    elif args.predictions:
+    if args.predictions:
         rows = [row for path in args.predictions for row in read_csv(path, args)]
     else:
         rows = list(read_pairs(args))

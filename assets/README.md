@@ -1,14 +1,11 @@
-# External runtime assets
+# Runtime assets
 
-`manifest.json` identifies 110 files by application-relative path, size and
-SHA256. The complete inventory is approximately53.35 GiB. Model weights,
-serialized CDS alphabets/settings, miRBase BLAST indexes and an optional
-website paper are excluded from Git.
+`manifest.json` lists model weights and database files with their expected
+paths, sizes and SHA-256 checksums.
 
-UTR checksums come from the verified deployment manifests. The published
-code contains every bundle's architecture, tokenizer, generation config
-and source metadata. No public asset repository URL has been selected yet.
+```bash
+python scripts/restore_assets.py --source /path/to/mRNAoptimizer_1212
+python scripts/restore_assets.py --check --verify
+```
 
-Restore from a complete installation using `scripts/restore_assets.py --source`,
-or from a model repository using `--hf-repo` after the assets are hosted.
-Use `--check --verify` for a full SHA256 audit. See the root README for setup.
+See the [root README](../README.md#setup) for setup.

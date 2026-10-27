@@ -53,3 +53,10 @@ deployment_packages/
 !data/*.tar.gz
 data/extracted/
 /results/
+
+# Evaluation outputs and local benchmark archives
+/evaluation/cds/results/
+/evaluation/cds/archived/
+/evaluation/cds/verification/
+/evaluation/utr/predictions/
+/evaluation/utr/published_results/

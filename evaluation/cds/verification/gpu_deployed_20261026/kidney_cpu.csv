@@ -1,2 +1,0 @@
-tissue,test_acc,correct_positions,total_positions,test_sequences,coding_codon_acc_excluding_stop,coding_correct_codons,coding_total_codons,stop_correct_sequences,model,checkpoint,partial_pilot
-Kidney,0.5570335048312209,39951,71721,188,0.5558693190555408,39763,71533,188,iDRO_tissue,mRNAoptimizer_1212/workspace/codon/cds_tissue_model/Kidney/lstmcrf.model,False

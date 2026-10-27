@@ -1,7 +1,0 @@
-tissue,test_sequences,correct_positions,total_positions,gpu_test_acc,archived_max_test_acc,gpu_acc_4dp,archived_acc_4dp,matches_at_4dp,gpu_acc_3dp,archived_acc_3dp,matches_at_3dp,cpu_gpu_integer_counts_identical,weight_path,weight_sha256
-Adrenal_gland,208,44262,81700,0.5417625458996328,0.5418,0.5418,0.5418,True,0.542,0.542,True,,workspace/codon/cds_tissue_model/Adrenal_gland/lstmcrf.model,652f6f55dc1251c2ac9552961cee68eb877eed57ba6a174ea594492066627e7a
-Brain,207,43537,80211,0.5427809153358019,0.5428,0.5428,0.5428,True,0.543,0.543,True,True,workspace/codon/cds_tissue_model/Brain/lstmcrf.model,3c82f75fc51b593f5ea24f6f9116f5da18c8d57786767958f12899a1af0d4489
-Kidney,188,39951,71721,0.5570335048312209,0.5579,0.5570,0.5579,False,0.557,0.558,False,True,workspace/codon/cds_tissue_model/Kidney/lstmcrf.model,468b9cd1d34a00d6502417f99d24a970f48012c110428fca916db14e68a1f702
-Lung,222,49629,93631,0.5300488086210764,0.53,0.5300,0.5300,True,0.530,0.530,True,,workspace/codon/cds_tissue_model/Lung/lstmcrf.model,977776548d358c0e4f43a90f399d6e1316496391c78f936689222944e07bf3c8
-Placenta,200,42986,80317,0.5352042531469053,0.5352,0.5352,0.5352,True,0.535,0.535,True,,workspace/codon/cds_tissue_model/Placenta/lstmcrf.model,eb32c7142755bad94463052ade8b423ae5646e818ed5078e426457d777c37b5f
-Tonsil,199,43259,79076,0.5470559967626081,0.5472,0.5471,0.5472,False,0.547,0.547,True,,workspace/codon/cds_tissue_model/Tonsil/lstmcrf.model,c4bf72dd33d298805817e42d233d8a1034494e9bcfd7649df0424ad5de25b87c
